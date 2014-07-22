@@ -1,2 +1,4 @@
 # weechat security configuration
 .weechat/sec.conf
+.weechat/logs/*
+.weechat/weechat.log
