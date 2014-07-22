@@ -1,0 +1,1413 @@
+2014-07-21 10:47:49	-->	Vircung (~vircung@78-11-50-82.static.ip.netia.com.pl) wszedł na #RubyOnRails
+2014-07-21 10:47:49	--	Temat kanału #RubyOnRails to "4.1.4 has been released! http://goo.gl/BYAigw | Newest releases: 4.1.4, 4.0.8, 3.2.18,  3.1.12 | Guides: http://goo.gl/Drh96 | API Docs: http://goo.gl/ErSVb | Mailing List: http://is.gd/3Euc | Rules: http://goo.gl/dgSj5 | MINASWAN (Matz is nice and so we are nice) | You are being logged. Logs are at http://goo.gl/e9X9X"
+2014-07-21 10:47:49	--	Temat ustawiony przez Radar (~Radar@162.243.140.224) w śro, 02 lip 2014 23:42:43
+2014-07-21 10:47:49	--	Nicki #RubyOnRails: [20WAAQK00 _todd _tpavel `Yoda adamholt adiq aep aetaric Affix aganov alan_andrade alem0lars alex88 AlHafoudh Alina-malina alxbl andatche AntelopeSalad AntiSpamMeta antivert antonishen apeiros apow arathald arielserafini arkie armyriad artgoeshere atmosx atrius axilla badeball bahar banisterfiend banjara bbloom bedouin behemot benvds bigkevmcd billy_ran_away bl4ckdu5t blackjid blackmesa bogeyd6 boxy bpgoldsb bphogan_afk braidn braincrash Brando753 BusterG cbetta ceej cek cenhyperion ChadyG cheeti chendo cho_co chridal cjk101010 clamstar cleopatra clocKwize codecodecode123 codelahoma coffeejunk comma8 Console contradictioned Cork crankharder Criten cschneid csq DanKnox danshultz DarkBushido DarkFoxDK darrik Davey davidcelis dc5ala defswork Derander devdazed djinni` dnyy doubleemms drale2k_ drizz duderonomy Dwarf dymk ecook egrouse ei elaptics`away elektronaut Elion Emily end_guy epochwolf erichmenge exgf_g FastJack fearoffish felipe FifthWall finges fluve FooBarWidget Forgetful_Lion futuredale fwaokda G Gaelane GeekOnCoffee george2 ghr Gizmokid2005 gizmore godd2 graft grandy greg5green gremax GreySyntax GriffinHeart Haegin helpa hendricius hfp hide hinbody hoodow Hosh hyperbolist imajes ipstatic ivan`` jacky jacobwg jakepetroules jameyd Janno jayne jcda jdspiral jgwhite ji0n jkwood jlpeters joelsmith jokke jon-erik__ jonathanmarvens jonathanwallace JoshuaPaling jottr_ jrdnull jrunning jso jsullivandigs jtperreault Juanchito kai3x5 Kamilion kaspergrubbe kevinfagan_ kies^ Kilo`byte kke korstiaan Kovensky koyd kramsee_ krnflake krz ksoderstrom kwd kyb3r_ LACP lacrosse_ laen_ lagweezle lamilami LBo lbott LBRapid lbwski ledestin Leeky leira LeMike leslie levifig Lightsword Liothen lloyd loglaunch lolmaus ltd lunks lupine machuga maloik maoko marienz marklite Marquel marr masscrx mathie matrixise Mattias mattp_ mauro1254 maxmanders maZtah mbr mclee mcr-credil media_slave Mellett68 michael_mbp mikecmpbll MindfulMonk MissionCritical mist mjc_ mkf moaa moogumbo morenoh149 Morkel mose mozzarella msimkins mtfk muhammadn mven mven_ MyTallest nanooq naquad ndrst nevans Nex7 nirix noah256 nomadicoder noodl nuck Obi_obi ohcibi Olipro olivier_bK one_zero papercode Paradox paul_k peterhil pgolm Phoop phrozen77 picasso pipework pkh Plasmastar pontiki ptierno pwk pyemkey r_rios ra4king Radar rakm ramblinpeck RandyT raresian razum2um redmenace relix reprazent rhizome riotjones roolo rsl RSO RTG` rubemlrm Rylee saimancroy Sakurazaki samuelkadolph sargas Sauvin Scient sdavis seanmarcia SegFaultAX segy Seich selimeki Senjai sevenseacat sfr^ Shadowplay shafox shamanime sheepman shredding shtirlic sidetrack Sigma00 Silex SirCmpwn sirecote SirFunk sk87 skinny_much slash_nick SloggerKhan Soliah srinidhi suffice Symbiosisz synfinatic t_p tagrudev Tarential tbuehlmann tdy teegee543 terrellt TheMoonMaster TheNumb thmzz tomaw trappist tris tubbo universa1 urkle vadviktor ValicekB Vircung w0bni w0rd-driven waltz wasamasa waseem_ Wayneoween webhat weltzooo wmoxam Wolland wonderbread xar- xcesariox xibalba Xiti xMopxShell Xuerian xybre Y_Ichiro ybit ylluminate Zackio zastern zelrik zly zz_timnovinger]
+2014-07-21 10:47:49	--	Kanał #RubyOnRails: 375 nick (0 op, 0 voice, 375 normalnych)
+2014-07-21 10:47:50	--	Powiadomienie(ChanServ): Register with nickserv in order to talk: /msg nickserv help
+2014-07-21 10:47:51	--	Tryb #RubyOnRails [+Ccgnrt]
+2014-07-21 10:47:51	--	Kanał utworzony pon, 07 cze 2004 02:57:38
+2014-07-21 10:47:58	selimeki	that way, you can add an array of child_models to your form
+2014-07-21 10:48:02	-->	Gm4n (~Gm4n@unaffiliated/gm4n) wszedł na #RubyOnRails
+2014-07-21 10:48:38	selimeki	like, parent_model[child_model_attributes][][child_model_attribute]
+2014-07-21 10:48:48	Vircung	hey
+2014-07-21 10:48:57	cleopatra	I take 3 days to understand  how to do :(
+2014-07-21 10:49:19	selimeki	just pass this to your controller, and the activemodel will do the rest :)
+2014-07-21 10:49:23	<--	alan_andrade (~alan_andr@2601:9:2a80:25e:39f4:4488:8a1b:270f) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 10:49:36	selimeki	you'll have an array of child_models in params
+2014-07-21 10:50:01	-->	alan_andrade (~alan_andr@2601:9:2a80:25e:39f4:4488:8a1b:270f) wszedł na #RubyOnRails
+2014-07-21 10:50:04	<--	banjara (~Adium@unaffiliated/banjara) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-21 10:51:13	-->	Ergo (~ergo@194.247.62.73) wszedł na #RubyOnRails
+2014-07-21 10:51:18	cleopatra	codecodecode123,  you maybe need to looking for  association
+2014-07-21 10:51:45	codecodecode123	i am
+2014-07-21 10:51:52	<--	drale2k_ (~drale2k@chello213047091195.1.14.vie.surfer.at) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-21 10:51:53	<--	kai3x5 (~kai3x5@ppp-70-242-140-168.dsl.stlsmo.swbell.net) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 10:52:03	cleopatra	i see
+2014-07-21 10:53:17	mikecmpbll	\o/
+2014-07-21 10:53:22	selimeki	if you have <input name="parent_model[child_model_attributes][][child_model_attribute]"> you'll have an array of child_models in the controller
+2014-07-21 10:53:56	<--	alan_andrade (~alan_andr@2601:9:2a80:25e:39f4:4488:8a1b:270f) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-21 10:54:03	--	elaptics`away zmienił nick na elaptics
+2014-07-21 10:54:09	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-21 10:54:23	<--	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-21 10:54:40	-->	relix (~relix@91.46.46.176.dyn.estpak.ee) wszedł na #RubyOnRails
+2014-07-21 10:55:18	<--	JoshuaPaling (~JoshuaPal@202.129.80.213) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-21 10:57:06	<--	sevenseacat (~becky@203.153.240.2) wyszedł z IRC (Quit: Leaving.)
+2014-07-21 10:57:40	-->	Duckily (~Duckily@99-60-177-184.lightspeed.irvnca.sbcglobal.net) wszedł na #RubyOnRails
+2014-07-21 10:58:31	-->	dangerousdave (~dangerous@78.156.71.46) wszedł na #RubyOnRails
+2014-07-21 10:59:04	olivier_bK	hy all
+2014-07-21 11:01:09	-->	workmad3 (~workmad3@host213-123-232-132.in-addr.btopenworld.com) wszedł na #RubyOnRails
+2014-07-21 11:01:50	-->	danijoo (~danijoo@aftr-37-24-151-107.unity-media.net) wszedł na #RubyOnRails
+2014-07-21 11:02:07	-->	kevinflo (~kevinflo@c-98-234-146-9.hsd1.ca.comcast.net) wszedł na #RubyOnRails
+2014-07-21 11:03:09	-->	JoshuaPaling (~JoshuaPal@202.129.80.213) wszedł na #RubyOnRails
+2014-07-21 11:03:55	<--	selimeki (58eee95f@gateway/web/freenode/ip.88.238.233.95) wyszedł z IRC (Ping timeout: 246 seconds)
+2014-07-21 11:06:57	-->	Foxandxss (~Foxandxss@unaffiliated/foxandxss) wszedł na #RubyOnRails
+2014-07-21 11:13:37	<--	workmad3 (~workmad3@host213-123-232-132.in-addr.btopenworld.com) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-21 11:13:45	-->	martinklepsch (~kmartiin@dslb-088-074-234-123.pools.arcor-ip.net) wszedł na #RubyOnRails
+2014-07-21 11:14:32	-->	dici (~cabbage@ip3212.saw.rwth-aachen.de) wszedł na #RubyOnRails
+2014-07-21 11:17:09	<--	morenoh149 (~morenoh14@50-0-136-232.dsl.dynamic.sonic.net) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 11:17:43	-->	captn3m0 (uid11710@gateway/web/irccloud.com/x-xmlvundfknzyprdr) wszedł na #RubyOnRails
+2014-07-21 11:21:08	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-21 11:23:35	<--	Lightsword (~Lightswor@174.51.85.146) wyszedł z IRC (Quit: Lightsword)
+2014-07-21 11:24:10	<--	Symbiosisz (~Symbiosis@d67-193-128-93.home3.cgocable.net) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 11:24:39	universa1	cleopatra: http://railscasts.com/episodes/196-nested-model-form-revised -- very good explanation for your problem.
+2014-07-21 11:24:43	pyemkey	how to check if each element of hash is empty. I am trying to build search form with filters and if each of hash elements is empty will display all.
+2014-07-21 11:25:02	cleopatra	 universa1  i  solved it days ago
+2014-07-21 11:25:22	universa1	pyemkey: some_hash.all? {|k,v| v.empty? }
+2014-07-21 11:25:26	-->	banjara (~Adium@unaffiliated/banjara) wszedł na #RubyOnRails
+2014-07-21 11:25:32	universa1	cleopatra: ahh, wrong highlight :( was for codecodecode123
+2014-07-21 11:25:47	cleopatra	but thank you very much
+2014-07-21 11:25:55	mikecmpbll	lol
+2014-07-21 11:26:07	<--	r_rios (~eu_lol@hyadesinc/pub/oa) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-21 11:26:25	cleopatra	so universa1  maybe you can tell me correctly structure for categories and subcategories
+2014-07-21 11:26:44	<--	GriffinHeart (~GriffinHe@pb6abe9d7.tokyff01.ap.so-net.ne.jp) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 11:27:10	universa1	cleopatra: depends ;)
+2014-07-21 11:27:21	-->	nerium (~linus@81-225-15-169-no172.bredband.skanova.com) wszedł na #RubyOnRails
+2014-07-21 11:28:42	-->	Morkel_ (~Morkel@xdsl-87-78-24-125.netcologne.de) wszedł na #RubyOnRails
+2014-07-21 11:29:07	-->	conta (~conta@61.16.181.42) wszedł na #RubyOnRails
+2014-07-21 11:29:21	<--	Morkel (~Morkel@xdsl-78-35-212-171.netcologne.de) wyszedł z IRC (Ping timeout: 256 seconds)
+2014-07-21 11:29:21	--	Morkel_ zmienił nick na Morkel
+2014-07-21 11:29:39	universa1	cleopatra: levels of nesting? what are you going to do with them? ... ;)
+2014-07-21 11:30:00	<--	banjara (~Adium@unaffiliated/banjara) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-21 11:31:33	cleopatra	I want to make a tree of categories  example categorie >Apparel>>Women's Clothing
+2014-07-21 11:32:06	cleopatra	 levels of nesting? mmm no level :PP  but sure i can do if you explain me correctly
+2014-07-21 11:32:20	cleopatra	so because
+2014-07-21 11:32:40	universa1	cleopatra: https://www.ruby-toolbox.com/categories/Active_Record_Nesting -- have a look at those plugins ;)
+2014-07-21 11:33:18	universa1	cleopatra: well, category with subcategory can be just: parent -> child, so only 1 level, or parent -> child -> grand-child -> grand-grand-child -> ...
+2014-07-21 11:34:07	cleopatra	mmmm
+2014-07-21 11:35:31	-->	mehlah (~mehlah@78.199.192.101) wszedł na #RubyOnRails
+2014-07-21 11:35:35	cleopatra	universa1,  thank you  ill look https://github.com/collectiveidea/awesome_nested_set
+2014-07-21 11:35:54	-->	drale2k (~drale2k@chello213047091195.1.14.vie.surfer.at) wszedł na #RubyOnRails
+2014-07-21 11:36:25	conta	dumb question: I wanna do something with my Article body before showing to user. Do I do it in helper? Or in model?  I wanna do some string subtitution, use auto_links and so
+2014-07-21 11:36:55	conta	not sure what would the Rails way be
+2014-07-21 11:36:59	universa1	conta: i'd create a presenter for that and cache the result with russian doll caching.
+2014-07-21 11:37:34	<--	LeMike (~Thunderbi@firewall.code-x.de) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-21 11:37:56	<--	Gm4n (~Gm4n@unaffiliated/gm4n) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-21 11:39:42	conta	universal, never heard of presenter
+2014-07-21 11:40:04	universa1	conta: http://railscasts.com/episodes/287-presenters-from-scratch
+2014-07-21 11:41:07	Wolland	conta Draper gem is pretty nice
+2014-07-21 11:41:35	universa1	i'd at least watch the railscast to udnerstand the general idea, and then have a look at the various presenter gems ;)
+2014-07-21 11:41:51	<--	lolmaus (~quassel@ppp37-190-48-12.pppoe.spdop.ru) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 11:42:01	-->	Gm4n (~Gm4n@unaffiliated/gm4n) wszedł na #RubyOnRails
+2014-07-21 11:42:46	<--	fluve (~fluve@124-168-114-181.dyn.iinet.net.au) wyszedł z IRC
+2014-07-21 11:43:13	conta	thanks, I am gnna check it out. But if I would wanna stick with default rails way, where would I put it? I'm still bad with that stuff... I mean what goes where
+2014-07-21 11:43:33	-->	lolmaus (~quassel@ppp37-190-48-19.pppoe.spdop.ru) wszedł na #RubyOnRails
+2014-07-21 11:44:29	-->	KostasDi (~KostasDi@host-92-24-233-192.ppp.as43234.net) wszedł na #RubyOnRails
+2014-07-21 11:45:55	universa1	conta: though "default" is debateable, i'd wrap it in a helper.
+2014-07-21 11:46:07	universa1	conta: the model doesn't care about it.
+2014-07-21 11:46:31	-->	P-NuT (~P-NuT@05456b2f.skybroadband.com) wszedł na #RubyOnRails
+2014-07-21 11:47:18	conta	universal: that makes sense. right now I do all my stuff in view but that's not good for sure
+2014-07-21 11:47:18	P-NuT	Hi, How do you go about removing the database and rebuilding it? Effectively wiping the database and starting from scratch.
+2014-07-21 11:47:49	universa1	P-NuT: rake db:reset ? rake db:drop db:create ?
+2014-07-21 11:48:10	universa1	wiping only data? wiping data and structure? ;9
+2014-07-21 11:48:58	<--	t_p (~textual@116.251.221.211) wyszedł z IRC (Quit: Computer has gone to sleep.)
+2014-07-21 11:49:05	cleopatra	omg universa1    you great   it was just what I was looking
+2014-07-21 11:49:27	universa1	cleopatra: yw :-)
+2014-07-21 11:51:19	conta	those presenters looks very good, i guess I am gonna use it
+2014-07-21 11:51:40	P-NuT	its fine if I can only wipe the data,
+2014-07-21 11:52:04	P-NuT	but is there a way to use shred to secure wipe the DB with a 25 pass write then rebuild the DB?
+2014-07-21 11:52:18	universa1	P-NuT: what?
+2014-07-21 11:52:37	<--	Duckily (~Duckily@99-60-177-184.lightspeed.irvnca.sbcglobal.net) wyszedł z IRC (Quit: Duckily)
+2014-07-21 11:53:06	Wolland	it's a bit outside of rails responsibility P-NuT
+2014-07-21 11:53:06	conta	P-NuT maybe you wanna do it from db command line not from rails then? and recreate with rake db
+2014-07-21 11:53:48	P-NuT	so if I manually remove the DB, then do rake db:reset it will add it back?
+2014-07-21 11:54:31	universa1	P-NuT: it creates all the tables and runs db/seeds.rb
+2014-07-21 11:54:58	Wolland	i would backup what you have now, unless you really don't care
+2014-07-21 11:55:08	<--	kevinflo (~kevinflo@c-98-234-146-9.hsd1.ca.comcast.net) wyszedł z IRC (Quit: kevinflo)
+2014-07-21 11:56:03	Wolland	sometimes migrations are not correct, or things were added to the DB without using migrations, etc. things like stored procedures, triggers, who knows what else.
+2014-07-21 11:56:24	Wolland	better be safe than sorry
+2014-07-21 11:58:25	-->	browndawg (~browndawg@117.201.86.119) wszedł na #RubyOnRails
+2014-07-21 11:58:37	<--	browndawg (~browndawg@117.201.86.119) wyszedł z IRC (Max SendQ exceeded)
+2014-07-21 11:59:15	-->	browndawg (~browndawg@117.201.86.119) wszedł na #RubyOnRails
+2014-07-21 11:59:23	<--	browndawg (~browndawg@117.201.86.119) wyszedł z IRC (Max SendQ exceeded)
+2014-07-21 12:01:14	-->	Sirupsen (~textual@CPE7cb21bc3157f-CM7cb21bc3157c.cpe.net.cable.rogers.com) wszedł na #RubyOnRails
+2014-07-21 12:02:09	elaptics	Wolland: I would be worried if other things had been added like triggers, etc that aren't in migrations or in the structure.sql that's committed to version control
+2014-07-21 12:04:23	<--	drale2k (~drale2k@chello213047091195.1.14.vie.surfer.at) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 12:04:42	-->	jammanbo (~jammanbo@87-198-230-42.static.ptr.magnet.ie) wszedł na #RubyOnRails
+2014-07-21 12:11:31	mikecmpbll	what do you name a gem that provides an interface for an api?
+2014-07-21 12:11:33	-->	pmacca (~pmccullag@62.232.12.199) wszedł na #RubyOnRails
+2014-07-21 12:12:07	pwk	meta-meta-connector
+2014-07-21 12:12:46	jammanbo	adapter?
+2014-07-21 12:13:17	elaptics	wrapper?
+2014-07-21 12:13:41	mikecmpbll	top suggestions 👍
+2014-07-21 12:14:04	<--	shafox (~quassel@122.167.104.137) wyszedł z IRC (Quit: No Ping reply in 180 seconds.)
+2014-07-21 12:14:23	<--	KostasDi (~KostasDi@host-92-24-233-192.ppp.as43234.net) wyszedł z IRC (Quit: Leaving...)
+2014-07-21 12:17:56	pontiki	how did you send that little thumbs up icon??
+2014-07-21 12:18:43	mikecmpbll	magic! 😁
+2014-07-21 12:19:06	mikecmpbll	you on osx, pontiki?
+2014-07-21 12:19:12	pontiki	sorta
+2014-07-21 12:19:17	jammanbo	At what percentage does stock options for the senior developer in a startup become an insult?
+2014-07-21 12:19:17	-->	whyy (~whyy@122.178.248.110) wszedł na #RubyOnRails
+2014-07-21 12:19:29	pontiki	i'm on irssi inside tmux from ssh
+2014-07-21 12:20:42	<--	alem0lars (~alem0lars@host57-244-dynamic.2-79-r.retail.telecomitalia.it) wyszedł z IRC (Quit: alem0lars)
+2014-07-21 12:20:59	mikecmpbll	jammanbo: i would assume it depends how much of the business is software
+2014-07-21 12:21:56	jammanbo	well, all of it really … I mean there's plenty of smoke and mirrors (i.e. sales) but the product is the software
+2014-07-21 12:22:51	jammanbo	I mean, would I be judged harshly for thinking that 0.25% to represent my "stake in the company's future" is an effing insult?
+2014-07-21 12:23:04	mikecmpbll	...
+2014-07-21 12:23:08	-->	stamina (~stamina@83.128.211.177) wszedł na #RubyOnRails
+2014-07-21 12:23:19	elaptics	jammanbo: it all depends on the numbers
+2014-07-21 12:23:20	mikecmpbll	having no idea about this kind of things, that sounds retarded.
+2014-07-21 12:23:23	-->	DylanJ (DylanJ@unaffiliated/dylanj) wszedł na #RubyOnRails
+2014-07-21 12:23:55	DylanJ	Is anyone else gettin spammed by the easou bot causing a ton of invalid utf8 exceptions?
+2014-07-21 12:24:24	mikecmpbll	if i got 0.25% i'd be broke as hell.
+2014-07-21 12:24:28	mikecmpbll	:D
+2014-07-21 12:25:27	<--	marr (~ccc@78.9.140.174) wyszedł z IRC (Ping timeout: 256 seconds)
+2014-07-21 12:26:00	jammanbo	I hate this industry
+2014-07-21 12:26:02	elaptics	jammanbo: 0.25% of 100 million is alright :)
+2014-07-21 12:26:10	mikecmpbll	that'd be some start up.
+2014-07-21 12:27:12	elaptics	the main point is what is expected, and who's taking the risk/putting up the capital, etc
+2014-07-21 12:27:29	-->	banjara (~Adium@unaffiliated/banjara) wszedł na #RubyOnRails
+2014-07-21 12:27:33	<--	benvds (~benvds@apps.pomodoro.nl) wyszedł z IRC (Quit: leaving)
+2014-07-21 12:27:53	-->	Xeago (~Xeago@unaffiliated/xeago) wszedł na #RubyOnRails
+2014-07-21 12:29:30	jammanbo	you know what's expected, I am to love and grow the company as if it were my own child, for an unspectacular salary and this "stake".
+2014-07-21 12:30:14	pontiki	might be the pctg of how many fucks you give
+2014-07-21 12:30:19	<--	Shadowplay (~Shadowpla@18.255.94.80.dyn.idknet.com) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 12:30:26	-->	benvds (~benvds@apps.pomodoro.nl) wszedł na #RubyOnRails
+2014-07-21 12:30:30	<--	banjara (~Adium@unaffiliated/banjara) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-21 12:32:37	<--	benvds (~benvds@apps.pomodoro.nl) wyszedł z IRC (Client Quit)
+2014-07-21 12:32:54	-->	DaniG2k (~dpestilli@office-fw01.squiz.co.uk) wszedł na #RubyOnRails
+2014-07-21 12:33:09	tagrudev	!isitfriday
+2014-07-21 12:33:10	helpa	no
+2014-07-21 12:33:13	tagrudev	why
+2014-07-21 12:33:18	-->	benvds (~benvds@apps.pomodoro.nl) wszedł na #RubyOnRails
+2014-07-21 12:33:19	DylanJ	jammanbo: find another job
+2014-07-21 12:33:42	jammanbo	yes, I think so
+2014-07-21 12:33:53	mikecmpbll	startups hold no appeal to me what-so-ever for some reason.
+2014-07-21 12:33:56	DylanJ	remember you know rails, you can do this job anywhere in the world.
+2014-07-21 12:34:19	pontiki	some places are harder to work than others
+2014-07-21 12:34:39	pontiki	i'd be rather poorly motivated in a shack on bora bora, forex
+2014-07-21 12:34:50	-->	ejnahc (~hello@chan.je) wszedł na #RubyOnRails
+2014-07-21 12:35:42	<--	godd2 (~godd2@174.134.91.138) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-21 12:35:50	tagrudev	unless there is beer
+2014-07-21 12:35:56	pontiki	there's beer
+2014-07-21 12:36:06	tagrudev	then I see no problem
+2014-07-21 12:36:15	pontiki	but, frankly, i'd think that might push the motivation even further away
+2014-07-21 12:37:12	pontiki	♫ i want to lie shipwrecked and comatose / sipping fresh mango juice ♫
+2014-07-21 12:37:14	<--	roolo (~mailo@194.213.198.34) wyszedł z IRC (Quit: Leaving...)
+2014-07-21 12:37:29	mikecmpbll	haha
+2014-07-21 12:37:38	<--	dc5ala (~dc5ala@stgt-4d03b5c1.pool.mediaWays.net) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 12:40:11	<--	srinidhi (~srinidhi@opensuse/member/srinidhi) wyszedł z IRC (Ping timeout: 256 seconds)
+2014-07-21 12:40:30	<--	kyb3r_ (~kyb3r_@121-99-25-250.bng1.nct.orcon.net.nz) wyszedł z IRC (Quit: Leaving)
+2014-07-21 12:41:46	-->	nettoweb (~nettoweb@187.112.89.70) wszedł na #RubyOnRails
+2014-07-21 12:45:38	<--	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wyszedł z IRC (Quit: shredding)
+2014-07-21 12:46:18	<--	whyy (~whyy@122.178.248.110) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-21 12:46:25	-->	drale2k (~drale2k@chello213047091195.1.14.vie.surfer.at) wszedł na #RubyOnRails
+2014-07-21 12:46:41	<--	korstiaan (~korstiaan@2001:982:76c7:1:85b7:8064:25ea:3302) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 12:49:11	-->	Duckily (~Duckily@99-60-177-184.lightspeed.irvnca.sbcglobal.net) wszedł na #RubyOnRails
+2014-07-21 12:51:43	-->	workmad3 (~workmad3@host213-123-232-132.in-addr.btopenworld.com) wszedł na #RubyOnRails
+2014-07-21 12:54:41	-->	maximski (~maximski@77-20-48-40-dynip.superkabel.de) wszedł na #RubyOnRails
+2014-07-21 12:56:49	<--	Duckily (~Duckily@99-60-177-184.lightspeed.irvnca.sbcglobal.net) wyszedł z IRC (Quit: Duckily)
+2014-07-21 12:57:04	-->	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wszedł na #RubyOnRails
+2014-07-21 12:57:19	<--	Xeago (~Xeago@unaffiliated/xeago) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 12:57:28	-->	Pupeno (~pupeno@pdpc/supporter/active/pupeno) wszedł na #RubyOnRails
+2014-07-21 12:57:53	-->	srinidhi (~srinidhi@opensuse/member/srinidhi) wszedł na #RubyOnRails
+2014-07-21 12:58:23	-->	shemerey (~shemerey@178.124.107.14) wszedł na #RubyOnRails
+2014-07-21 12:59:37	<--	nerium (~linus@81-225-15-169-no172.bredband.skanova.com) wyszedł z IRC (Quit: nerium)
+2014-07-21 13:01:13	-->	nerium (~linus@81-225-15-169-no172.bredband.skanova.com) wszedł na #RubyOnRails
+2014-07-21 13:04:37	<--	nerium (~linus@81-225-15-169-no172.bredband.skanova.com) wyszedł z IRC (Client Quit)
+2014-07-21 13:07:05	<--	futuredale (~futuredal@38.105.177.54) wyszedł z IRC (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-21 13:07:15	-->	roolo (~mailo@194.213.198.34) wszedł na #RubyOnRails
+2014-07-21 13:07:30	-->	LeMike (~Thunderbi@firewall.code-x.de) wszedł na #RubyOnRails
+2014-07-21 13:07:30	-->	futuredale (~futuredal@38.105.177.54) wszedł na #RubyOnRails
+2014-07-21 13:07:32	P-NuT	thanks guys, in regards to the DB, I don't need the data in it, in fact a requirement is that the data has to be wiped, so as long as I can remove the DB with a `shred -zun 30 db.sqlite` then recreate the sqlite db and all of the tables with the `rake db:reset` command then we're golden.
+2014-07-21 13:07:52	muhammadn	how do i save the transaction information in activemerchant?
+2014-07-21 13:07:55	<--	jammanbo (~jammanbo@87-198-230-42.static.ptr.magnet.ie) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-21 13:08:38	DylanJ	muhammadn: ?
+2014-07-21 13:09:10	-->	Giddeon (~Giddeon@pool-96-241-31-148.washdc.fios.verizon.net) wszedł na #RubyOnRails
+2014-07-21 13:10:29	<--	srinidhi (~srinidhi@opensuse/member/srinidhi) wyszedł z IRC (Quit: Leaving.)
+2014-07-21 13:10:42	<--	media_slave (~Thunderbi@194.44.57.231) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-21 13:10:59	-->	srinidhi (~srinidhi@opensuse/member/srinidhi) wszedł na #RubyOnRails
+2014-07-21 13:11:42	-->	rh1n0 (~rh1n0@ip98-168-173-169.ok.ok.cox.net) wszedł na #RubyOnRails
+2014-07-21 13:12:10	-->	Pro| (~lalli@185-20-137-115.fi-hel1.host.upcloud.com) wszedł na #RubyOnRails
+2014-07-21 13:12:14	Pro|	what is the correct way to initialize variable for each "it" in rspec? i guess "let" is only for methods?
+2014-07-21 13:12:16	-->	marr (~ccc@78.9.140.174) wszedł na #RubyOnRails
+2014-07-21 13:12:34	-->	jammanbo (~jammanbo@87-198-230-42.static.ptr.magnet.ie) wszedł na #RubyOnRails
+2014-07-21 13:13:18	-->	Venomen (~Venomen@unaffiliated/venomen) wszedł na #RubyOnRails
+2014-07-21 13:13:33	Giddeon	I built a simple gem that has a file called runner in the bin/ directory.  On my development machine, I can cd into the bin directory and run ./runner and everything works great.   However, I'd like the bin file to be executable as soon as the user installs the gem.  Ideally the user could just type "runner" and my file would execute no matter the directory.  Can someone point min the
+2014-07-21 13:13:34	Giddeon	right direction?
+2014-07-21 13:14:17	-->	media_slave (~Thunderbi@194.44.82.62) wszedł na #RubyOnRails
+2014-07-21 13:15:44	-->	GriffinHeart (~GriffinHe@pb6abe9d7.tokyff01.ap.so-net.ne.jp) wszedł na #RubyOnRails
+2014-07-21 13:16:01	-->	nerium (~linus@81-225-15-169-no172.bredband.skanova.com) wszedł na #RubyOnRails
+2014-07-21 13:16:37	-->	stardiviner (~stardivin@unaffiliated/stardiviner) wszedł na #RubyOnRails
+2014-07-21 13:17:19	jammanbo	So is there some clever way to wrap models from a has_many association in form objects? I'm using a form object, the underlying model accepts_nested_attributes_for a has_many, but I want to use a form object for those too.
+2014-07-21 13:17:37	jammanbo	At least I think I want to
+2014-07-21 13:17:55	pontiki	look at the railscast for form objects
+2014-07-21 13:18:07	-->	jaysonr_work (~jaysonr_w@165.166.50.69) wszedł na #RubyOnRails
+2014-07-21 13:18:17	jammanbo	yeah, I'm fine with simple form objects, but this is a but special ...
+2014-07-21 13:18:35	pontiki	because it's a nested object? the rails cast discusses that
+2014-07-21 13:19:18	pontiki	bates also has a gem called nested-form that does a lot
+2014-07-21 13:19:24	pontiki	there's also gems like reform
+2014-07-21 13:20:25	<--	GriffinHeart (~GriffinHe@pb6abe9d7.tokyff01.ap.so-net.ne.jp) wyszedł z IRC (Ping timeout: 256 seconds)
+2014-07-21 13:20:36	nettoweb	guys, is it really important to uuse a CDN (like rackspace cloud files offers) to my app? I have a good number os files upload by my users.. but I dont know if it’s a good thing to do..
+2014-07-21 13:21:26	jammanbo	I don't think you get me. There is a Company which has many Employees. I have a CompanyForm class for Company, but when rendering fields for employees, I need to be working with EmployeeForm objects which wrap Employees.
+2014-07-21 13:22:08	nerium	I'm trying to implement paypal on my website, but I'm not sure what the specific service is called
+2014-07-21 13:22:27	pontiki	you are right, i don't get you
+2014-07-21 13:22:29	<--	mehlah (~mehlah@78.199.192.101) wyszedł z IRC (Quit: Leaving...)
+2014-07-21 13:22:44	nerium	I want Paypal to handle all data (like the credit card into)
+2014-07-21 13:22:48	nerium	What's that called?
+2014-07-21 13:23:30	nerium	Express checkout is not what i'm looking for
+2014-07-21 13:23:49	<--	Sirupsen (~textual@CPE7cb21bc3157f-CM7cb21bc3157c.cpe.net.cable.rogers.com) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-21 13:25:29	tagrudev	I see no question here
+2014-07-21 13:25:58	pontiki	i don't know of a paypal service that doesn't handle all the customer's data.....
+2014-07-21 13:26:18	msimkins	Giddeon: Put the file in a bin directory, and reference it in the executables option in the gemspec
+2014-07-21 13:26:27	msimkins	but dont call it 'runner' :)
+2014-07-21 13:26:32	-->	timonv_ (~timonv_@546834F7.cm-12-1a.dynamic.ziggo.nl) wszedł na #RubyOnRails
+2014-07-21 13:26:32	-->	karamazov (~karamazov@user-0c2hcs6.cable.mindspring.com) wszedł na #RubyOnRails
+2014-07-21 13:27:17	universa1	nerium: https://developer.paypal.com/ ? ;)
+2014-07-21 13:27:24	pontiki	nerium: at any rate, this lists the services paypal offers via their classic apis: https://developer.paypal.com/webapps/developer/docs/classic/products/
+2014-07-21 13:28:56	tagrudev	docs one must read (yoda voice)
+2014-07-21 13:29:35	pontiki	read docs, one must!
+2014-07-21 13:30:05	<--	xcesariox (~xcesariox@101.127.151.82) wyszedł z IRC (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-21 13:30:18	<--	one_zero (~blah@ip68-225-245-61.oc.oc.cox.net) wyszedł z IRC
+2014-07-21 13:30:24	-->	Duckily (~Duckily@99-60-177-184.lightspeed.irvnca.sbcglobal.net) wszedł na #RubyOnRails
+2014-07-21 13:30:25	nerium	universa1: I can't find any info about what I'm looking for
+2014-07-21 13:30:28	tagrudev	or just ydd and try all the methods
+2014-07-21 13:30:48	-->	banjara (~Adium@unaffiliated/banjara) wszedł na #RubyOnRails
+2014-07-21 13:30:53	pontiki	yololololololololo!
+2014-07-21 13:31:03	<--	timonv_ (~timonv_@546834F7.cm-12-1a.dynamic.ziggo.nl) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 13:31:12	pontiki	nerium: neither can we since we don't know what you really want
+2014-07-21 13:31:32	<--	srinidhi (~srinidhi@opensuse/member/srinidhi) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-21 13:31:35	nerium	pontiki: Express Checkout without the need to login in
+2014-07-21 13:31:35	-->	Detch (~uriel@unaffiliated/detch) wszedł na #RubyOnRails
+2014-07-21 13:32:02	pontiki	without the need to log in to paypal?
+2014-07-21 13:32:14	-->	korstiaan (~korstiaan@2001:982:76c7:1:4848:a919:549c:f8e7) wszedł na #RubyOnRails
+2014-07-21 13:32:54	nerium	yes
+2014-07-21 13:33:47	-->	jottr (~jottr@unaffiliated/jottr) wszedł na #RubyOnRails
+2014-07-21 13:34:35	pontiki	i don't think there is one
+2014-07-21 13:34:47	<--	jottr_ (~jottr@unaffiliated/jottr) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 13:34:56	universa1	hmm, can't you chose to pay via creditcard as a guest on express checkout?
+2014-07-21 13:35:09	<--	banjara (~Adium@unaffiliated/banjara) wyszedł z IRC (Ping timeout: 256 seconds)
+2014-07-21 13:35:47	msimkins	nerium: Are you thinking of Website Payments Standard ?
+2014-07-21 13:38:05	<--	maoko (~textual@ip-86-49-190-166.net.upcbroadband.cz) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-21 13:41:00	-->	rioche (~me@ool-43526a6b.dyn.optonline.net) wszedł na #RubyOnRails
+2014-07-21 13:41:35	relix	hey guys - messing around with the preview function of rails
+2014-07-21 13:41:47	relix	is there a way I can extend the Preview class to have a method run always before a preview is made?
+2014-07-21 13:41:58	-->	srinidhi (~srinidhi@opensuse/member/srinidhi) wszedł na #RubyOnRails
+2014-07-21 13:42:08	relix	because due to the autoloading of changed classes, I need to run FactoryGirl.reload before trying to build the records to be used in the preview
+2014-07-21 13:42:26	relix	I'd like to just set-and-forget that method so it applies to all previews automatically
+2014-07-21 13:44:41	<--	bogeyd6 (~bogey@c-50-158-155-99.hsd1.in.comcast.net) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-21 13:46:53	-->	mehlah (~mehlah@tra42-5-83-152-247-158.fbx.proxad.net) wszedł na #RubyOnRails
+2014-07-21 13:47:26	universa1	preview function of rails?
+2014-07-21 13:48:00	universa1	relix: !c0de
+2014-07-21 13:48:02	universa1	argh
+2014-07-21 13:48:04	universa1	!code
+2014-07-21 13:48:04	helpa	We cannot help you with your problem if you don't show us your code. Please put it on http://gist.github.com and give us the URL so we can see it.
+2014-07-21 13:48:09	<--	captn3m0 (uid11710@gateway/web/irccloud.com/x-xmlvundfknzyprdr) wyszedł z IRC (Quit: Connection closed for inactivity)
+2014-07-21 13:48:19	relix	the mail preview stuff
+2014-07-21 13:48:45	universa1	and that is related to factory girl how?
+2014-07-21 13:49:15	relix	I'm building the models to be used in the previews using factory girl
+2014-07-21 13:49:16	krz	a service that wants to partner with us. wants a specific deadline for a feature we need to create for them. what are your standards on giving out deadlines?
+2014-07-21 13:49:34	krz	external deadlines*
+2014-07-21 13:50:19	universa1	relix: ok. and why do you have changed autoloaded classes?!
+2014-07-21 13:50:27	universa1	at that specific point.
+2014-07-21 13:50:33	msimkins	krz: Take the actual time (you think) it will take to develop the feature, then double it !
+2014-07-21 13:50:48	relix	universa1 well it's run in dev environment, right, and I'm changing code and meanwhile checking how the preview looks
+2014-07-21 13:51:04	universa1	relix: why are you recreating models everytime?
+2014-07-21 13:51:06	relix	universa1 if the changes happen to a class that's used by FactoryGirl, the class is reloaded, but FactoryGirl is unaware, thus trying to add an association mismatch
+2014-07-21 13:51:20	relix	universa1 to avoid polluting the dev db I'm using transactions
+2014-07-21 13:51:46	relix	which is another thing I want to add by default to the Preview class
+2014-07-21 13:52:12	workmad3	relix: please don't try to force transactions across requests... that is a minefield of problems :(
+2014-07-21 13:52:30	relix	it's not acroess requests, just the preview requests
+2014-07-21 13:53:19	universa1	relix: http://api.rubyonrails.org/v4.1.0/classes/ActionMailer/Base.html#class-ActionMailer::Base-label-Previewing+emails -- interceptors?!
+2014-07-21 13:53:34	relix	universa1 no interceptors happen after the mail has been rendered, no use
+2014-07-21 13:53:36	relix	http://pastebin.com/iJheQTTL
+2014-07-21 13:53:37	helpa	Hi relix. We in #rubyonrails would really appreciate it if you did not use pastebin during your time with us.
+2014-07-21 13:53:37	helpa	Pastebin is not good because it loads slowly for most, has ads which are distracting and has terrible formatting. Please use Gist (http://gist.github.com) or Pastie (http://pastie.org) instead. Thanks!
+2014-07-21 13:53:40	-->	pothibo (~textual@24.48.80.111) wszedł na #RubyOnRails
+2014-07-21 13:53:58	relix	I'm looking at the code and will probably have to override the Preview#call method
+2014-07-21 13:54:35	-->	bjpcjp (~bjpcjp@76.244.68.205) wszedł na #RubyOnRails
+2014-07-21 13:55:01	-->	Tho85 (~Thomas@vm3.tho-server.de) wszedł na #RubyOnRails
+2014-07-21 13:56:29	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 13:57:08	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-21 13:57:51	workmad3	relix: hmm... why not just build your objects in memory in that situation?
+2014-07-21 13:58:05	workmad3	relix: rather than issue db inserts that are then rolled back?
+2014-07-21 13:58:18	relix	workmad3 you mean open a connection to a memory-based sqlite?
+2014-07-21 13:58:27	universa1	no
+2014-07-21 13:58:33	universa1	he means to not call the db at all.
+2014-07-21 13:58:33	workmad3	relix: no, I mean don't call .save on objects
+2014-07-21 13:58:45	relix	ah sure, because the mailer does some queries
+2014-07-21 13:59:03	workmad3	bleth
+2014-07-21 13:59:05	workmad3	*bleh
+2014-07-21 13:59:13	<--	RandyT (~RandyT@h227.40.213.151.dynamic.ip.windstream.net) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 13:59:51	workmad3	relix: also not entirely sure why you're using factory girl in non-test code
+2014-07-21 14:00:18	relix	well obviously this whole preview mail thing is a frankensteinian contraption
+2014-07-21 14:00:23	workmad3	relix: it's not exactly intended for that use, and it makes quite a few intrusive assumptions about config setups that are quite test-specific
+2014-07-21 14:00:54	-->	RandyT (~RandyT@h235.107.88.75.dynamic.ip.windstream.net) wszedł na #RubyOnRails
+2014-07-21 14:00:58	relix	it'd be a shame to have to reimplement all the factories for the preview mailers
+2014-07-21 14:01:03	workmad3	relix: which is probably what's biting you in the ass right now, tbh... factory girl is heavily assuming that you're in test mode with cache_classes turned on
+2014-07-21 14:01:23	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 14:01:38	universa1	and imho mailers are kinda like a view: they probably shouldn't do queries, but get the data handed to them.
+2014-07-21 14:02:24	universa1	s/probably//
+2014-07-21 14:02:40	<--	DaniG2k (~dpestilli@office-fw01.squiz.co.uk) wyszedł z IRC (Quit: Lost terminal)
+2014-07-21 14:02:48	relix	well, sure
+2014-07-21 14:02:54	-->	shafox (~quassel@115.99.196.10) wszedł na #RubyOnRails
+2014-07-21 14:02:55	relix	but that just moves the problem from inside the mailer to outside the mailer
+2014-07-21 14:03:02	relix	fact remains that my presenters, models etc run queries
+2014-07-21 14:03:25	relix	workmad3 ok, but even in The Rails 4 Way example code uses FactoryGirl inside mail previews
+2014-07-21 14:03:30	-->	davedev24_ (~davedev24@c-67-162-168-11.hsd1.fl.comcast.net) wszedł na #RubyOnRails
+2014-07-21 14:04:08	workmad3	relix: so?
+2014-07-21 14:04:21	workmad3	relix: *example* code says it all, imo :P
+2014-07-21 14:04:49	relix	workmad3 if it were not considered allowed, then TR4w would not show it as code like that
+2014-07-21 14:05:03	workmad3	relix: man, you have a lot of faith there :P
+2014-07-21 14:05:03	relix	they could just as easily have done User.build instead of FactoryGirl.create(:user)
+2014-07-21 14:05:12	relix	*sigh*
+2014-07-21 14:05:14	relix	anyway
+2014-07-21 14:05:38	relix	So does anyone have a solution to running code around the mailerpreview taht does not involve overriding Preview#call?
+2014-07-21 14:05:40	dangerousdave	Tech support just recommended that i start my ruby(not rails) script using puma or passenger on there servers. Is this possible? does it even make sense?
+2014-07-21 14:05:49	dangerousdave	their*
+2014-07-21 14:05:54	workmad3	relix: just because something is published in a book doesn't make it 'good'... and you're hitting exactly the sort of issues that make it problematic ;)
+2014-07-21 14:06:05	workmad3	relix: and example code can ignore a lot of issues to get a point across
+2014-07-21 14:06:12	-->	DaniG2k (~dpestilli@office-fw01.squiz.co.uk) wszedł na #RubyOnRails
+2014-07-21 14:06:24	relix	workmad3 sure, I agree
+2014-07-21 14:06:32	workmad3	relix: my solution would be to not use factory girl outside of tests... I bet your issues vanish at that point ;)
+2014-07-21 14:06:50	relix	workmad3 so your solution would have me recreate hundreds of lines of factorygirl code into the previews
+2014-07-21 14:07:03	relix	workmad3 instead of add one little line to reload factorygirl classes
+2014-07-21 14:07:19	<--	Detch (~uriel@unaffiliated/detch) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:07:46	relix	the real problem is the previews running in dev environment, really
+2014-07-21 14:07:49	universa1	relix: that line you only need in development? ;) you could also just add before_action :reload_factory_girl if Rails.env.development? to your application_controller...
+2014-07-21 14:07:53	relix	but that's up to the rails devs
+2014-07-21 14:08:26	relix	universa1 awesome, that's a great idea actually :P
+2014-07-21 14:08:53	relix	but instead of in application_controller I can find the preview controller class
+2014-07-21 14:09:46	-->	nettoweb_ (~nettoweb@177.16.206.246) wszedł na #RubyOnRails
+2014-07-21 14:09:55	-->	Detch (~uriel@unaffiliated/detch) wszedł na #RubyOnRails
+2014-07-21 14:10:00	<--	Wolland (~Wolland@108-206-218-24.lightspeed.stlsmo.sbcglobal.net) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:11:43	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-21 14:11:56	<--	nettoweb (~nettoweb@187.112.89.70) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-21 14:11:56	--	nettoweb_ zmienił nick na nettoweb
+2014-07-21 14:12:09	<--	danijoo (~danijoo@aftr-37-24-151-107.unity-media.net) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-21 14:12:12	<--	fearoffish (~fearoffis@irc.fearoffish.com) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:12:15	-->	aclearman037 (~aclearman@162.222.47.218) wszedł na #RubyOnRails
+2014-07-21 14:12:35	-->	danijoo (~danijoo@aftr-37-24-151-107.unity-media.net) wszedł na #RubyOnRails
+2014-07-21 14:13:07	-->	k4nd4lf (~kandalf@190.55.162.238) wszedł na #RubyOnRails
+2014-07-21 14:13:50	<--	stamina (~stamina@83.128.211.177) wyszedł z IRC (Quit: WeeChat 0.4.3)
+2014-07-21 14:14:50	<--	jottr (~jottr@unaffiliated/jottr) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 14:14:53	-->	michiel3 (uid14103@gateway/web/irccloud.com/x-lvjdszksnknccnst) wszedł na #RubyOnRails
+2014-07-21 14:15:59	-->	bbrowning (~bbrowning@redhat/jboss/bbrowning) wszedł na #RubyOnRails
+2014-07-21 14:18:33	<--	sk87 (~sk87@77.108.153.99) wyszedł z IRC (Quit: My Mac Mini has gone to sleep. ZZZzzz…)
+2014-07-21 14:18:44	-->	arBmind (~Andreas@e181155064.adsl.alicedsl.de) wszedł na #RubyOnRails
+2014-07-21 14:19:10	-->	timonv_ (~timonv_@546834F7.cm-12-1a.dynamic.ziggo.nl) wszedł na #RubyOnRails
+2014-07-21 14:20:04	-->	DEA7TH (~DEA7TH@unaffiliated/dea7th) wszedł na #RubyOnRails
+2014-07-21 14:20:43	msimkins	dangerousdave: ???
+2014-07-21 14:20:51	<--	jammanbo (~jammanbo@87-198-230-42.static.ptr.magnet.ie) wyszedł z IRC (Quit: Leaving.)
+2014-07-21 14:21:02	<--	RTG` (~RTG@54195718.cm-5-2b.dynamic.ziggo.nl) wyszedł z IRC (Disconnected by services)
+2014-07-21 14:21:05	dangerousdave	msimkins, was my reaction too
+2014-07-21 14:21:26	-->	ryannielson (~ryanniels@blk-222-227-158.eastlink.ca) wszedł na #RubyOnRails
+2014-07-21 14:21:27	msimkins	dangerousdave: What is the issue ?
+2014-07-21 14:21:57	-->	Esher (~esher@72.239.69.45) wszedł na #RubyOnRails
+2014-07-21 14:22:19	dangerousdave	trying to start a ruby script on AWS that polls an AWS SQS queue, and then sends an email.
+2014-07-21 14:22:29	-->	garrypolley (~garryp@159.140.254.100) wszedł na #RubyOnRails
+2014-07-21 14:22:56	dangerousdave	it runs in an infinite loop, as a consequence, AWS health monitor reports sick
+2014-07-21 14:23:17	dangerousdave	tech support said to run it under puma or passenger
+2014-07-21 14:23:21	workmad3	dangerousdave: could you not turn it into a service with something like runit?
+2014-07-21 14:23:34	workmad3	dangerousdave: or the daemons gem?
+2014-07-21 14:23:58	dangerousdave	workmad3, possibly, if i heard of either of them. I will investigate!
+2014-07-21 14:24:03	dangerousdave	thanks
+2014-07-21 14:24:26	workmad3	dangerousdave: whoever was on tech support was most likely reading off a script that equated 'ruby' to 'web app' btw ;)
+2014-07-21 14:24:32	msimkins	dangerousdave: Yoeah, I would go with workmad3 - Puma or passenger makes no sense
+2014-07-21 14:25:06	dangerousdave	msimkins, workmad3 thanks!
+2014-07-21 14:25:32	workmad3	dangerousdave: and it's gonna be 'sick' if you're basically just running a script permanently in the foreground... that's not good unix behaviour :)
+2014-07-21 14:25:57	<--	shafox (~quassel@115.99.196.10) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:26:36	dangerousdave	workmad3, yes, i guessed that myself but didn't know how to fix it. appending a & at the end didn't help
+2014-07-21 14:26:59	-->	linojon (~linojon@pool-72-95-119-138.ptldme.east.myfairpoint.net) wszedł na #RubyOnRails
+2014-07-21 14:27:20	<--	mauro1254 (~chatzilla@nat183.lu.usi.ch) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-21 14:27:39	-->	shafox (~quassel@115.99.196.10) wszedł na #RubyOnRails
+2014-07-21 14:28:29	-->	mauro1254 (~chatzilla@nat183.lu.usi.ch) wszedł na #RubyOnRails
+2014-07-21 14:29:46	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:30:12	zelrik	can someone help me with this:
+2014-07-21 14:30:29	zelrik	http://stackoverflow.com/questions/24811652/asset-pipeline-giving-random-version-for-the-same-file-when-asking-for-a-js-asse
+2014-07-21 14:31:06	-->	mostlybadfly (uid10066@gateway/web/irccloud.com/x-qmsfjotcintivnxi) wszedł na #RubyOnRails
+2014-07-21 14:31:56	-->	RTG` (~RTG@54195718.cm-5-2b.dynamic.ziggo.nl) wszedł na #RubyOnRails
+2014-07-21 14:32:18	-->	banjara (~Adium@unaffiliated/banjara) wszedł na #RubyOnRails
+2014-07-21 14:32:46	-->	w32stuxnet (~w32stuxne@c122-108-244-173.kelvn3.qld.optusnet.com.au) wszedł na #RubyOnRails
+2014-07-21 14:33:36	-->	shazaum (~shazaum@unaffiliated/shazaum) wszedł na #RubyOnRails
+2014-07-21 14:34:11	<--	bjpcjp (~bjpcjp@76.244.68.205) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 14:34:32	DylanJ	Is anyone else gettin spammed by the easou bot causing a ton of invalid utf8 exceptions?
+2014-07-21 14:36:33	<--	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wyszedł z IRC (Quit: shredding)
+2014-07-21 14:36:53	<--	banjara (~Adium@unaffiliated/banjara) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 14:37:14	-->	alem0lars (~alem0lars@89.202.223.34) wszedł na #RubyOnRails
+2014-07-21 14:38:03	pontiki	on irc, DylanJ ?
+2014-07-21 14:38:29	-->	sk87 (~sk87@77.108.153.99) wszedł na #RubyOnRails
+2014-07-21 14:39:08	<--	muhammadn (~muhammad@118.101.246.54) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:39:44	zelrik	alright
+2014-07-21 14:39:48	zelrik	I ll set a bounty
+2014-07-21 14:40:17	-->	FarLight (~chris@unaffiliated/farlight) wszedł na #RubyOnRails
+2014-07-21 14:40:20	FarLight	Hello.
+2014-07-21 14:40:24	pontiki	hi
+2014-07-21 14:41:22	<--	jonathanmarvens (~jonathanm@2601:6:7700:929:4d2a:4abb:77f:9ff) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:41:23	FarLight	When I render a model to JSON, can I specify an attribute to be the key?
+2014-07-21 14:41:45	universa1	zelrik: your question needs some love... all hashes are the same in your example?!
+2014-07-21 14:41:52	FarLight	{ "Bill": { "user_id": 5 }, "Chuck": { "user_id": 5 } }
+2014-07-21 14:41:57	FarLight	So the output would be like that
+2014-07-21 14:42:07	zelrik	universa1, all hashes?
+2014-07-21 14:42:30	universa1	zelrik: better_translate_service-{{SOMEHASH}}.js ..
+2014-07-21 14:42:40	zelrik	universa1, it s giving out the same file
+2014-07-21 14:42:42	zelrik	so yes
+2014-07-21 14:43:06	zelrik	the version hash is the same
+2014-07-21 14:43:30	zelrik	it s shown in my post
+2014-07-21 14:43:46	universa1	yes, and?
+2014-07-21 14:44:04	universa1	zelrik: Refreshing the page on the concerned js file gives me different answer -- what do you mean?°!
+2014-07-21 14:44:13	DylanJ	pontiki: oh no on my production rails sites
+2014-07-21 14:44:40	zelrik	universa1, I open the asset in a different tab
+2014-07-21 14:44:45	zelrik	I refresh the page
+2014-07-21 14:44:51	zelrik	I get a different content
+2014-07-21 14:44:52	pontiki	is that a chinese search bot, DylanJ ?
+2014-07-21 14:45:01	DylanJ	pontiki: sure is
+2014-07-21 14:45:09	pontiki	we're getting a fair number of them
+2014-07-21 14:45:15	pontiki	dunno if it's that one
+2014-07-21 14:45:27	universa1	zelrik: why isn't the different content in your question? how should an external person know that?
+2014-07-21 14:45:33	DylanJ	But getting the invalid encoding utf8 exceptions?
+2014-07-21 14:45:37	pontiki	yeah
+2014-07-21 14:45:44	-->	dcgoon (~dcgoon@65.205.49.165) wszedł na #RubyOnRails
+2014-07-21 14:45:53	-->	gavit (~gavit@190.98.33.99) wszedł na #RubyOnRails
+2014-07-21 14:45:54	universa1	zelrik: and you're loading angular_js, yet your question doesn't include it...
+2014-07-21 14:46:21	pontiki	the errors look really odd, too
+2014-07-21 14:46:28	DylanJ	I was curious what people thought of using the utf8_sanitize gems which just remove any invalid characters in requests
+2014-07-21 14:46:30	-->	GriffinHeart (~GriffinHe@pb6abe9d7.tokyff01.ap.so-net.ne.jp) wszedł na #RubyOnRails
+2014-07-21 14:46:35	DylanJ	but there's a fix in rack for it
+2014-07-21 14:46:51	<--	Forgetful_Lion (~Forgetful@2001:44b8:215c:4800:b8a9:a3e3:f07e:fadf) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 14:46:58	pontiki	i was going to propose the site simply block that crawler
+2014-07-21 14:47:02	zelrik	universa1, ?
+2014-07-21 14:47:14	zelrik	universa1, you want me to post the whole directory?
+2014-07-21 14:47:21	gavit	I seem to remember it was possible to add pieces of ruby inside a string like <%=  f.input_field  :line_number, onchange="updateField(#{f.index})" %>, anyone know where I can find the documentation on this?
+2014-07-21 14:47:28	<--	Ergo (~ergo@194.247.62.73) wyszedł z IRC (Quit: WeeChat 0.4.2)
+2014-07-21 14:47:35	DylanJ	yeah i was thinking that too but easou is apparently bigger than baidu in china now
+2014-07-21 14:47:43	DylanJ	so it'd be like telling the chinese google to not index your site
+2014-07-21 14:47:50	-->	tewlz (~tewlz@c-76-29-248-5.hsd1.al.comcast.net) wszedł na #RubyOnRails
+2014-07-21 14:47:52	universa1	zelrik: just pointing out why your question stays unanswered... ...it's not possible to answer it with the amount of information you've given.
+2014-07-21 14:48:01	zelrik	maybe I can include the better translate js file.
+2014-07-21 14:48:06	zelrik	universa1, ok
+2014-07-21 14:48:34	<--	benvds (~benvds@apps.pomodoro.nl) wyszedł z IRC (Quit: leaving)
+2014-07-21 14:48:50	-->	benvds (~benvds@apps.pomodoro.nl) wszedł na #RubyOnRails
+2014-07-21 14:49:12	zelrik	I ll add more information once I get to my office
+2014-07-21 14:49:56	mikecmpbll	gavit: that's just a HTML option, it's discouraged anyway
+2014-07-21 14:50:29	pontiki	if googlebot caused 1000's of errors on the site, i'd block them too
+2014-07-21 14:50:37	mikecmpbll	DylanJ: what's the invalid encoding error? have you gisted it?
+2014-07-21 14:51:04	<--	shemerey (~shemerey@178.124.107.14) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-21 14:51:17	DylanJ	mikecmpbll: i'll find the issue for you. it's known i was just wondering what peoples interim solutions were until the fix is released.
+2014-07-21 14:51:21	gavit	mikecmpbll, but I need to place a parameter in my onchange function :'(
+2014-07-21 14:51:27	mikecmpbll	gavit: why.
+2014-07-21 14:51:45	<--	mven_ (~textual@ip-64-134-146-60.public.wayport.net) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-21 14:52:44	DylanJ	mikecmpbll: https://github.com/rack/rack/issues/673
+2014-07-21 14:53:00	gavit	mikecmpbll, I'm trying to add a view which calculates info. a "purchase order" with several "order lines", each orderline I specify the item and the quantity. I would like the ext price to be generated dynamically (on change of qty and price)
+2014-07-21 14:53:05	-->	Sirupsen (~textual@216.191.231.218) wszedł na #RubyOnRails
+2014-07-21 14:53:10	-->	maybeperry (~maybeperr@a89-153-62-165.cpe.netcabo.pt) wszedł na #RubyOnRails
+2014-07-21 14:53:20	<--	DaniG2k (~dpestilli@office-fw01.squiz.co.uk) wyszedł z IRC (Quit: leaving)
+2014-07-21 14:53:34	-->	charliesome (~charlieso@216.191.231.218) wszedł na #RubyOnRails
+2014-07-21 14:53:39	-->	Ergo (~ergo@194.247.62.73) wszedł na #RubyOnRails
+2014-07-21 14:53:46	mikecmpbll	gavit: you can do that unobtrusively.
+2014-07-21 14:54:37	-->	aaronr (~arussell@62.232.12.199) wszedł na #RubyOnRails
+2014-07-21 14:54:58	-->	shemerey (~shemerey@178.124.107.14) wszedł na #RubyOnRails
+2014-07-21 14:55:13	gavit	mikecmpbll, let me try to show you with a gist then ;)
+2014-07-21 14:55:37	maybeperry	Hey. Need help with something. I've started with Rails recently and I'm building a blog. In the post creation form I tried to add a preview button to respond with AJAX. But it seems that it isn't working. I can't seem to understand why... Here's the pastie: http://pastie.org/private/mgjkfyjwjki8zg1qi1er2g
+2014-07-21 14:57:08	universa1	maybeperry: did you look at the log of your app and see what happens?
+2014-07-21 14:57:38	maybeperry	universal: missing template index...
+2014-07-21 14:58:08	<--	leira (~Adium@2601:6:3180:91c:6586:c4e8:928c:8803) wyszedł z IRC (Quit: Leaving.)
+2014-07-21 14:58:27	universa1	maybeperry: add the log output with the full error trace to your pastie
+2014-07-21 14:58:51	<--	JoshuaPaling (~JoshuaPal@202.129.80.213) wyszedł z IRC (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-21 14:59:10	<--	Duckily (~Duckily@99-60-177-184.lightspeed.irvnca.sbcglobal.net) wyszedł z IRC (Quit: Duckily)
+2014-07-21 15:00:26	gavit	mikecmpbll, https://gist.github.com/anonymous/8775abfab6a3ee9f7f39 <- could you take a look at this? I'll be back in 5 mins, need to go change a light
+2014-07-21 15:00:34	mikecmpbll	lol.
+2014-07-21 15:01:18	tagrudev	:D
+2014-07-21 15:01:45	tagrudev	mikecmpbll, when you're done bring me a beer too
+2014-07-21 15:02:00	mikecmpbll	:@
+2014-07-21 15:02:33	<--	aclearman037 (~aclearman@162.222.47.218) wyszedł z IRC
+2014-07-21 15:02:38	-->	vindictive27 (~vindictiv@70-88-166-86-BusName-MI.grapids.hfc.comcastbusiness.net) wszedł na #RubyOnRails
+2014-07-21 15:03:00	-->	aclearman037 (~aclearman@162.222.47.218) wszedł na #RubyOnRails
+2014-07-21 15:03:15	<--	conta (~conta@61.16.181.42) wyszedł z IRC (Quit: Leaving)
+2014-07-21 15:03:57	mikecmpbll	🍺
+2014-07-21 15:04:53	mikecmpbll	gavit: why don't you just put f.index in the DOM?
+2014-07-21 15:05:31	-->	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wszedł na #RubyOnRails
+2014-07-21 15:06:25	<--	martinklepsch (~kmartiin@dslb-088-074-234-123.pools.arcor-ip.net) wyszedł z IRC (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2014-07-21 15:07:17	<--	LeMike (~Thunderbi@firewall.code-x.de) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-21 15:08:45	maybeperry	universal: This is actually weird. I had /post as post#new. Clicking on the preview button it wouldn't do anything, now redirects to /posts which aparently is posts#create
+2014-07-21 15:09:22	maybeperry	universal: do you still want the log output?
+2014-07-21 15:09:31	gavit	mikecmpbll, I don't understand
+2014-07-21 15:09:59	mikecmpbll	pick some appropriate element, and add the index as a data attribute
+2014-07-21 15:10:11	mikecmpbll	<tr data-index="#{f.index}">
+2014-07-21 15:10:39	mikecmpbll	then in your javascript, your "change" hook can grab the index
+2014-07-21 15:11:33	mikecmpbll	$('input[name="quantity"]').on('change', function() { alert($(this).closest("tr").data("index")); });
+2014-07-21 15:12:01	gavit	mikecmpbll, never knew .closest existed
+2014-07-21 15:12:04	gavit	gonna check
+2014-07-21 15:12:10	<--	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wyszedł z IRC (Quit: Lost terminal)
+2014-07-21 15:14:40	-->	davout (~davout@unaffiliated/davout) wszedł na #RubyOnRails
+2014-07-21 15:14:54	-->	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wszedł na #RubyOnRails
+2014-07-21 15:16:49	<--	saimancroy (~pgee01@87.120.197.1) wyszedł z IRC (Quit: Leaving)
+2014-07-21 15:17:41	<--	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wyszedł z IRC (Client Quit)
+2014-07-21 15:20:20	-->	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wszedł na #RubyOnRails
+2014-07-21 15:20:43	-->	riotjone_ (~riotjones@p5DC0D6B8.dip0.t-ipconnect.de) wszedł na #RubyOnRails
+2014-07-21 15:21:57	<--	riotjones (~riotjones@p5DC0D6B8.dip0.t-ipconnect.de) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-21 15:22:12	-->	tobago (~tobago@unaffiliated/tobago) wszedł na #RubyOnRails
+2014-07-21 15:23:32	-->	bachmann (~bachmann@177.207.210.224) wszedł na #RubyOnRails
+2014-07-21 15:23:32	<--	armyriad (~armyriad@cpe-104-32-188-233.socal.res.rr.com) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-21 15:23:59	<--	Tho85 (~Thomas@vm3.tho-server.de) opuścił #RubyOnRails
+2014-07-21 15:24:12	-->	tylerkern (~textual@69.27.21.152) wszedł na #RubyOnRails
+2014-07-21 15:27:38	-->	leira (~Adium@30-9-217.wireless.csail.mit.edu) wszedł na #RubyOnRails
+2014-07-21 15:28:12	-->	sonvu_ae (~sonvu_ae@27.72.184.79) wszedł na #RubyOnRails
+2014-07-21 15:28:14	-->	bjpcjp (~bjpcjp@rrcs-24-227-163-162.sw.biz.rr.com) wszedł na #RubyOnRails
+2014-07-21 15:28:17	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-21 15:28:31	-->	Choclo (~Adium@201.94.151.110) wszedł na #RubyOnRails
+2014-07-21 15:29:04	<--	GriffinHeart (~GriffinHe@pb6abe9d7.tokyff01.ap.so-net.ne.jp) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 15:29:42	-->	stargrove (~stargrove@66.207.213.162) wszedł na #RubyOnRails
+2014-07-21 15:30:07	-->	tyrone_ (~tyrone@105-237-45-152.access.mtnbusiness.co.za) wszedł na #RubyOnRails
+2014-07-21 15:30:50	<--	maybeperry (~maybeperr@a89-153-62-165.cpe.netcabo.pt) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 15:30:58	<--	codecodecode123 (9ffd284a@gateway/web/freenode/ip.159.253.40.74) wyszedł z IRC (Ping timeout: 246 seconds)
+2014-07-21 15:31:34	tyrone_	Anyone here have experience deploying tinymce in rails production. can't figure out why tinymce is trying to load an asset from localhost:3000/users/:id//themes/modern/theme.js instead of from assets as it should.
+2014-07-21 15:32:07	tyrone_	I am using tinymce-rails gem and I have configured the config.tinymce.base option. doesn't help
+2014-07-21 15:32:07	elaptics	tyrone_: looks like it'd be some relative path problem
+2014-07-21 15:32:30	tyrone_	elaptics, yes I think so but I can't seem to find any help on it so I think I must be doing something wrong.
+2014-07-21 15:32:33	-->	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wszedł na #RubyOnRails
+2014-07-21 15:32:57	universa1	restarted server after adding gem and making changes to the config?
+2014-07-21 15:33:29	--	bphogan_afk zmienił nick na bphogan
+2014-07-21 15:33:40	tyrone_	universa1, yes I even changed gems from rails-assets gem to see if that helps. It also loads fine in development
+2014-07-21 15:34:19	-->	banjara (~Adium@unaffiliated/banjara) wszedł na #RubyOnRails
+2014-07-21 15:34:28	<--	tylerkern (~textual@69.27.21.152) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-21 15:35:27	-->	armyriad (~armyriad@cpe-104-32-188-233.socal.res.rr.com) wszedł na #RubyOnRails
+2014-07-21 15:35:45	universa1	tyrone_: so it doesn’t work in production?!
+2014-07-21 15:36:10	tyrone_	universa1, only have an issue when the assets are precompiled. I have also produced it locally
+2014-07-21 15:36:31	tyrone_	reproduced the bug locally that is
+2014-07-21 15:36:47	-->	jonathanmarvens (~jonathanm@104.129.66.226) wszedł na #RubyOnRails
+2014-07-21 15:36:56	tyrone_	universa1, only found out I had an issue when I deployed to the test server.
+2014-07-21 15:37:22	-->	sailias (~Sailias@206.223.168.58) wszedł na #RubyOnRails
+2014-07-21 15:38:14	-->	tylerkern (~textual@69.27.21.152) wszedł na #RubyOnRails
+2014-07-21 15:38:22	-->	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wszedł na #RubyOnRails
+2014-07-21 15:38:38	universa1	tyrone_: ok. are you sure it works in dev? or do you have an errored request there, too? ;)
+2014-07-21 15:38:55	tyrone_	universa1, I think this might be the issue. https://github.com/tinymce/tinymce/search?q=themes%2F&type=Code see in Editor.js they compute the relative path of themes.
+2014-07-21 15:38:59	<--	banjara (~Adium@unaffiliated/banjara) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 15:39:10	universa1	tyrone_: your_favorite_editor `bundle show tinymce-rails` and look for theme.js
+2014-07-21 15:39:10	tyrone_	universa1, I am very sure in dev it has been working 100%
+2014-07-21 15:39:12	-->	Ankhers (~user@gateway/tor-sasl/ankhers) wszedł na #RubyOnRails
+2014-07-21 15:40:31	<--	linojon (~linojon@pool-72-95-119-138.ptldme.east.myfairpoint.net) wyszedł z IRC (Quit: linojon)
+2014-07-21 15:41:32	<--	ryannielson (~ryanniels@blk-222-227-158.eastlink.ca) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 15:43:56	<--	dcgoon (~dcgoon@65.205.49.165) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-21 15:45:04	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 15:45:05	<--	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wyszedł z IRC (Quit: leaving)
+2014-07-21 15:45:43	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-21 15:46:22	<--	shazaum (~shazaum@unaffiliated/shazaum) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 15:47:49	-->	dcgoon (~dcgoon@65.205.49.165) wszedł na #RubyOnRails
+2014-07-21 15:47:51	-->	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wszedł na #RubyOnRails
+2014-07-21 15:47:54	pontiki	dymk:
+2014-07-21 15:47:59	<--	roolo (~mailo@194.213.198.34) wyszedł z IRC (Quit: Leaving...)
+2014-07-21 15:48:22	tyrone_	universa1, I think I have a work around (annoying) but since we can spec the theme_url option which will explicitly set the theme location I think I can get around the problem. :(
+2014-07-21 15:49:32	pontiki	hmmmm... looks like easou spider ignores robots.txt...
+2014-07-21 15:50:24	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-21 15:50:50	<--	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wyszedł z IRC (Quit: shredding)
+2014-07-21 15:51:08	<--	jaysonr_work (~jaysonr_w@165.166.50.69) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 15:53:28	-->	garrypol_ (~garryp@159.140.254.96) wszedł na #RubyOnRails
+2014-07-21 15:54:28	-->	Shazaum (~shazaum@unaffiliated/shazaum) wszedł na #RubyOnRails
+2014-07-21 15:54:34	-->	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wszedł na #RubyOnRails
+2014-07-21 15:54:37	-->	ffranz (~ffranz@189-74-211-178.cslce700.dsl.brasiltelecom.net.br) wszedł na #RubyOnRails
+2014-07-21 15:54:53	<--	benvds (~benvds@apps.pomodoro.nl) wyszedł z IRC (Quit: leaving)
+2014-07-21 15:55:43	-->	sdwrage (~sdwrage@cpe-24-160-161-194.columbus.res.rr.com) wszedł na #RubyOnRails
+2014-07-21 15:56:43	<--	garrypolley (~garryp@159.140.254.100) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-21 15:56:59	<--	dcgoon (~dcgoon@65.205.49.165) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 15:57:48	-->	benvds (~benvds@apps.pomodoro.nl) wszedł na #RubyOnRails
+2014-07-21 15:58:02	-->	Shidash (~Shidash@2604:2000:e167:5800:a6db:30ff:fe3b:78be) wszedł na #RubyOnRails
+2014-07-21 16:00:28	--	Venomen zmienił nick na Venomen`off
+2014-07-21 16:02:26	-->	sambao21 (~sambao21@159.140.254.96) wszedł na #RubyOnRails
+2014-07-21 16:02:29	-->	codeurge (~codeurge@76.25.198.236) wszedł na #RubyOnRails
+2014-07-21 16:03:07	<--	bachmann (~bachmann@177.207.210.224) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 16:03:14	-->	gh34 (~gh34@rrcs-98-100-153-3.central.biz.rr.com) wszedł na #RubyOnRails
+2014-07-21 16:03:19	<--	gh34 (~gh34@rrcs-98-100-153-3.central.biz.rr.com) wyszedł z IRC (Max SendQ exceeded)
+2014-07-21 16:03:37	<--	Detch (~uriel@unaffiliated/detch) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 16:03:45	-->	jsvgoncalves (~jsvgoncal@pb-d-128-141-246-252.cern.ch) wszedł na #RubyOnRails
+2014-07-21 16:03:57	-->	renews (~renews@186.201.26.42) wszedł na #RubyOnRails
+2014-07-21 16:04:23	renews	hello everyone
+2014-07-21 16:04:36	<--	alem0lars (~alem0lars@89.202.223.34) wyszedł z IRC (Quit: alem0lars)
+2014-07-21 16:04:42	<--	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wyszedł z IRC (Quit: shredding)
+2014-07-21 16:05:39	<--	benvds (~benvds@apps.pomodoro.nl) wyszedł z IRC (Quit: leaving)
+2014-07-21 16:05:57	-->	benvds (~benvds@apps.pomodoro.nl) wszedł na #RubyOnRails
+2014-07-21 16:06:08	-->	crevax (~crevax@99-39-106-188.lightspeed.gdrpmi.sbcglobal.net) wszedł na #RubyOnRails
+2014-07-21 16:06:12	<--	aganov (~alex@gw.viscomp.bg) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 16:06:15	-->	ujvaljoshi (~ujvaljosh@49.213.40.172) wszedł na #RubyOnRails
+2014-07-21 16:06:22	<--	ujvaljoshi (~ujvaljosh@49.213.40.172) wyszedł z IRC (Client Quit)
+2014-07-21 16:06:24	--	bphogan zmienił nick na bphogan_afk
+2014-07-21 16:08:28	<--	sambao21 (~sambao21@159.140.254.96) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 16:08:40	--	bphogan_afk zmienił nick na bphogan
+2014-07-21 16:09:12	-->	beauby (~beauby@85-169-173-143.rev.numericable.fr) wszedł na #RubyOnRails
+2014-07-21 16:09:28	-->	mven_ (~textual@129.33.193.254) wszedł na #RubyOnRails
+2014-07-21 16:09:35	<--	Mattias (~mattias@unaffiliated/mattias) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-21 16:10:17	-->	makerop (~anthony@68-184-204-34.dhcp.stls.mo.charter.com) wszedł na #RubyOnRails
+2014-07-21 16:11:01	Esher	hello
+2014-07-21 16:11:10	-->	Mattias (~mattias@unaffiliated/mattias) wszedł na #RubyOnRails
+2014-07-21 16:11:22	renews	;)
+2014-07-21 16:11:49	<--	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-21 16:12:24	-->	bricker`LA (~bricker@24-205-29-27.dhcp.nrwl.ca.charter.com) wszedł na #RubyOnRails
+2014-07-21 16:12:29	-->	shredding (~shredding@dslb-094-220-218-009.pools.arcor-ip.net) wszedł na #RubyOnRails
+2014-07-21 16:12:32	-->	Limix (~Limix@cpe-24-24-219-75.socal.res.rr.com) wszedł na #RubyOnRails
+2014-07-21 16:13:34	<--	tewlz (~tewlz@c-76-29-248-5.hsd1.al.comcast.net) wyszedł z IRC (Quit: WeeChat 0.4.3)
+2014-07-21 16:13:39	<--	mven_ (~textual@129.33.193.254) wyszedł z IRC (Client Quit)
+2014-07-21 16:14:38	<--	korstiaan (~korstiaan@2001:982:76c7:1:4848:a919:549c:f8e7) wyszedł z IRC (Remote host closed the connection)
+2014-07-21 16:16:32	<--	relix (~relix@91.46.46.176.dyn.estpak.ee) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-22 08:16:38	--	irc: rozłączono z serwerem
+2014-07-22 08:17:02	--	#RubyOnRails: Cannot join channel (+r) - you need to be identified with services
+2014-07-22 09:54:31	--	irc: rozłączono z serwerem
+2014-07-22 11:35:13	-->	Vircung (~vircung@78-11-50-82.static.ip.netia.com.pl) wszedł na #RubyOnRails
+2014-07-22 11:35:13	--	Temat kanału #RubyOnRails to "4.1.4 has been released! http://goo.gl/BYAigw | Newest releases: 4.1.4, 4.0.8, 3.2.18,  3.1.12 | Guides: http://goo.gl/Drh96 | API Docs: http://goo.gl/ErSVb | Mailing List: http://is.gd/3Euc | Rules: http://goo.gl/dgSj5 | MINASWAN (Matz is nice and so we are nice) | You are being logged. Logs are at http://goo.gl/e9X9X"
+2014-07-22 11:35:13	--	Temat ustawiony przez Radar (~Radar@162.243.140.224) w śro, 02 lip 2014 23:42:45
+2014-07-22 11:35:13	--	Nicki #RubyOnRails: [20WAAQK00 _todd _tpavel `Yoda adac adamholt aep aetaric Affix aganov agent_white alem0lars alex88 AlHafoudh Alina-malina alxbl andatche AntelopeSalad AntiSpamMeta antivert antonishen apeiros apow arathald arBmind arielserafini arkie armyriad artgoeshere arup_r atmosx atrius axilla baburdick badeball bbloom bbrowning_away beawesomeinstead bedouin behemot beneggett benvds bigkevmcd billy_ran_away bl4ckdu5t blackjid bpgoldsb bphogan braidn braincrash Brando753 capin cbetta ceej cek cenhyperion ChadyG chendo cho_co chridal chrishough cjk101010 clamstar clocKwize codelahoma coffeejunk comma8 Console conta contradictioned Cork crankharder Criten cschneid csq DaKaZ dangerousdave DaniG2k danijoo DanKnox dANOKELOFF DarkBushido DarkFoxDK darrik Davey davidcelis davout defswork Derander devdazed djinni` dnyy dopie doubleemms drale2k Dreamer3 drizz duderonomy Dwarf DylanJ dymk ecook egrouse ei ejnahc elaptics elektronaut Elion Emily end_guy epochwolf Ergo erichmenge FastJack felipe FifthWall FooBarWidget Foxandxss futuredale fwaokda G Gaelane gamov GeekOnCoffee george2 ghr Gizmokid2005 gizmore glebm Gm4n godd2 graft grandy greg5green gremax GreySyntax GriffinHeart Haegin hakunin helpa hendricius hfp hide hinbody hoodow Hosh hyperbolist imajes ipstatic ivan`` jacky jacobwg jakepetroules jameyd jammanbo Janno jayne jgwhite ji0n jkwood jlpeters joelsmith jokke jon-erik__ jonathanwallace jottr jrdnull jrunning jso jtperreault Juanchito Kamilion kaspergrubbe kevinfagan_ kevinflo kies^ Kilo`byte kke Konqueror Kovensky koyd kramsee_ krnflake krz ksoderstrom kwd kyb3r_ l4u- LACP lacrosse_ laen_ lagweezle lamilami LBo lbott LBRapid lbwski ledestin Leeky LeMike leslie levifig Liothen Lloyd loglaunch lolmaus ltd lunks lupine Macaveli machuga maletor maloik marienz marklite Marquel masscrx mathie matrixise Mattias mattp_ mauro1254 maxmanders maZtah mbr mclee mcr-credil media_slave mehlah Mellett68 michael_mbp michiel3 mikecmpbll MindfulMonk MissionCritical mist mjc_ mkf moaa moogumbo morenoh151 Morkel mose mozzarella msimkins mtfk muhammadn mven mven_ MyTallest nanooq naquad ndrst ndRx nevans newton Nex7 nirix noah256 nomadicoder noodl nuck Obi_obi ohcibi Olipro olivier_bK papercode Paradox paul_k peterhil pgolm Pharaoh2 Phoop phrozen77 picasso pipework pkh Plasmastar pontiki pothibo Pro| przemkovv pskrz ptierno ptrrr Pupeno pyemkey ra4king Radar rakm ramblinpeck ramontayag RandyT raresian razum2um redmenace relix reprazent reuven revyd rhizome rioche riotjones robotblake roolo RSO RTG` rubemlrm Rylee saimancroy Sakurazaki sam452 samuelkadolph sarink Sauvin Scient seanmarcia SegFaultAX segy Seich Senjai sevenseacat sfr^ shamanime sheepman shemerey shtirlic sidetrack Sigma00 Silex SirCmpwn sirecote SirFunk sk87 skinny_much SloggerKhan srinidhi stardiviner suffice Symbiosisz synfinatic tagrudev Tarential tbuehlmann tdy Technodrome teegee543 tekk the_f0ster thejoecarroll TheMoonMaster TheNumb thmzz TigerWolf timmillwood timonv_ tobago tomaw trappist tris tubbo TvL2386 universa1 urkle vadviktor ValicekB Venomen`off Vircung Voker57 w0bni w0rd-driven w32stuxnet waltz wasamasa waseem_ Wayneoween webhat weltzooo wmoxam wonderbread workmad3 wwojcik xar- Xiti xMopxShell Xuerian xybre Y_Ichiro ybart ybit Zackio zastern zelrik zly zz_jrhorn424 zz_timnovinger]
+2014-07-22 11:35:13	--	Kanał #RubyOnRails: 396 nick (0 op, 0 voice, 396 normalnych)
+2014-07-22 11:35:13	--	Powiadomienie(ChanServ): Register with nickserv in order to talk: /msg nickserv help
+2014-07-22 11:35:15	--	Tryb #RubyOnRails [+Ccgnrt]
+2014-07-22 11:35:15	--	Kanał utworzony pon, 07 cze 2004 02:57:38
+2014-07-22 11:35:30	-->	maxshelley (~maxshelle@194.80.204.197) wszedł na #RubyOnRails
+2014-07-22 11:36:27	-->	pwk_ (~pwk@unaffiliated/pwk) wszedł na #RubyOnRails
+2014-07-22 11:38:09	-->	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wszedł na #RubyOnRails
+2014-07-22 11:38:55	agent_white	SPIDERS
+2014-07-22 11:39:05	agent_white	No. I don't think it has spiders unless you install that gem.
+2014-07-22 11:39:10	agent_white	don't install that gem.
+2014-07-22 11:39:13	agent_white	Goodnight folks!
+2014-07-22 11:39:37	-->	nettoweb (~nettoweb@177.16.206.246) wszedł na #RubyOnRails
+2014-07-22 11:40:23	<--	agent_white (~agent_whi@184.21.106.205) wyszedł z IRC (Quit: goodnight)
+2014-07-22 11:40:40	-->	Lightsword (~Lightswor@174.51.85.146) wszedł na #RubyOnRails
+2014-07-22 11:41:44	<--	lolmaus (~quassel@ppp37-190-48-13.pppoe.spdop.ru) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 11:43:33	-->	lolmaus (~quassel@ppp37-190-48-16.pppoe.spdop.ru) wszedł na #RubyOnRails
+2014-07-22 11:44:01	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 11:44:39	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-22 11:44:44	<--	maletor (~maletor@unaffiliated/maletor) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 11:45:04	<--	arup_r (~arup_r@122.178.248.110) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 11:47:29	-->	maletor (~maletor@unaffiliated/maletor) wszedł na #RubyOnRails
+2014-07-22 11:47:42	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 11:48:52	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 11:49:44	-->	ujvaljoshi (~ujvaljosh@110.172.29.111) wszedł na #RubyOnRails
+2014-07-22 11:49:53	<--	ujvaljoshi (~ujvaljosh@110.172.29.111) opuścił #RubyOnRails
+2014-07-22 11:51:52	-->	Fly80 (~flavio@ppp-134-136.15-151.iol.it) wszedł na #RubyOnRails
+2014-07-22 11:52:13	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 11:53:19	<--	sevenseacat (~becky@101.166.169.50) wyszedł z IRC (Quit: Leaving.)
+2014-07-22 11:53:58	<--	baburdick (~Adium@c-24-12-0-5.hsd1.il.comcast.net) wyszedł z IRC (Quit: Leaving.)
+2014-07-22 11:54:02	<--	Phoop (~Phoop@77.72.150.126) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 11:54:24	<--	w32stuxnet (~w32stuxne@c122-108-244-173.kelvn3.qld.optusnet.com.au) wyszedł z IRC (Quit: w32stuxnet)
+2014-07-22 11:54:47	<--	Macaveli (~JohnBeton@91.180.77.217) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:48	<--	graft (~graft@unaffiliated/graft) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:49	<--	aep (~aep@libqxt/developer/aep) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:49	<--	bphogan (~bphogan@li321-12.members.linode.com) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:50	<--	coffeejunk (~coffeejun@3141.eu) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:50	<--	marienz (~marienz@freenode/staff/marienz) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:50	<--	Senjai (~richard@unaffiliated/senjai) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:51	<--	erichmenge (~root@unaffiliated/erichmenge) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:51	<--	Affix (~Affix@fedora/Affix) wyszedł z IRC (*.net *.split)
+2014-07-22 11:54:51	<--	Sakurazaki (setsuna@server.redray.es) wyszedł z IRC (*.net *.split)
+2014-07-22 11:55:07	-->	aep (~aep@libqxt/developer/aep) wszedł na #RubyOnRails
+2014-07-22 11:55:07	-->	Affix (Affix@fedora/Affix) wszedł na #RubyOnRails
+2014-07-22 11:55:13	-->	marienz (~marienz@freenode/staff/marienz) wszedł na #RubyOnRails
+2014-07-22 11:55:17	-->	coffeejunk (~coffeejun@3141.eu) wszedł na #RubyOnRails
+2014-07-22 11:55:56	-->	erichmenge (~root@unaffiliated/erichmenge) wszedł na #RubyOnRails
+2014-07-22 11:57:10	mikecmpbll	offtopic: is the difference between database sharding and partitioning that sharding is across multiple physical servers?
+2014-07-22 12:01:56	universa1	mikecmpbll: without having a clue: but i'd expect sharding to be complete "copies" across multiple servers, and partitioning to be parts of one database distributed across multiple servers
+2014-07-22 12:02:01	-->	artmann (~quassel@2a02:750:5::197) wszedł na #RubyOnRails
+2014-07-22 12:02:36	-->	darrencauthon (~darrencau@216.135.127.2) wszedł na #RubyOnRails
+2014-07-22 12:03:01	artmann	Hi guys I'm trying to serve video files in my app but they seems to get corrupted. Do anyone got any experience with this?
+2014-07-22 12:03:16	mikecmpbll	sharding to me, just from the word alone, seems like it's splitting it up in to bits, but if one thing's clear it's that i need to do some more reading!
+2014-07-22 12:03:31	mikecmpbll	artmann: no
+2014-07-22 12:03:33	universa1	mikecmpbll: :-)
+2014-07-22 12:04:08	universa1	artmann: define "seem to get corrupted" ... ...and more context, how are you serving them? happens only for large files? ...
+2014-07-22 12:04:23	artmann	atm I have a test file(test.mp4) in public/videos/test.mp4
+2014-07-22 12:04:34	<--	ybart (~ybart@vir91-9-88-175-245-127.fbx.proxad.net) wyszedł z IRC (Quit: ybart)
+2014-07-22 12:04:53	<--	conta (~conta@61.16.181.42) wyszedł z IRC (Quit: Leaving)
+2014-07-22 12:05:13	-->	stamina (~stamina@83.128.211.177) wszedł na #RubyOnRails
+2014-07-22 12:05:18	jammanbo	I think sharding necessarily implies more than once instance of the schema, be they on the same physical machine or, more likely, separate ones. Partitioning is a logical division with one shared schema … I think.
+2014-07-22 12:05:22	artmann	But if i download http://localhost:3000/videos/test.mp4 or visit the url in chrome/ff I can't play iy
+2014-07-22 12:05:25	artmann	it*
+2014-07-22 12:05:31	artmann	the chrome player just turns gray
+2014-07-22 12:06:17	-->	arup_r (~arup_r@122.178.248.110) wszedł na #RubyOnRails
+2014-07-22 12:06:35	arup_r	agent_white: book ? :-)
+2014-07-22 12:07:04	<--	darrencauthon (~darrencau@216.135.127.2) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 12:07:21	jammanbo	Anyone got an example of dynamically adding nested forms to a form when using the Reform gem?
+2014-07-22 12:07:37	artmann	universa1: you can see it at http://www.artmann.co:3000/videos/test.mp4
+2014-07-22 12:08:38	-->	Giorgio (~georgi@213.167.3.141) wszedł na #RubyOnRails
+2014-07-22 12:10:22	universa1	artmann: look at the response in the browser... it only sends about 350bytes
+2014-07-22 12:11:13	artmann	hmm
+2014-07-22 12:11:23	artmann	the video should be around 3mb
+2014-07-22 12:11:30	artmann	something with webrick?
+2014-07-22 12:12:22	-->	Forgetful_Lion (~Forgetful@2001:44b8:215c:4800:c9be:ab03:ec20:ccc8) wszedł na #RubyOnRails
+2014-07-22 12:13:10	pyemkey	Anyone used searchkick before? I have a problem with facets and filters
+2014-07-22 12:14:26	-->	ascarter (~ascarter@c-24-16-42-180.hsd1.wa.comcast.net) wszedł na #RubyOnRails
+2014-07-22 12:14:33	<--	ascarter (~ascarter@c-24-16-42-180.hsd1.wa.comcast.net) wyszedł z IRC (Max SendQ exceeded)
+2014-07-22 12:14:36	-->	Sakurazaki (setsuna@server.redray.es) wszedł na #RubyOnRails
+2014-07-22 12:14:50	--	pwk_ zmienił nick na pwk
+2014-07-22 12:15:03	-->	ascarter (~ascarter@c-24-16-42-180.hsd1.wa.comcast.net) wszedł na #RubyOnRails
+2014-07-22 12:15:10	<--	ascarter (~ascarter@c-24-16-42-180.hsd1.wa.comcast.net) wyszedł z IRC (Max SendQ exceeded)
+2014-07-22 12:15:12	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-22 12:15:37	sidetrack	 /exit
+2014-07-22 12:15:56	-->	hashtd (~tushar@117.238.152.55) wszedł na #RubyOnRails
+2014-07-22 12:17:05	<--	Alina-malina (Alina-mali@unaffiliated/alina-malina) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 12:17:05	<--	sidetrack (~daniel@cpe-76-171-154-245.socal.res.rr.com) opuścił #RubyOnRails
+2014-07-22 12:17:34	<--	Lightsword (~Lightswor@174.51.85.146) wyszedł z IRC (Quit: Lightsword)
+2014-07-22 12:17:35	mikecmpbll	grats on the new job Radar \o.
+2014-07-22 12:17:37	-->	Alina-malina (Alina-mali@unaffiliated/alina-malina) wszedł na #RubyOnRails
+2014-07-22 12:18:08	-->	Lightsword (~Lightswor@174.51.85.146) wszedł na #RubyOnRails
+2014-07-22 12:18:13	<--	alem0lars (~alem0lars@87.19.245.33) wyszedł z IRC (Quit: Going AFK...)
+2014-07-22 12:19:02	-->	inspectah_stack (~dj_mousep@198.199.115.221) wszedł na #RubyOnRails
+2014-07-22 12:19:10	<--	inspectah_stack (~dj_mousep@198.199.115.221) wyszedł z IRC (Quit: Leaving.)
+2014-07-22 12:19:59	jammanbo	should we make jokes about him being sexually harassed?
+2014-07-22 12:21:07	<--	hashtd (~tushar@117.238.152.55) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 12:21:08	-->	alol (sid16302@gateway/web/irccloud.com/x-kahlyoimuqfwnmdp) wszedł na #RubyOnRails
+2014-07-22 12:22:02	-->	hashtd (~tushar@117.238.152.55) wszedł na #RubyOnRails
+2014-07-22 12:22:17	<--	Lightsword (~Lightswor@174.51.85.146) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 12:22:18	-->	alem0lars (~alem0lars@87.19.245.33) wszedł na #RubyOnRails
+2014-07-22 12:22:25	-->	apolon (~guinsly@198-200-116-214.cpe.distributel.net) wszedł na #RubyOnRails
+2014-07-22 12:22:40	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 12:24:30	-->	w32stuxnet (~w32stuxne@c122-108-244-173.kelvn3.qld.optusnet.com.au) wszedł na #RubyOnRails
+2014-07-22 12:25:16	<--	hashtd (~tushar@117.238.152.55) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 12:27:50	-->	hashtd (~tushar@117.238.152.55) wszedł na #RubyOnRails
+2014-07-22 12:30:26	-->	bphogan_ (~bphogan@li321-12.members.linode.com) wszedł na #RubyOnRails
+2014-07-22 12:30:28	--	bphogan_ zmienił nick na bphogan
+2014-07-22 12:30:31	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 12:30:45	<--	jammanbo (~jammanbo@87-198-230-42.static.ptr.magnet.ie) opuścił #RubyOnRails
+2014-07-22 12:31:12	<--	roolo (~mailo@194.213.198.34) wyszedł z IRC (Quit: Leaving...)
+2014-07-22 12:32:24	-->	kaspergr_ (~kaspergru@62.254.166.26) wszedł na #RubyOnRails
+2014-07-22 12:32:43	<--	timonv_ (~timonv_@546834F7.cm-12-1a.dynamic.ziggo.nl) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 12:33:20	-->	timonv_ (~timonv_@546834F7.cm-12-1a.dynamic.ziggo.nl) wszedł na #RubyOnRails
+2014-07-22 12:34:44	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 12:34:46	-->	Morkel_ (~Morkel@xdsl-87-78-100-143.netcologne.de) wszedł na #RubyOnRails
+2014-07-22 12:34:52	<--	kaspergrubbe (~kaspergru@62.254.166.26) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 12:35:01	-->	jammanbo (~jammanbo@87-198-230-42.static.ptr.magnet.ie) wszedł na #RubyOnRails
+2014-07-22 12:35:14	<--	Morkel (~Morkel@xdsl-78-35-204-28.netcologne.de) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 12:35:15	--	Morkel_ zmienił nick na Morkel
+2014-07-22 12:35:15	<--	w32stuxnet (~w32stuxne@c122-108-244-173.kelvn3.qld.optusnet.com.au) wyszedł z IRC (Quit: w32stuxnet)
+2014-07-22 12:37:27	-->	chadwtaylor (~chadwtayl@24.6.104.220) wszedł na #RubyOnRails
+2014-07-22 12:37:47	<--	timonv_ (~timonv_@546834F7.cm-12-1a.dynamic.ziggo.nl) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 12:38:02	-->	greengriminal (~greengrim@77.89.190.221) wszedł na #RubyOnRails
+2014-07-22 12:38:21	<--	jammanbo (~jammanbo@87-198-230-42.static.ptr.magnet.ie) wyszedł z IRC (Client Quit)
+2014-07-22 12:38:35	<--	jottr (~jottr@unaffiliated/jottr) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 12:38:40	-->	Macaveli (~JohnBeton@91.180.77.217) wszedł na #RubyOnRails
+2014-07-22 12:38:50	Macaveli	I was experiencing Sproc​kets:​:File​NotFo​und: ​could​n't f​ind f​ile '​found​ation​'​ (in​ /hom​e/account​/apps​/defa​ult/r​eleas​es/7/​app/a​ssets​/java​scrip​ts/ap​plica​tion.​js:24 so the online suggestion was moving compass and foundation out of the assets group. The test case I use for this was visiting www.example.com/assets/application?x=ie.css now with moving compass and foundation ou
+2014-07-22 12:38:50	Macaveli	t of the assets group the page just keeps loading where before the sprockets error was shown. Is it ok that it just keeps loading? Everything seems to be working just fine.
+2014-07-22 12:41:24	workmad3	Macaveli: are you on rails 4 by any chance?
+2014-07-22 12:41:32	<--	godd2 (~godd2@174.134.91.138) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 12:41:36	-->	JBreit (~Trip@h29.179.123.208.dynamic.ip.windstream.net) wszedł na #RubyOnRails
+2014-07-22 12:42:20	Macaveli	no rails 3 workmad3
+2014-07-22 12:42:35	<--	chadwtaylor (~chadwtayl@24.6.104.220) wyszedł z IRC (Ping timeout: 264 seconds)
+2014-07-22 12:42:41	<--	hashtd (~tushar@117.238.152.55) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 12:43:47	<--	pyemkey (~pyemkey@185.29.15.13) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 12:44:03	<--	end_guy (~end_guy@gateway/tor-sasl/endguy/x-19715412) wyszedł z IRC (Ping timeout: 264 seconds)
+2014-07-22 12:44:21	-->	hashtd (~tushar@117.238.152.55) wszedł na #RubyOnRails
+2014-07-22 12:47:27	<--	hashtd (~tushar@117.238.152.55) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 12:48:00	-->	phikes (~phikes@dslb-088-076-087-098.pools.arcor-ip.net) wszedł na #RubyOnRails
+2014-07-22 12:48:09	-->	hashtd (~tushar@117.238.152.55) wszedł na #RubyOnRails
+2014-07-22 12:48:16	-->	roolo (~mailo@194.213.198.34) wszedł na #RubyOnRails
+2014-07-22 12:49:18	-->	Zebroid (~Zebroid@193.212.25.130) wszedł na #RubyOnRails
+2014-07-22 12:49:20	-->	end_guy (~end_guy@gateway/tor-sasl/endguy/x-19715412) wszedł na #RubyOnRails
+2014-07-22 12:51:40	-->	Phoop (~Phoop@77.72.150.126) wszedł na #RubyOnRails
+2014-07-22 12:51:45	<--	hashtd (~tushar@117.238.152.55) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 12:51:53	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 12:52:51	-->	marr (~ccc@78.8.181.187) wszedł na #RubyOnRails
+2014-07-22 12:52:57	-->	pyemkey (~pyemkey@185.29.15.13) wszedł na #RubyOnRails
+2014-07-22 12:55:07	-->	jammanbo (~jammanbo@gateway/tor-sasl/jammanbo) wszedł na #RubyOnRails
+2014-07-22 12:56:23	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 264 seconds)
+2014-07-22 12:57:00	-->	w32stuxnet (~w32stuxne@c122-108-244-173.kelvn3.qld.optusnet.com.au) wszedł na #RubyOnRails
+2014-07-22 12:57:24	-->	timonv_ (~timonv_@546834F7.cm-12-1a.dynamic.ziggo.nl) wszedł na #RubyOnRails
+2014-07-22 12:58:24	<--	shemerey (~shemerey@178.124.108.78) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-22 12:58:34	<--	Zebroid (~Zebroid@193.212.25.130) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 12:59:42	-->	shemerey (~shemerey@178.124.108.78) wszedł na #RubyOnRails
+2014-07-22 13:00:05	-->	umdstu (9033f21a@gateway/web/freenode/ip.144.51.242.26) wszedł na #RubyOnRails
+2014-07-22 13:00:37	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 13:00:38	umdstu	workmad3: I found the issue later on Friday.. it was a load balancer timeout configuration
+2014-07-22 13:02:40	-->	darrencauthon (~darrencau@216.135.127.2) wszedł na #RubyOnRails
+2014-07-22 13:04:32	-->	hmnhf (~hmnhf@2.147.71.205) wszedł na #RubyOnRails
+2014-07-22 13:04:52	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 13:04:54	Macaveli	workmad3, suggestions?
+2014-07-22 13:06:12	workmad3	Macaveli: none particularly...
+2014-07-22 13:07:46	<--	darrencauthon (~darrencau@216.135.127.2) wyszedł z IRC (Ping timeout: 264 seconds)
+2014-07-22 13:09:28	<--	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 13:10:13	<--	Plasmastar (Plasma@unaffiliated/plasmastar) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 13:10:34	-->	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wszedł na #RubyOnRails
+2014-07-22 13:10:36	-->	whyy (~whyy@122.178.248.110) wszedł na #RubyOnRails
+2014-07-22 13:11:11	<--	maxshelley (~maxshelle@194.80.204.197) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-22 13:11:23	phikes	I need some help with simple_form and a has_one through association I'd like to update. Essentially nothing is working, now I kind of hacked creation, but edit is still not working. Does anybody know the right way to do it? Since f.association is not working with has_one I tried f.input, but when I say f.input :relay (thats the associated model) it of course does not correctly get the id of it and in edit the selec
+2014-07-22 13:11:23	phikes	t field remains unset.
+2014-07-22 13:13:19	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 13:14:44	-->	maxshelley (~maxshelle@194.80.204.197) wszedł na #RubyOnRails
+2014-07-22 13:14:46	<--	workmad3 (~workmad3@host213-123-232-132.in-addr.btopenworld.com) wyszedł z IRC (Quit: leaving)
+2014-07-22 13:15:57	<--	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wyszedł z IRC (Ping timeout: 272 seconds)
+2014-07-22 13:16:41	greengriminal	Is it possible to merge more than one csv together?
+2014-07-22 13:17:33	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 13:17:52	-->	jds (uid14340@gateway/web/irccloud.com/x-xiytzzlchzlqgrzq) wszedł na #RubyOnRails
+2014-07-22 13:17:59	mikecmpbll	greengriminal: csv1 + csv2 ?
+2014-07-22 13:18:04	-->	EspenA (~EspenA@134.90.150.193) wszedł na #RubyOnRails
+2014-07-22 13:18:10	-->	codecodecode123 (9ffd284a@gateway/web/freenode/ip.159.253.40.74) wszedł na #RubyOnRails
+2014-07-22 13:18:27	<--	apolon (~guinsly@198-200-116-214.cpe.distributel.net) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 13:18:44	codecodecode123	where can i get more info about simple_form's f.association metod
+2014-07-22 13:18:52	-->	jottr (~jottr@unaffiliated/jottr) wszedł na #RubyOnRails
+2014-07-22 13:18:54	codecodecode123	*method
+2014-07-22 13:19:06	EspenA	What is the name of the service that allows me to access my local web server from a remote location (without port forwarding or setting up ssh tunnel manually) ?
+2014-07-22 13:19:20	mikecmpbll	codecodecode123: https://github.com/plataformatec/simple_form#associations
+2014-07-22 13:19:27	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-22 13:19:36	mikecmpbll	codecodecode123: !g simple_form f.association
+2014-07-22 13:19:37	helpa	codecodecode123: http://www.google.com/search?q=simple_form+f.association
+2014-07-22 13:19:38	mikecmpbll	... :D
+2014-07-22 13:19:57	codecodecode123	thank you :)
+2014-07-22 13:20:57	<--	hmnhf (~hmnhf@2.147.71.205) wyszedł z IRC (Quit: Konversation terminated!)
+2014-07-22 13:21:30	-->	mostlybadfly (uid10066@gateway/web/irccloud.com/x-odbobexlzxhiajro) wszedł na #RubyOnRails
+2014-07-22 13:21:58	<--	kyb3r_ (~kyb3r_@121-99-25-250.bng1.nct.orcon.net.nz) wyszedł z IRC (Quit: Leaving)
+2014-07-22 13:22:58	codecodecode123	followup: what about simple_fields_for?
+2014-07-22 13:23:24	codecodecode123	google mostly shows related stuff that i dont want
+2014-07-22 13:23:25	jammanbo	(－‸ლ)
+2014-07-22 13:23:33	<--	_tpavel (~tpavel@89.137.17.172) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-22 13:24:11	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 272 seconds)
+2014-07-22 13:26:09	<--	arup_r (~arup_r@122.178.248.110) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 13:26:17	greengriminal	mikecmpbll: So I've got a bunch of uk postcodes in a csv example: http://imgur.com/ySYQSNC this csv contains all postcode with ab. So what I want to do is merge all these files together. So its one big csv file and not separate files.
+2014-07-22 13:26:49	codecodecode123	anyone
+2014-07-22 13:27:04	-->	deciph3r (~deciph3r@unaffiliated/deciph3r) wszedł na #RubyOnRails
+2014-07-22 13:27:05	codecodecode123	?
+2014-07-22 13:27:15	greengriminal	The third and fourth column represents the british national grid which I am going to eventually convert to long&lat
+2014-07-22 13:27:15	jammanbo	greengriminal: how are you processing them? strings? hashes?
+2014-07-22 13:27:49	jammanbo	is it a one off thing? can you just do it in bash maybe?
+2014-07-22 13:28:15	greengriminal	Converting it into one big csv file is a one of thing yes.
+2014-07-22 13:28:22	<--	Giorgio (~georgi@213.167.3.141) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 13:29:15	jammanbo	sooo … cat *.csv > big.csv
+2014-07-22 13:29:19	<--	sk87 (~sk87@77.108.153.99) wyszedł z IRC (Quit: My Mac Mini has gone to sleep. ZZZzzz…)
+2014-07-22 13:29:31	phikes	* >>
+2014-07-22 13:29:49	-->	Jeff_D (~Jeff_D@bb219-74-237-240.singnet.com.sg) wszedł na #RubyOnRails
+2014-07-22 13:29:54	greengriminal	yeah was just thinking that
+2014-07-22 13:30:07	jammanbo	shure you were :)
+2014-07-22 13:30:13	<--	EspenA (~EspenA@134.90.150.193) wyszedł z IRC
+2014-07-22 13:30:24	jammanbo	I was just thinking I should have bought some netflix stock
+2014-07-22 13:30:24	greengriminal	;)
+2014-07-22 13:30:37	greengriminal	Here's an example: cat M0027_BRCA1_*.txt_ENCODE > merged_file.txt
+2014-07-22 13:30:37	greengriminal	 
+2014-07-22 13:31:20	<--	whyy (~whyy@122.178.248.110) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 13:31:25	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 13:31:47	phikes	Use ">>" to append to a file
+2014-07-22 13:32:01	phikes	this would override the file for every file in the current directoy that matches your wildcard
+2014-07-22 13:32:11	lupine	I'm trying to check if a belongs_to association has been eager-loaded. 3.0 defined loaded_association? on the source model, but that seems gone. AssociationProxy has a #loaded? method but I can't seem to get hold of an instance of it. ideas?
+2014-07-22 13:32:24	-->	hashtd (~tushar@117.238.152.55) wszedł na #RubyOnRails
+2014-07-22 13:32:25	greengriminal	phikes: Thanks.
+2014-07-22 13:32:44	phikes	 greengriminal: yup, np
+2014-07-22 13:33:39	-->	jottr_ (~jottr@unaffiliated/jottr) wszedł na #RubyOnRails
+2014-07-22 13:33:55	<--	nuck (~Nuck@oftn/member/Nuck) wyszedł z IRC (Ping timeout: 256 seconds)
+2014-07-22 13:34:52	<--	umdstu (9033f21a@gateway/web/freenode/ip.144.51.242.26) wyszedł z IRC (Quit: Page closed)
+2014-07-22 13:35:09	-->	_tpavel (~tpavel@89.137.17.172) wszedł na #RubyOnRails
+2014-07-22 13:35:23	-->	nuck (~Nuck@oftn/member/Nuck) wszedł na #RubyOnRails
+2014-07-22 13:35:40	-->	blackmesa (~blackmesa@aftr-37-201-227-167.unity-media.net) wszedł na #RubyOnRails
+2014-07-22 13:35:45	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 13:35:47	<--	jottr (~jottr@unaffiliated/jottr) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 13:36:41	<--	phikes (~phikes@dslb-088-076-087-098.pools.arcor-ip.net) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 13:39:50	-->	yoshie902a (~yoshie902@24-148-48-120.c3-0.snb-ubr2.chi-snb.il.cable.rcn.com) wszedł na #RubyOnRails
+2014-07-22 13:39:52	<--	maxshelley (~maxshelle@194.80.204.197) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-22 13:40:28	-->	lanox (~lanox@110-174-140-182.static.tpgi.com.au) wszedł na #RubyOnRails
+2014-07-22 13:42:48	<--	pwk (~pwk@unaffiliated/pwk) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 13:43:54	Jeff_D	Are there any Pundit experts in the house? Trying to get it working in a service object rather than direct in the controller. If I had hair, I'd be pulling it out. Gist at https://gist.github.com/jdickey/371195b61a243b2ff1c3
+2014-07-22 13:44:01	<--	jammanbo (~jammanbo@gateway/tor-sasl/jammanbo) wyszedł z IRC (Quit: Leaving.)
+2014-07-22 13:46:17	-->	Plasmastar (Plasma@unaffiliated/plasmastar) wszedł na #RubyOnRails
+2014-07-22 13:47:23	<--	hashtd (~tushar@117.238.152.55) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 13:48:28	nettoweb	guys, is there a way to upload shared files with capistrano on multistage? something like this: config/deploy/production/database.yml goes to shared folder when deployed on production stage
+2014-07-22 13:48:29	nettoweb	?
+2014-07-22 13:48:54	-->	sk87 (~sk87@77.108.153.99) wszedł na #RubyOnRails
+2014-07-22 13:49:05	<--	JBreit (~Trip@h29.179.123.208.dynamic.ip.windstream.net) opuścił #RubyOnRails ("Leaving")
+2014-07-22 13:50:58	pyemkey	Hello, I am trying to include facets through searchkick, but something is wrong. I am sure that what I am doing is wrong. I can search text normally, but when I try to use facets, then display no result. I put couple snippets of my code in gist https://gist.github.com/pyemkey/8009982c6b28cc4dd944 I know that I used couple dirty methods, but I will do some refactoring it will works.
+2014-07-22 13:52:57	<--	Technodrome (~thebiguse@unaffiliated/technodrome) wyszedł z IRC (Quit: Technodrome)
+2014-07-22 13:53:52	<--	Fly80 (~flavio@ppp-134-136.15-151.iol.it) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 13:53:56	--	bbrowning_away zmienił nick na bbrowning
+2014-07-22 13:56:07	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 13:56:21	-->	iamjarvo (~textual@c-76-99-235-12.hsd1.nj.comcast.net) wszedł na #RubyOnRails
+2014-07-22 13:57:19	<--	krnflake (~krnflake@2a00:1630:2:f00::7a25:972a) wyszedł z IRC (Quit: ZNC - http://znc.in)
+2014-07-22 13:57:22	-->	logius (~Gabriel@ip1886213b.dynamic.kabel-deutschland.de) wszedł na #RubyOnRails
+2014-07-22 13:57:27	<--	logius (~Gabriel@ip1886213b.dynamic.kabel-deutschland.de) opuścił #RubyOnRails
+2014-07-22 13:57:46	-->	krnflake (~krnflake@2a00:1630:2:f00::7a25:972a) wszedł na #RubyOnRails
+2014-07-22 13:59:33	-->	m3nd3s (~m3nd3s@177.206.31.159.static.gvt.net.br) wszedł na #RubyOnRails
+2014-07-22 14:19:38	--	irc: rozłączono z serwerem
+2014-07-22 14:20:03	-->	Vircung (~vircung@78-11-50-82.static.ip.netia.com.pl) wszedł na #RubyOnRails
+2014-07-22 14:20:03	--	Temat kanału #RubyOnRails to "4.1.4 has been released! http://goo.gl/BYAigw | Newest releases: 4.1.4, 4.0.8, 3.2.18,  3.1.12 | Guides: http://goo.gl/Drh96 | API Docs: http://goo.gl/ErSVb | Mailing List: http://is.gd/3Euc | Rules: http://goo.gl/dgSj5 | MINASWAN (Matz is nice and so we are nice) | You are being logged. Logs are at http://goo.gl/e9X9X"
+2014-07-22 14:20:03	--	Temat ustawiony przez Radar (~Radar@162.243.140.224) w śro, 02 lip 2014 23:42:45
+2014-07-22 14:20:03	--	Nicki #RubyOnRails: [20WAAQK00 _todd _tpavel `Yoda adac adamholt aep aetaric Affix aganov alem0lars alex88 AlHafoudh Alina-malina alol alxbl andatche AntelopeSalad AntiSpamMeta antivert antonishen apeiros apow arathald arBmind arielserafini arkie armyriad artgoeshere artmann atmosx atrius axilla badeball bbloom bbrowning beawesomeinstead bedouin behemot beneggett benvds bigkevmcd billy_ran_away bl4ckdu5t blackjid bpgoldsb bphogan braidn braincrash Brando753 capin cbetta ceej cek cenhyperion ChadyG chendo cho_co chridal chrishough cjk101010 clamstar clocKwize codecodecode123 codelahoma coffeejunk comma8 Console contradictioned Cork crankharder Criten cschneid csq DaKaZ dangerousdave DaniG2k danijoo DanKnox dANOKELOFF DarkBushido DarkFoxDK darrik Davey davidcelis davout deciph3r defswork Derander devdazed djinni` dnyy dopie doubleemms drale2k Dreamer3 drizz duderonomy Dwarf DylanJ dymk ecook egrouse ei ejnahc elaptics elektronaut Elion Emily end_guy epochwolf Ergo erichmenge FastJack felipe FifthWall FooBarWidget Forgetful_Lion Foxandxss futuredale fwaokda G Gaelane GeekOnCoffee george2 GeorgesLeYeti ghr Gizmokid2005 gizmore glebm Gm4n grandy greengriminal greg5green gremax GreySyntax GriffinHeart Haegin hakunin helpa hendricius hfp hide hinbody hoodow Hosh hyperbolist iamjarvo imajes ipstatic ivan`` jacky jacobwg jakepetroules jameyd Janno jayne jds Jeff_D jgwhite ji0n jkwood jlpeters joelsmith jokke jon-erik__ jonathanwallace jottr_ jrdnull jrunning jso jtperreault Juanchito k4nd4lf Kamilion kaspergr_ kek kevinfagan_ kevinflo kies^ Kilo`byte kke Konqueror Kovensky koyd kramsee_ krnflake krz ksoderstrom kwd l4u- LACP lacrosse_ laen_ lagweezle lamilami lanox LBo lbott LBRapid lbwski ledestin Leeky legrandBarbu LeMike leslie levifig Liothen Lloyd loglaunch lolmaus ltd lunks lupine m3nd3s Macaveli machuga maletor maloik marienz marklite Marquel marr masscrx mathie matrixise Mattias mattp_ mauro1254 maxmanders maZtah mbr mclee mcr-credil media_slave mehlah Mellett68 michael_mbp michiel3 mikecmpbll MindfulMonk MissionCritical mist mjc_ mkf moaa moogumbo morenoh151 Morkel mose mostlybadfly mozzarella msimkins mtfk muhammadn mven mven_ MyTallest nanooq naquad ndrst ndRx nettoweb nevans newton Nex7 nirix noah256 nomadicoder noodl nuck Obi_obi ohcibi Olipro olivier_bK papercode Paradox paul_k peterhil pgolm Pharaoh2 Phoop phrozen77 picasso pipework pkh Plasmastar pontiki pothibo Pro| przemkovv pskrz ptierno ptrrr Pupeno pyemkey ra4king Radar rakm ramblinpeck RandyT raresian razum2um redmenace relix renews reprazent reuven revyd rhizome rioche riotjones robotblake roolo RSO RTG` rubemlrm Rylee saimancroy Sakurazaki sam452 samuelkadolph sarink Sauvin Scient seanmarcia SegFaultAX segy Seich sfr^ shamanime sheepman shemerey shtirlic Sigma00 Silex SirCmpwn sirecote SirFunk sk87 skinny_much SloggerKhan srinidhi stamina stardiviner suffice Symbiosisz synfinatic tagrudev Tarential tbuehlmann tdy teegee543 tekk the_f0ster thejoecarroll TheMoonMaster TheNumb thmzz TigerWolf timmillwood timonv_ tobago tomaw trappist tris tubbo TvL2386 universa1 urkle vadviktor ValicekB Venomen`off viiralvx Vircung Voker57 w0bni w0rd-driven w32stuxnet waltz wasamasa waseem_ Wayneoween webhat weltzooo wmoxam wonderbread wwojcik xar- Xiti xMopxShell Xuerian xybre Y_Ichiro ybit yoshie902a Zackio zastern zelrik zly zz_jrhorn424 zz_timnovinger]
+2014-07-22 14:20:03	--	Kanał #RubyOnRails: 402 nick (0 op, 0 voice, 402 normalnych)
+2014-07-22 14:20:03	--	Powiadomienie(ChanServ): Register with nickserv in order to talk: /msg nickserv help
+2014-07-22 14:20:13	--	Tryb #RubyOnRails [+Ccgnrt]
+2014-07-22 14:20:13	--	Kanał utworzony pon, 07 cze 2004 02:57:38
+2014-07-22 14:20:35	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-22 14:21:23	w0bni	ptrrr: ~95% will be decimals
+2014-07-22 14:21:34	w0bni	and, only about 30-40 columns
+2014-07-22 14:21:45	w0bni	a lot was a bit of an exaggeration
+2014-07-22 14:22:06	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-22 14:22:25	<--	wwojcik (~wwojcik@89-70-123-90.dynamic.chello.pl) wyszedł z IRC (Quit: wwojcik)
+2014-07-22 14:23:02	-->	toady00 (~toady00@2602:306:c4b4:16d0:b5f2:aabf:5578:e514) wszedł na #RubyOnRails
+2014-07-22 14:23:13	<--	reuven (~user@bzq-79-183-137-84.red.bezeqint.net) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 14:23:20	-->	jamto11 (~jamto11@cpe-66-65-28-9.nyc.res.rr.com) wszedł na #RubyOnRails
+2014-07-22 14:24:02	ptrrr	maybe you actually want rows rather than columns?
+2014-07-22 14:24:52	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 14:25:49	-->	chadwtaylor (~chadwtayl@2601:9:1c80:1009:f0d8:f0:a3c9:2813) wszedł na #RubyOnRails
+2014-07-22 14:27:26	w0bni	I don't quite understand
+2014-07-22 14:27:32	<--	toady00 (~toady00@2602:306:c4b4:16d0:b5f2:aabf:5578:e514) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 14:28:38	-->	jammanbo (~jammanbo@gateway/tor-sasl/jammanbo) wszedł na #RubyOnRails
+2014-07-22 14:30:06	ptrrr	what I’m saying is that if you have the option of designing it some other way, it might be easier if you transpose the table and have each column as a row instead
+2014-07-22 14:30:20	<--	chadwtaylor (~chadwtayl@2601:9:1c80:1009:f0d8:f0:a3c9:2813) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 14:30:34	<--	Morkel (~Morkel@xdsl-87-78-100-143.netcologne.de) wyszedł z IRC (Quit: Morkel)
+2014-07-22 14:30:51	-->	garrypolley (~garryp@159.140.254.99) wszedł na #RubyOnRails
+2014-07-22 14:31:56	-->	hippyphysicist (~hippyphys@31.185.217.188) wszedł na #RubyOnRails
+2014-07-22 14:32:42	<--	greengriminal (~greengrim@77.89.190.221) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 14:33:01	<--	hippyphysicist (~hippyphys@31.185.217.188) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 14:34:29	-->	phikes (~phikes@88.76.87.98) wszedł na #RubyOnRails
+2014-07-22 14:52:51	--	irc: rozłączono z serwerem
+2014-07-22 14:53:17	-->	Vircung (~vircung@78-11-50-82.static.ip.netia.com.pl) wszedł na #RubyOnRails
+2014-07-22 14:53:17	--	Temat kanału #RubyOnRails to "4.1.4 has been released! http://goo.gl/BYAigw | Newest releases: 4.1.4, 4.0.8, 3.2.18,  3.1.12 | Guides: http://goo.gl/Drh96 | API Docs: http://goo.gl/ErSVb | Mailing List: http://is.gd/3Euc | Rules: http://goo.gl/dgSj5 | MINASWAN (Matz is nice and so we are nice) | You are being logged. Logs are at http://goo.gl/e9X9X"
+2014-07-22 14:53:17	--	Temat ustawiony przez Radar (~Radar@162.243.140.224) w śro, 02 lip 2014 23:41:27
+2014-07-22 14:53:17	--	Nicki #RubyOnRails: [20WAAQK00 _todd _tpavel `Yoda adac adamholt aep aetaric Affix aganov alem0lars alex88 AlHafoudh Alina-malina alol alxbl andatche AntelopeSalad AntiSpamMeta antivert antonishen apeiros apow arathald arBmind arielserafini arkie armyriad artgoeshere artmann atmosx atrius axilla badeball bbloom bbrowning beawesomeinstead bedouin behemot beneggett benvds bigkevmcd billy_ran_away bl4ckdu5t blackjid bpgoldsb bphogan braidn braincrash Brando753 capin cbetta ceej cek cenhyperion ChadyG chendo cho_co chridal chrishough cjk101010 clamstar clocKwize codecodecode123 codelahoma coffeejunk comma8 Console contradictioned Cork crankharder Criten cschneid csq DaKaZ dangerousdave DaniG2k danijoo DanKnox dANOKELOFF DarkBushido DarkFoxDK darrik Davey davidcelis davout dcgoon deciph3r defswork Derander devdazed djinni` dnyy dopie doubleemms drale2k Dreamer3 drizz duderonomy Dwarf DylanJ dymk ecook egrouse ei ejnahc elaptics elektronaut Elion Emily end_guy epochwolf Ergo erichmenge FastJack felipe FifthWall FooBarWidget Forgetful_Lion Foxandxss futuredale fwaokda G Gaelane garrypolley GeekOnCoffee george2 GeorgesLeYeti ghr Gizmokid2005 gizmore glebm Gm4n grandy greg5green gremax GreySyntax GriffinHeart Haegin hakunin helpa hendricius hfp hide hinbody hoodow Hosh hyperbolist iamjarvo imajes ipstatic ivan`` jacky jacobwg jakepetroules jameyd jammanbo jamto11 Janno jayne jds Jeff_D jgwhite ji0n jkwood jlpeters joelsmith jokke jon-erik__ jonathanwallace jottr_ jrdnull jrunning jso jtperreault Juanchito k4nd4lf Kamilion kaspergr_ kek kevinfagan_ kevinflo kies^ Kilo`byte kke Konqueror Kovensky koyd kramsee_ krnflake krz ksoderstrom kwd l4u- LACP lacrosse_ laen_ lagweezle lamilami lanox LBo lbott LBRapid lbwski ledestin Leeky LeMike leslie levifig linojon Liothen Lloyd loglaunch lolmaus ltd lunks lupine m3nd3s Macaveli machuga maletor maloik marienz marklite Marquel marr masscrx mathie matrixise Mattias mattp_ mauro1254 maxmanders maZtah mbr mclee mcr-credil media_slave mehlah Mellett68 michael_mbp michiel3 mikecmpbll MindfulMonk MissionCritical mist mjc_ mkf moaa moogumbo morenoh151 mose mostlybadfly mozzarella msimkins mtfk muhammadn mven mven_ MyTallest nanooq naquad ndrst ndRx nettoweb nevans newton Nex7 nirix noah256 nomadicoder noodl nuck Obi_obi ohcibi Olipro olivier_bK papercode Paradox paul_k peterhil pgolm Pharaoh2 Phoop phrozen77 picasso pipework pkh Plasmastar pontiki pothibo Pro| przemkovv pskrz ptierno ptrrr Pupeno pyemkey ra4king Radar rakm ramblinpeck ramontayag RandyT raresian razum2um redmenace relix reprazent revyd rhizome rioche riotjones robotblake roolo RSO RTG` rubemlrm Rylee saimancroy Sakurazaki sam452 samuelkadolph sarink Sauvin Scient seanmarcia SegFaultAX segy Seich sfr^ shamanime sheepman shemerey shtirlic Sigma00 Silex SirCmpwn sirecote SirFunk sk87 skinny_much SloggerKhan srinidhi stamina stardiviner suffice Symbiosisz synfinatic tagrudev Tarential tbuehlmann tdy Technodrome teegee543 tekk the_f0ster thejoecarroll TheMoonMaster TheNumb thmzz TigerWolf timmillwood timonv_ tobago tomaw trappist tris tubbo TvL2386 universa1 urkle vadviktor ValicekB Venomen`off viiralvx Vircung Voker57 w0bni w0rd-driven w32stuxnet waltz wasamasa waseem_ Wayneoween webhat weltzooo wmoxam wonderbread workmad3 xar- Xiti xMopxShell Xuerian xybre Y_Ichiro ybit Zackio zastern zelrik zly zz_jrhorn424 zz_timnovinger]
+2014-07-22 14:53:17	--	Kanał #RubyOnRails: 403 nick (0 op, 0 voice, 403 normalnych)
+2014-07-22 14:53:17	--	Powiadomienie(ChanServ): Register with nickserv in order to talk: /msg nickserv help
+2014-07-22 14:53:27	--	Tryb #RubyOnRails [+Ccgnrt]
+2014-07-22 14:53:27	--	Kanał utworzony pon, 07 cze 2004 02:57:38
+2014-07-22 14:53:27	mikecmpbll	a proc won't return from where it's defined, a proc will return from the proc
+2014-07-22 14:53:33	mikecmpbll	lambdas have that behaviour.
+2014-07-22 14:53:40	workmad3	mikecmpbll: wrong way around
+2014-07-22 14:53:45	mikecmpbll	nope ..
+2014-07-22 14:54:08	apeiros	TvL2386: also don't cross-post, or at least say that you're cross-posting.
+2014-07-22 14:54:18	mikecmpbll	def foo; puts "b4"; proc { return }; puts "afta"; end; foo();
+2014-07-22 14:54:30	workmad3	mikecmpbll: that proc is never executed :P
+2014-07-22 14:54:39	mikecmpbll	eugh
+2014-07-22 14:54:42	apeiros	workmad3: as I said, I know wtf I do :-p
+2014-07-22 14:54:46	workmad3	apeiros: ;)
+2014-07-22 14:54:58	TvL2386	apeiros, yes I apologize, it seemed suitable to post there, but ruby-lang is not that chatty. I'll do better next time
+2014-07-22 14:54:59	apeiros	but honestly, return from within a block should be *super rare*
+2014-07-22 14:55:18	<--	Technodrome (~thebiguse@unaffiliated/technodrome) wyszedł z IRC (Quit: Technodrome)
+2014-07-22 14:55:23	 *	mikecmpbll slaps self.
+2014-07-22 14:55:29	apeiros	an example use-case for it: module Enumerable; def first; each do |item| return item; end; end
+2014-07-22 14:55:30	workmad3	apeiros: I assume chan logs are gonna be read by people who don't know wtf they're doing ;)
+2014-07-22 14:55:40	apeiros	workmad3: that's a good point
+2014-07-22 14:55:50	apeiros	I just assume nobody reads chat logs
+2014-07-22 14:55:57	apeiros	*chan logs
+2014-07-22 14:56:01	-->	amon777 (~amon777@194.219.85.100) wszedł na #RubyOnRails
+2014-07-22 14:56:05	workmad3	hehe
+2014-07-22 14:56:07	-->	yoshie902a (~yoshie902@24-148-48-120.c3-0.snb-ubr2.chi-snb.il.cable.rcn.com) wszedł na #RubyOnRails
+2014-07-22 14:56:09	TvL2386	yeah reason I wondered is because in a rails model I have a method stating: self.silence do .......... return obj ; end
+2014-07-22 14:56:14	amon777	Hi guys, i've a question
+2014-07-22 14:56:26	apeiros	TvL2386: mid-method return is a code stink
+2014-07-22 14:56:41	apeiros	and in-block return is per definition mid-method
+2014-07-22 14:56:42	TvL2386	apeiros, it's an easy way out right :)
+2014-07-22 14:56:53	amon777	i am trying to run in ruby on rails console the : XapianDb.rebuild_xapian_index but i get as an answer : =>true
+2014-07-22 14:56:55	amon777	any idea?
+2014-07-22 14:57:00	mikecmpbll	i'm fond of using return creatively.
+2014-07-22 14:57:09	TvL2386	mikecmpbll, high five
+2014-07-22 14:57:14	mikecmpbll	can simplify complex conditional structures with early return
+2014-07-22 14:57:21	workmad3	mikecmpbll: I'm fond of burning return and people who (mis-)use it ;)
+2014-07-22 14:57:23	<--	DaniG2k (~dpestilli@office-fw01.squiz.co.uk) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 14:57:23	TvL2386	indeed
+2014-07-22 14:57:31	mikecmpbll	meh :)
+2014-07-22 14:57:36	apeiros	I creatively use staking and defenestration
+2014-07-22 14:57:39	apeiros	proud of that myself too
+2014-07-22 14:57:45	workmad3	but that's more because of my fondness for burning than anything else...
+2014-07-22 14:57:54	TvL2386	apeiros, I have no idea what that means
+2014-07-22 14:57:55	mikecmpbll	:D
+2014-07-22 14:58:08	workmad3	TvL2386: defenestration - throwing stuff (and people) out a window
+2014-07-22 14:58:10	apeiros	TvL2386: funny ways to die ;-)
+2014-07-22 14:58:15	TvL2386	haha :)
+2014-07-22 14:58:46	apeiros	you should watch more simpsons. many cromulent words to learn :D
+2014-07-22 14:58:47	workmad3	apeiros: do you attempt to make it look like self-darwination with extreme prejudice?
+2014-07-22 14:59:20	apeiros	workmad3: I usually open the window and ask the person in question to keep at least a little bit of honor
+2014-07-22 14:59:37	mikecmpbll	:D
+2014-07-22 14:59:49	workmad3	apeiros: ever made a mistake and done it on the ground floor?
+2014-07-22 14:59:57	apeiros	staking is reserved for when I'm furious. difficult to make that look like self-darwination
+2014-07-22 15:00:13	workmad3	unless you position it well just outside the window...
+2014-07-22 15:00:13	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 15:01:11	-->	Sirupsen (~textual@CPE7cb21bc3157f-CM7cb21bc3157c.cpe.net.cable.rogers.com) wszedł na #RubyOnRails
+2014-07-22 15:01:25	tagrudev	almost Friday
+2014-07-22 15:01:40	TvL2386	lol, if only
+2014-07-22 15:01:48	workmad3	tagrudev: if by 'almost' you mean 'nowhere fucking close :(' then sure
+2014-07-22 15:01:51	-->	gh34 (~gh34@rrcs-98-100-153-3.central.biz.rr.com) wszedł na #RubyOnRails
+2014-07-22 15:01:58	tagrudev	my week schedule is different
+2014-07-22 15:02:05	workmad3	!isitfriday
+2014-07-22 15:02:05	helpa	no
+2014-07-22 15:02:19	tagrudev	tomorrow is Friday, there is no force on earth that can change that
+2014-07-22 15:02:39	-->	darrencauthon (~darrencau@216.135.127.2) wszedł na #RubyOnRails
+2014-07-22 15:03:20	apeiros	I've had tuesdays which were fridays
+2014-07-22 15:03:35	apeiros	if there wasn't so much work to do I could just make a tuesday become friday :(
+2014-07-22 15:03:52	workmad3	apeiros: but wouldn't you then have to have a friday that's a tuesday?
+2014-07-22 15:03:56	workmad3	which would suck :(
+2014-07-22 15:04:13	apeiros	workmad3: no. I just turn wednesday-friday into saturdays
+2014-07-22 15:04:36	-->	valner (~Thunderbi@189.1.48.125) wszedł na #RubyOnRails
+2014-07-22 15:04:43	tagrudev	guys guys
+2014-07-22 15:04:44	tagrudev	http://www.smh.com.au/world/carlos-slim-calls-for-threeday-working-week-every-week-20140722-zvta9.html
+2014-07-22 15:04:47	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-22 15:05:12	-->	Fire-Dragon-DoL (~francesco@host2-141-dynamic.9-79-r.retail.telecomitalia.it) wszedł na #RubyOnRails
+2014-07-22 15:05:32	<--	valner (~Thunderbi@189.1.48.125) wyszedł z IRC (Client Quit)
+2014-07-22 15:05:35	DylanJ	12 hour days though
+2014-07-22 15:05:48	viiralvx	:(
+2014-07-22 15:05:49	-->	valner (~Thunderbi@189.1.48.125) wszedł na #RubyOnRails
+2014-07-22 15:06:03	tagrudev	4 days weekend though
+2014-07-22 15:06:16	tagrudev	I shall move to Mexico
+2014-07-22 15:06:52	<--	darrencauthon (~darrencau@216.135.127.2) wyszedł z IRC (Ping timeout: 245 seconds)
+2014-07-22 15:07:00	mikecmpbll	they're trialing a 6 hour working day in sweden
+2014-07-22 15:07:16	DylanJ	i would love to try that
+2014-07-22 15:07:24	tagrudev	too cold, no beaches and weak alcohol
+2014-07-22 15:07:36	mikecmpbll	:D
+2014-07-22 15:07:51	tagrudev	you see where I am going ?
+2014-07-22 15:07:57	tagrudev	:D
+2014-07-22 15:08:16	DylanJ	more time to stay inside and play games and or work on projects.
+2014-07-22 15:08:37	<--	jamto11 (~jamto11@cpe-66-65-28-9.nyc.res.rr.com) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:08:38	tagrudev	who wants that you can do that now, but you don't
+2014-07-22 15:08:55	tagrudev	I may have done a intentional mistake in the word beaches
+2014-07-22 15:09:03	tagrudev	an*
+2014-07-22 15:09:39	<--	yoshie902a (~yoshie902@24-148-48-120.c3-0.snb-ubr2.chi-snb.il.cable.rcn.com) opuścił #RubyOnRails
+2014-07-22 15:10:12	<--	viiralvx (~viiralvx@99-153-68-113.uvs.austtx.sbcglobal.net) wyszedł z IRC (Quit: "Study --> Office --> Grind")
+2014-07-22 15:10:24	tagrudev	I think this may be photoshoped though http://goo.gl/ntt7iU
+2014-07-22 15:10:25	mikecmpbll	i have no qualms with swedish beaches.
+2014-07-22 15:11:22	tagrudev	:D
+2014-07-22 15:13:03	-->	workmaster2n (~workmaste@wsip-174-77-127-58.tu.ok.cox.net) wszedł na #RubyOnRails
+2014-07-22 15:13:23	tagrudev	mikecmpbll, we have the best beaches though
+2014-07-22 15:13:35	-->	gavit (~gavit@190.98.33.99) wszedł na #RubyOnRails
+2014-07-22 15:13:46	michael_mbp	hi all
+2014-07-22 15:13:52	ptrrr	hello!
+2014-07-22 15:13:52	mikecmpbll	;)
+2014-07-22 15:14:31	-->	dici (~cabbage@ip3212.saw.rwth-aachen.de) wszedł na #RubyOnRails
+2014-07-22 15:14:34	tagrudev	welcome, please send your beach suggestion to the channel email for approval
+2014-07-22 15:14:45	michael_mbp	guys I got a 3.x app with a before_configuration initializer call in application.rb - this is working for now, it sets up a class method in ActionController which I can call in any of my sub-classed controllers.
+2014-07-22 15:15:05	-->	Shidash (~Shidash@2604:2000:e167:5800:a6db:30ff:fe3b:78be) wszedł na #RubyOnRails
+2014-07-22 15:15:15	<--	iamjarvo (~textual@c-76-99-235-12.hsd1.nj.comcast.net) wyszedł z IRC (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2014-07-22 15:15:21	michael_mbp	however, if I move the before_configuration initiasation call into a file under initializers/
+2014-07-22 15:15:24	michael_mbp	then it stops working.
+2014-07-22 15:15:52	michael_mbp	Rails.application.config.before_configuration do ...end.
+2014-07-22 15:16:02	michael_mbp	ideas?
+2014-07-22 15:16:27	<--	Forgetful_Lion (~Forgetful@2001:44b8:215c:4800:c9be:ab03:ec20:ccc8) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:17:26	<--	valner (~Thunderbi@189.1.48.125) wyszedł z IRC (Quit: valner)
+2014-07-22 15:17:34	amon777	i am trying to run in ruby on rails console the : XapianDb.rebuild_xapian_index but i get as an answer : =>true
+2014-07-22 15:17:35	amon777	any idea?
+2014-07-22 15:17:41	-->	valner (~Thunderbi@189.1.48.125) wszedł na #RubyOnRails
+2014-07-22 15:17:59	michael_mbp	sounds like it ran file
+2014-07-22 15:18:01	michael_mbp	*fine
+2014-07-22 15:18:08	michael_mbp	and returned true.
+2014-07-22 15:19:17	-->	ylluminate (~ylluminat@198.144.156.140) wszedł na #RubyOnRails
+2014-07-22 15:19:40	-->	Technodrome (~thebiguse@unaffiliated/technodrome) wszedł na #RubyOnRails
+2014-07-22 15:21:35	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 15:22:13	tagrudev	michael_mbp, have you checked this http://guides.rubyonrails.org/initialization.html
+2014-07-22 15:23:30	amon777	michael_mbp: so this is the output expected from that. When i run it on development mode i see the mysql queries that it run
+2014-07-22 15:23:41	<--	dici (~cabbage@ip3212.saw.rwth-aachen.de) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-22 15:25:10	Macaveli	What is an rails 3 alternative for Populator?
+2014-07-22 15:26:16	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-22 15:26:23	<--	lolmaus (~quassel@ppp37-190-48-16.pppoe.spdop.ru) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:26:29	mikecmpbll	Macaveli: activerecord-import probably.
+2014-07-22 15:26:59	mikecmpbll	having said that, seems they're for different purposes
+2014-07-22 15:27:11	-->	dvabr (~i@107.170.179.54) wszedł na #RubyOnRails
+2014-07-22 15:27:13	mikecmpbll	ar-import does the mass insert stuff tho.
+2014-07-22 15:27:22	dvabr	Hi guys
+2014-07-22 15:28:00	dvabr	appreciate if anybody is willing to retweet or favourite this tweet: https://twitter.com/dvabr/status/491571898531463169 :)
+2014-07-22 15:28:47	-->	Ankhers (~user@gateway/tor-sasl/ankhers) wszedł na #RubyOnRails
+2014-07-22 15:28:55	GeorgesLeYeti	Hi
+2014-07-22 15:29:04	Macaveli	well the reasons I ask mikecmpbll is because 9 of mine users have had PG::U​nique​Viola​tion:​ ERRO​R: d​uplic​ate k​ey va​lue v​iolat​es un​ique ​const​raint​ "ind​ex_us​ers_o​n_ema​il"​
+2014-07-22 15:29:13	-->	leira (~Adium@30-31-125.dynamic.csail.mit.edu) wszedł na #RubyOnRails
+2014-07-22 15:29:13	GeorgesLeYeti	Someone already use CKEditor ?
+2014-07-22 15:29:14	Macaveli	And I don't see how this is even possible
+2014-07-22 15:29:23	Macaveli	that are nine of 6000 users
+2014-07-22 15:29:53	GeorgesLeYeti	Do you know how i could remotely save my file ?
+2014-07-22 15:29:59	mikecmpbll	Macaveli: that just means you're trying to insert a user with the same email address as another
+2014-07-22 15:30:04	<--	TvL2386 (~tom@saaplsprd-vrrp1.saasplaza.com) wyszedł z IRC (Quit: Ex-Chat)
+2014-07-22 15:30:14	-->	dici (~cabbage@ip3212.saw.rwth-aachen.de) wszedł na #RubyOnRails
+2014-07-22 15:30:37	<--	workmaster2n (~workmaste@wsip-174-77-127-58.tu.ok.cox.net) wyszedł z IRC (Ping timeout: 250 seconds)
+2014-07-22 15:31:05	-->	Nitrodist (~Nitrodist@38.104.251.50) wszedł na #RubyOnRails
+2014-07-22 15:31:13	<--	muhammadn (~muhammad@118.101.246.54) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:32:22	Nitrodist	I upgraded from rails 4.0 to 4.1 and I had an object that defined its own as_json -- it used to return an unescaped string, but now it rails escapes it in 4.1
+2014-07-22 15:32:58	-->	workmaster2n (~workmaste@wsip-174-77-127-58.tu.ok.cox.net) wszedł na #RubyOnRails
+2014-07-22 15:33:17	Nitrodist	any idea how to get around that? here's the code in rails 4.1 that's doing it: https://github.com/rails/rails/blob/master/activesupport/lib/active_support/json/encoding.rb#L81-L82
+2014-07-22 15:34:16	Nitrodist	here's how it used to work (example with Hash): https://github.com/rails/rails/blob/6f3e01e8b78eff1b1685a0b35d70819376bfd773/activesupport/lib/active_support/json/encoding.rb#L285-314
+2014-07-22 15:35:16	-->	cpruitt (~cpruitt@70.127.203.32) wszedł na #RubyOnRails
+2014-07-22 15:36:50	hfp	 Hey all, I have the most basic decorator spec failing: https://gist.github.com/anonymous/1cdd38c3c556bed26fb7. It says `uninitialized constant ListingDecorator (NameError)`. The decorators do work in the views though so I'm at a loss here. Any ideas?
+2014-07-22 15:36:59	Nitrodist	before I could define it on a per-object basis, but now it's in that jsonify method and... I guess I could just monkey patch it..
+2014-07-22 15:37:19	<--	Technodrome (~thebiguse@unaffiliated/technodrome) wyszedł z IRC (Quit: Technodrome)
+2014-07-22 15:37:33	Macaveli	mikecmpbll, I tried to reproduce this exact error in console but I get "ctiveRecord::RecordNotUnique: SQLite3::ConstraintException: column email is not unique" which is a different error than PG::U​nique​Viola​tion ...
+2014-07-22 15:37:53	mikecmpbll	because the populator gem doesn't use activerecord.
+2014-07-22 15:38:00	-->	bachmann (~bachmann@177.207.210.224) wszedł na #RubyOnRails
+2014-07-22 15:38:03	mikecmpbll	activerecord doesn't do mass-insertion.
+2014-07-22 15:38:07	-->	remur (snigel@irc.hoho.nu) wszedł na #RubyOnRails
+2014-07-22 15:38:09	Macaveli	I was doing it manually
+2014-07-22 15:38:14	mikecmpbll	when?
+2014-07-22 15:38:17	Macaveli	just now
+2014-07-22 15:38:19	mikecmpbll	exactly.
+2014-07-22 15:38:29	mikecmpbll	that uses active record, hence the activerecord error
+2014-07-22 15:38:43	Macaveli	so I have to do it via pgsql directly?
+2014-07-22 15:38:43	mikecmpbll	oh
+2014-07-22 15:38:54	mikecmpbll	and you're using different rdbms ...
+2014-07-22 15:39:47	Macaveli	I just noticed that -;-
+2014-07-22 15:39:56	mikecmpbll	also i've no idea what you're trying to do
+2014-07-22 15:40:33	Macaveli	replicate the exact same error
+2014-07-22 15:40:42	mikecmpbll	why?
+2014-07-22 15:41:13	mikecmpbll	anyways you won't get exactly the same error because you're not using the same adapter.
+2014-07-22 15:41:18	<--	dcgoon (~dcgoon@65.205.49.165) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-22 15:43:29	-->	dcgoon (~dcgoon@65.205.49.165) wszedł na #RubyOnRails
+2014-07-22 15:43:53	<--	przemkovv (~przemkovv@usr01.kari.put.poznan.pl) wyszedł z IRC (Quit: Lost terminal)
+2014-07-22 15:44:58	-->	jshultz (uid27380@gateway/web/irccloud.com/x-fnaxhxfztzskkzxz) wszedł na #RubyOnRails
+2014-07-22 15:45:22	-->	AzaToth (~azatoth@wikipedia/AzaToth) wszedł na #RubyOnRails
+2014-07-22 15:45:45	<--	valner (~Thunderbi@189.1.48.125) wyszedł z IRC (Quit: valner)
+2014-07-22 15:46:01	-->	valner (~Thunderbi@189.1.48.125) wszedł na #RubyOnRails
+2014-07-22 15:46:04	Macaveli	mikecmpbll, because I check the email address before user creation https://gist.github.com/YOUConsulting/c5ddf89b38ecedfe8e34
+2014-07-22 15:46:06	jammanbo	The Reform gem is nice but it's got a really blinkered view about validations. Anyone using it and able to explain to me how to properly delegate validations to the underlying model?
+2014-07-22 15:46:18	Macaveli	so I don't know exactly what can go wrong in that code described above
+2014-07-22 15:47:09	mikecmpbll	Macaveli: how don't you know what could go wrong? you've put the error in here which tells you exactly what's gone wrong..
+2014-07-22 15:47:41	mikecmpbll	and you've replicated it.
+2014-07-22 15:47:42	<--	GriffinHeart (~GriffinHe@pb6abe9d7.tokyff01.ap.so-net.ne.jp) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:47:58	<--	bachmann (~bachmann@177.207.210.224) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:48:28	<--	m3nd3s (~m3nd3s@177.206.31.159.static.gvt.net.br) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:48:32	-->	tylerkern (~tylerkren@69.27.21.152) wszedł na #RubyOnRails
+2014-07-22 15:48:34	Macaveli	mikecmpbll, yes because I did a query direct on the DB not via the code
+2014-07-22 15:48:45	Macaveli	just to see if it's exactly the same one
+2014-07-22 15:48:51	-->	crevax (~crevax@99-39-106-188.lightspeed.gdrpmi.sbcglobal.net) wszedł na #RubyOnRails
+2014-07-22 15:48:53	mikecmpbll	ok, so?
+2014-07-22 15:49:54	<--	tylerkern (~tylerkren@69.27.21.152) wyszedł z IRC (Client Quit)
+2014-07-22 15:51:02	-->	amizya (~Amine@unaffiliated/amizya) wszedł na #RubyOnRails
+2014-07-22 15:52:11	-->	tylerkern (~tylerkren@69.27.21.152) wszedł na #RubyOnRails
+2014-07-22 15:52:19	Macaveli	see the github code, how could he ever come to User.register
+2014-07-22 15:52:23	Macaveli	there is an email check
+2014-07-22 15:53:02	Macaveli	I don't understand how this is possible
+2014-07-22 15:53:26	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:53:26	mikecmpbll	possible race condition but generally speaking it isn't possible
+2014-07-22 15:53:38	-->	kai3x5 (~kai3x5@ppp-70-242-140-168.dsl.stlsmo.swbell.net) wszedł na #RubyOnRails
+2014-07-22 15:53:39	mikecmpbll	why haven't you gisted the trace of the original error yet?
+2014-07-22 15:53:57	-->	ffranz (~ffranz@177.4.235.77) wszedł na #RubyOnRails
+2014-07-22 15:54:02	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-22 15:54:13	--	bphogan zmienił nick na bphogan_afk
+2014-07-22 15:54:19	workmad3	Macaveli: how many app servers do you have?
+2014-07-22 15:54:28	Macaveli	16
+2014-07-22 15:54:43	workmad3	Macaveli: and have you only just tried to add the unique constraint at the db?
+2014-07-22 15:54:52	jammanbo	Macaveli:  whitespace in the user provided info.e_mail? Check your logs to see a request which triggered the error.
+2014-07-22 15:55:01	<--	jottr_ (~jottr@unaffiliated/jottr) wyszedł z IRC (Ping timeout: 256 seconds)
+2014-07-22 15:55:05	jammanbo	oh
+2014-07-22 15:55:16	workmad3	jammanbo: that could be it too :)
+2014-07-22 15:55:23	mikecmpbll	jammanbo: interesting thought +1
+2014-07-22 15:55:28	jammanbo	I'd say the 16 serves is more likely
+2014-07-22 15:55:46	jammanbo	but in logs we trust
+2014-07-22 15:55:47	<--	morenoh151 (~morenoh14@50-0-136-232.dsl.dynamic.sonic.net) wyszedł z IRC (Ping timeout: 264 seconds)
+2014-07-22 15:55:52	Macaveli	https://gist.github.com/YOUConsulting/2965387440a7ae2953c7
+2014-07-22 15:55:54	Macaveli	full backtrace
+2014-07-22 15:56:12	workmad3	Macaveli: apart from the bit you cut off the top :P>
+2014-07-22 15:56:25	Macaveli	jammanbo, workmad3 mikecmpbll there is whitespace in the users email
+2014-07-22 15:56:28	Macaveli	I just notice this
+2014-07-22 15:56:48	jammanbo	Could also be a casing issue couldn't it? Some dbs are fussy. Maybe the find fails but the index clashes.
+2014-07-22 15:56:51	workmad3	hehe, good catch jammanbo ;)
+2014-07-22 15:56:55	mikecmpbll	pro skills.
+2014-07-22 15:57:15	jammanbo	That's why they pay me up to $7 an hour
+2014-07-22 15:57:19	mikecmpbll	:D
+2014-07-22 15:57:20	-->	bradcliffe (~bradcliff@144.160.98.80) wszedł na #RubyOnRails
+2014-07-22 15:57:20	<--	bradcliffe (~bradcliff@144.160.98.80) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 15:57:25	Macaveli	jammanbo, that's not a lot
+2014-07-22 15:57:34	jammanbo	dont hate bro
+2014-07-22 15:57:39	-->	FarLight (~chris@unaffiliated/farlight) wszedł na #RubyOnRails
+2014-07-22 15:57:45	FarLight	Hello.
+2014-07-22 15:57:59	workmad3	jammanbo: the index and the find should use the same collation unless someone is really fucking around with their SQL, so that shouldn't happen ;)
+2014-07-22 15:58:06	Macaveli	they pay me 13.47 dollar per hour and I don't know jack shit :p
+2014-07-22 15:58:35	workmad3	Macaveli: you're assuming that jammanbo isn't doing this in-between asking 'do you want fries with that?'
+2014-07-22 15:58:42	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 260 seconds)
+2014-07-22 15:58:46	jammanbo	well you wear those slutty little skirts into the office don't you? I have too much dignity for that.
+2014-07-22 15:58:50	mikecmpbll	:D
+2014-07-22 15:59:03	Macaveli	haha :p
+2014-07-22 15:59:13	Macaveli	those pink ones yes
+2014-07-22 15:59:26	Macaveli	I sell souls for money
+2014-07-22 15:59:36	-->	aclearman037 (~aclearman@162.222.47.218) wszedł na #RubyOnRails
+2014-07-22 16:00:04	-->	Hates_ (~Hates_@host86-140-209-225.range86-140.btcentralplus.com) wszedł na #RubyOnRails
+2014-07-22 16:00:04	workmad3	Macaveli: well, at least it's more ethical than selling homeopathic remedies...
+2014-07-22 16:00:08	mikecmpbll	also, 16 servers whaaaat. I read today that stack exchange uses 25 servers in total
+2014-07-22 16:00:17	jammanbo	lol
+2014-07-22 16:00:18	mikecmpbll	560 million page views a month :D
+2014-07-22 16:00:21	workmad3	mikecmpbll: he's probably referring to a 16 thread puma server ;)
+2014-07-22 16:00:22	FarLight	Hi guys, if I define the following route: get '/users/:name/photo', to: 'user#display_user_photo'
+2014-07-22 16:00:22	Macaveli	16 customers  = 16 servers
+2014-07-22 16:00:24	Criten	are your servers vs?
+2014-07-22 16:00:28	FarLight	How can I construct a link to that points to it?
+2014-07-22 16:00:35	workmad3	Macaveli: you give each customer their own server?
+2014-07-22 16:00:37	Criten	stack exchange has beast servers
+2014-07-22 16:00:39	mikecmpbll	Macaveli: app server per customer?
+2014-07-22 16:00:47	-->	renews (~renews@187.121.69.227) wszedł na #RubyOnRails
+2014-07-22 16:00:48	workmad3	Macaveli: is that then separate databases too?
+2014-07-22 16:00:50	mikecmpbll	Criten: indeed, i like it. scale up yo!
+2014-07-22 16:00:52	Criten	300gb ram... haha
+2014-07-22 16:00:56	Macaveli	they demand it workmad3 mikecmpbll
+2014-07-22 16:01:01	Macaveli	separate instances
+2014-07-22 16:01:03	Macaveli	separate DB's
+2014-07-22 16:01:05	mikecmpbll	Macaveli: same code?
+2014-07-22 16:01:15	workmad3	Macaveli: right... so that's not really what I was asking ;)
+2014-07-22 16:01:20	jammanbo	FarLight: Use the as option to create a route hlper.
+2014-07-22 16:01:30	Macaveli	core code more or less the same with custom touches
+2014-07-22 16:01:53	mikecmpbll	i assume it's a product that will never have thousands and thousands of customers?
+2014-07-22 16:01:57	mikecmpbll	heh
+2014-07-22 16:01:59	workmad3	Macaveli: I was meaning for a single (logical) deployment, how many app servers/request threads are involved ;)
+2014-07-22 16:02:15	Macaveli	mikecmpbll, we have 7000 registered users in a month
+2014-07-22 16:02:24	Macaveli	for the customer where we track users
+2014-07-22 16:02:48	workmad3	Criten: I have a server with 96gb of ram
+2014-07-22 16:02:53	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-22 16:02:57	FarLight	Thanks jammanbo
+2014-07-22 16:03:08	Criten	workmad3: yeah, they are good db servers :P
+2014-07-22 16:03:12	Criten	just loat that shit in ram
+2014-07-22 16:03:14	Criten	load*
+2014-07-22 16:03:15	workmad3	Criten: the thing it was running doesn't need to be kept up anymore, so we're figuring out what to repurpose it as :)
+2014-07-22 16:03:19	<--	valner (~Thunderbi@189.1.48.125) wyszedł z IRC (Quit: valner)
+2014-07-22 16:03:30	workmad3	Criten: couldn't quite manage it with that one... it had 200gb of RDF triples on it :(
+2014-07-22 16:03:33	-->	valner (~Thunderbi@189.1.48.125) wszedł na #RubyOnRails
+2014-07-22 16:03:49	Macaveli	1720 MB RAM workma
+2014-07-22 16:03:51	Macaveli	1720 MB RAM workmad3
+2014-07-22 16:04:00	Criten	workmad3: porn site
+2014-07-22 16:04:01	workmad3	Macaveli: yay, that's 1.5 gb :P
+2014-07-22 16:04:08	workmad3	(well, just over :) )
+2014-07-22 16:04:25	--	irc: rozłączono z serwerem
+2014-07-22 16:04:43	-->	Vircung (~vircung@78-11-50-82.static.ip.netia.com.pl) wszedł na #RubyOnRails
+2014-07-22 16:04:43	--	Temat kanału #RubyOnRails to "4.1.4 has been released! http://goo.gl/BYAigw | Newest releases: 4.1.4, 4.0.8, 3.2.18,  3.1.12 | Guides: http://goo.gl/Drh96 | API Docs: http://goo.gl/ErSVb | Mailing List: http://is.gd/3Euc | Rules: http://goo.gl/dgSj5 | MINASWAN (Matz is nice and so we are nice) | You are being logged. Logs are at http://goo.gl/e9X9X"
+2014-07-22 16:04:43	--	Temat ustawiony przez Radar (~Radar@162.243.140.224) w śro, 02 lip 2014 23:42:45
+2014-07-22 16:04:43	--	Nicki #RubyOnRails: [20WAAQK00 _todd _tpavel `Yoda aclearman037 adac adamholt aep aetaric Affix aganov alem0lars alex88 AlHafoudh Alina-malina alol alxbl amizya amon777 andatche Ankhers AntelopeSalad AntiSpamMeta antivert antonishen apeiros apow arathald arBmind arielserafini arkie armyriad artgoeshere artmann atmosx atrius axilla AzaToth badeball bbloom bbrowning beawesomeinstead bedouin behemot beneggett benvds bigkevmcd billy_ran_away bl4ckdu5t blackjid bpgoldsb bphogan_afk braidn braincrash Brando753 capin cbetta ceej cek cenhyperion ChadyG chendo cho_co chridal chrishough cjk101010 clamstar clocKwize codecodecode123 codelahoma coffeejunk comma8 Console contradictioned Cork cpruitt crankharder crevax Criten cschneid csq DaKaZ dangerousdave danijoo DanKnox dANOKELOFF DarkBushido DarkFoxDK darrik Davey davidcelis davout dcgoon deciph3r defswork Derander devdazed dici djinni` dnyy dopie doubleemms drale2k Dreamer3 drizz duderonomy dvabr Dwarf DylanJ dymk ecook egrouse ei ejnahc elaptics elektronaut Elion Emily end_guy epochwolf Ergo erichmenge FarLight FastJack felipe ffranz FifthWall Fire-Dragon-DoL FooBarWidget Foxandxss futuredale fwaokda G Gaelane garrypolley gavit GeekOnCoffee george2 GeorgesLeYeti gh34 ghr Gizmokid2005 gizmore glebm Gm4n grandy greg5green gremax GreySyntax Haegin hakunin Hates_ helpa hendricius hfp hide hinbody hoodow Hosh hyperbolist imajes ipstatic ivan`` jacky jacobwg jakepetroules jameyd jammanbo Janno jayne jds Jeff_D jgwhite ji0n jkwood jlpeters joelsmith jokke jon-erik__ jonathanwallace jrdnull jrunning jshultz jso jtperreault Juanchito k4nd4lf kai3x5 Kamilion kaspergr_ kek kevinfagan_ kevinflo kies^ Kilo`byte kke Konqueror Kovensky koyd kramsee_ krnflake krz ksoderstrom kwd l4u- LACP lacrosse_ laen_ lagweezle lamilami lanox LBo lbott LBRapid lbwski ledestin Leeky leira LeMike leslie levifig linojon Liothen Lloyd loglaunch ltd lunks lupine Macaveli machuga maletor maloik marienz marklite Marquel marr masscrx mathie matrixise Mattias mattp_ mauro1254 maxmanders maZtah mbr mclee mcr-credil media_slave mehlah Mellett68 michael_mbp michiel3 mikecmpbll MindfulMonk MissionCritical mist mjc_ mkf moaa moogumbo mose mostlybadfly mozzarella msimkins mtfk mven mven_ MyTallest nanooq naquad ndrst ndRx nettoweb nevans newton Nex7 nirix Nitrodist noah256 nomadicoder noodl nuck Obi_obi ohcibi Olipro olivier_bK papercode Paradox paul_k peterhil pgolm Pharaoh2 Phoop phrozen77 picasso pipework pkh Plasmastar pontiki pothibo Pro| pskrz ptierno ptrrr Pupeno pyemkey ra4king Radar rakm ramblinpeck ramontayag RandyT raresian razum2um redmenace relix remur renews reprazent revyd rhizome rioche riotjones robotblake roolo RSO RTG` rubemlrm Rylee saimancroy Sakurazaki sam452 samuelkadolph sarink Sauvin Scient seanmarcia SegFaultAX segy Seich sfr^ shamanime sheepman shemerey Shidash shtirlic Sigma00 Silex SirCmpwn sirecote SirFunk Sirupsen sk87 skinny_much SloggerKhan srinidhi stamina stardiviner suffice Symbiosisz synfinatic tagrudev Tarential tbuehlmann tdy teegee543 tekk the_f0ster thejoecarroll TheMoonMaster TheNumb thmzz TigerWolf timmillwood timonv_ tobago tomaw trappist tris tubbo tylerkern universa1 urkle vadviktor ValicekB valner Venomen`off Vircung Voker57 w0bni w0rd-driven w32stuxnet waltz wasamasa waseem_ Wayneoween webhat weltzooo wmoxam wonderbread workmad3 workmaster2n xar- Xiti xMopxShell Xuerian xybre Y_Ichiro ybit ylluminate Zackio zastern zelrik zly zz_jrhorn424 zz_timnovinger]
+2014-07-22 16:04:43	--	Kanał #RubyOnRails: 416 nick (0 op, 0 voice, 416 normalnych)
+2014-07-22 16:04:43	--	Powiadomienie(ChanServ): Register with nickserv in order to talk: /msg nickserv help
+2014-07-22 16:04:49	--	Tryb #RubyOnRails [+Ccgnrt]
+2014-07-22 16:04:49	--	Kanał utworzony pon, 07 cze 2004 02:57:38
+2014-07-22 16:05:00	Macaveli	I know a guy who makes 15K per day from his P site just from advertising
+2014-07-22 16:05:00	<--	valner (~Thunderbi@189.1.48.125) wyszedł z IRC (Client Quit)
+2014-07-22 16:05:10	Criten	yeah, it's a good business ;)
+2014-07-22 16:05:12	-->	valner (~Thunderbi@189.1.48.125) wszedł na #RubyOnRails
+2014-07-22 16:05:23	<--	renews (~renews@187.121.69.227) wyszedł z IRC (Ping timeout: 264 seconds)
+2014-07-22 16:05:45	<--	valner (~Thunderbi@189.1.48.125) wyszedł z IRC (Client Quit)
+2014-07-22 16:05:51	-->	rahabash (~rahabash@50-200-158-162-static.hfc.comcastbusiness.net) wszedł na #RubyOnRails
+2014-07-22 16:06:03	-->	valner (~Thunderbi@189.1.48.125) wszedł na #RubyOnRails
+2014-07-22 16:06:34	-->	mr_foobar_baz (~user@gateway/tor-sasl/mrfoobar/x-67184220) wszedł na #RubyOnRails
+2014-07-22 16:06:49	-->	jamto11 (~jamto11@rrcs-24-103-245-210.nyc.biz.rr.com) wszedł na #RubyOnRails
+2014-07-22 16:06:49	<--	mr_foobar_baz (~user@gateway/tor-sasl/mrfoobar/x-67184220) wyszedł z IRC (Client Quit)
+2014-07-22 16:07:06	w0bni	jeez
+2014-07-22 16:07:12	-->	BreakmanX (~BreakmanX@wsip-68-98-201-234.ks.ok.cox.net) wszedł na #RubyOnRails
+2014-07-22 16:07:22	w0bni	TIL I can explicitly set id in Rails 4
+2014-07-22 16:08:08	<--	Sirupsen (~textual@CPE7cb21bc3157f-CM7cb21bc3157c.cpe.net.cable.rogers.com) wyszedł z IRC (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-07-22 16:08:19	-->	Sou|cutter (~soulcutte@unaffiliated/soulcutter) wszedł na #RubyOnRails
+2014-07-22 16:08:52	-->	wwojcik (~wwojcik@acjf141.neoplus.adsl.tpnet.pl) wszedł na #RubyOnRails
+2014-07-22 16:09:17	gavit	http://rubydoc.info/github/plataformatec/simple_form/master/SimpleForm/FormBuilder:input_field <- what does options={} mean? I'm trying to add a class='foobar' tag to my f.input_field.
+2014-07-22 16:09:37	rahabash	options={} creates a new hash called options
+2014-07-22 16:10:08	Sou|cutter	also worth noting, "All the given options are sent as :input_html"
+2014-07-22 16:10:21	rahabash	^
+2014-07-22 16:10:39	--	irc: rozłączono z serwerem
+2014-07-22 16:11:09	-->	vircung (~vircung@78-11-50-82.static.ip.netia.com.pl) wszedł na #RubyOnRails
+2014-07-22 16:11:09	--	Temat kanału #RubyOnRails to "4.1.4 has been released! http://goo.gl/BYAigw | Newest releases: 4.1.4, 4.0.8, 3.2.18,  3.1.12 | Guides: http://goo.gl/Drh96 | API Docs: http://goo.gl/ErSVb | Mailing List: http://is.gd/3Euc | Rules: http://goo.gl/dgSj5 | MINASWAN (Matz is nice and so we are nice) | You are being logged. Logs are at http://goo.gl/e9X9X"
+2014-07-22 16:11:09	--	Temat ustawiony przez Radar (~Radar@162.243.140.224) w śro, 02 lip 2014 23:42:45
+2014-07-22 16:11:09	--	Nicki #RubyOnRails: [20WAAQK00 _todd _tpavel `Yoda aclearman037 adac adamholt aep aetaric Affix aganov alem0lars alex88 AlHafoudh Alina-malina alol alxbl amizya amon777 andatche Ankhers AntelopeSalad AntiSpamMeta antivert antonishen apeiros apow arathald arBmind arielserafini arkie armyriad artgoeshere artmann atmosx atrius axilla AzaToth badeball bbloom bbrowning beawesomeinstead bedouin behemot beneggett benvds bigkevmcd billy_ran_away bl4ckdu5t blackjid bpgoldsb bphogan_afk braidn braincrash Brando753 BreakmanX capin cbetta ceej cek cenhyperion ChadyG chendo cho_co chridal chrishough cjk101010 clamstar clocKwize codecodecode123 codelahoma coffeejunk comma8 Console contradictioned Cork cpruitt crankharder crevax Criten cschneid csq DaKaZ dangerousdave danijoo DanKnox dANOKELOFF DarkBushido DarkFoxDK darrik Davey davidcelis davout dcgoon deciph3r defswork Derander devdazed dici djinni` dnyy dopie doubleemms drale2k Dreamer3 drizz duderonomy dvabr Dwarf DylanJ dymk ecook egrouse ei ejnahc elaptics elektronaut Elion Emily end_guy epochwolf Ergo erichmenge FarLight FastJack felipe ffranz FifthWall Fire-Dragon-DoL FooBarWidget Foxandxss futuredale fwaokda G Gaelane garrypolley gavit GeekOnCoffee george2 GeorgesLeYeti gh34 ghr Gizmokid2005 gizmore glebm Gm4n grandy greg5green gremax GreySyntax Haegin hakunin Hates_ helpa hendricius hfp hide hinbody hoodow Hosh hyperbolist imajes ipstatic ivan`` jacky jacobwg jakepetroules jameyd jammanbo jamto11 Janno jayne jds Jeff_D jgwhite ji0n jkwood jlpeters joelsmith jokke jon-erik__ jonathanwallace jrdnull jrunning jshultz jso jtperreault Juanchito k4nd4lf kai3x5 Kamilion kaspergr_ kek kevinfagan_ kevinflo kies^ Kilo`byte kke Konqueror Kovensky koyd kramsee_ krnflake krz ksoderstrom kwd l4u- LACP lacrosse_ laen_ lagweezle lamilami lanox LBo lbott LBRapid lbwski ledestin Leeky leira LeMike leslie levifig linojon Liothen Lloyd loglaunch ltd lunks lupine Macaveli machuga maletor maloik marienz marklite Marquel marr masscrx mathie matrixise Mattias mattp_ mauro1254 maxmanders maZtah mbr mclee mcr-credil media_slave mehlah Mellett68 michael_mbp michiel3 mikecmpbll MindfulMonk MissionCritical mist mjc_ mkf moaa moogumbo mose mostlybadfly mozzarella msimkins mtfk mven mven_ MyTallest nanooq naquad ndrst ndRx nettoweb nevans newton Nex7 nirix Nitrodist noah256 nomadicoder noodl nuck Obi_obi ohcibi Olipro olivier_bK papercode Paradox paul_k peterhil pgolm Pharaoh2 Phoop phrozen77 picasso pipework pkh Plasmastar pontiki pothibo Pro| pskrz ptierno ptrrr Pupeno pyemkey ra4king Radar rahabash rakm ramblinpeck ramontayag RandyT raresian razum2um redmenace relix remur reprazent revyd rhizome rioche riotjones robotblake roolo RSO RTG` rubemlrm Rylee saimancroy Sakurazaki sam452 samuelkadolph sarink Sauvin Scient seanmarcia SegFaultAX segy Seich sfr^ shamanime sheepman shemerey Shidash shtirlic Sigma00 Silex SirCmpwn sirecote SirFunk sk87 skinny_much SloggerKhan Sou|cutter srinidhi stamina stardiviner suffice Symbiosisz synfinatic tagrudev Tarential tbuehlmann tdy teegee543 tekk the_f0ster thejoecarroll TheMoonMaster TheNumb thmzz TigerWolf timmillwood timonv_ tobago tomaw trappist tris tubbo tylerkern universa1 urkle vadviktor ValicekB valner Venomen`off vircung Voker57 w0bni w0rd-driven w32stuxnet waltz wasamasa waseem_ Wayneoween webhat weltzooo wmoxam wonderbread workmad3 workmaster2n wwojcik xar- Xiti xMopxShell Xuerian xybre Y_Ichiro ybit ylluminate Zackio zastern zelrik zly zz_jrhorn424 zz_timnovinger]
+2014-07-22 16:11:09	--	Kanał #RubyOnRails: 419 nick (0 op, 0 voice, 419 normalnych)
+2014-07-22 16:11:09	--	Powiadomienie(ChanServ): Register with nickserv in order to talk: /msg nickserv help
+2014-07-22 16:11:12	 *	Jeff_D is back
+2014-07-22 16:11:15	--	Tryb #RubyOnRails [+Ccgnrt]
+2014-07-22 16:11:15	--	Kanał utworzony pon, 07 cze 2004 02:57:38
+2014-07-22 16:11:31	<--	BreakmanX (~BreakmanX@wsip-68-98-201-234.ks.ok.cox.net) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-22 16:11:39	Sou|cutter	having a method with a `foo = bar` argument simply means that supplying that argument is optional, and if you do not supply it then it defaults to the assignment shown in the method signature
+2014-07-22 16:11:56	Sou|cutter	so if you do not supply any options, it defaults to an empty hash
+2014-07-22 16:11:57	gavit	Sou|cutter, I tried :class => "foo bar", options_html = {class="foo bar"}, all give me weird html :p
+2014-07-22 16:12:26	<--	aganov (~alex@gw.viscomp.bg) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 16:12:47	Jeff_D	any Pundit experts around? Trying to move use of Pundit from the usual controller logic to a service layer; hilarity ensues; https://gist.github.com/jdickey/371195b61a243b2ff1c3
+2014-07-22 16:12:49	gavit	it gives me <input ... input_html={class="foo bar"}
+2014-07-22 16:13:03	Sou|cutter	gavit: f.input_field :name, class: "foo bar" # this doesn't work?
+2014-07-22 16:14:01	gavit	I believe I tried that, lemme check again
+2014-07-22 16:14:13	-->	phikes (~phikes@dslb-088-076-087-098.088.076.pools.vodafone-ip.de) wszedł na #RubyOnRails
+2014-07-22 16:14:19	<--	lanox (~lanox@110-174-140-182.static.tpgi.com.au) wyszedł z IRC
+2014-07-22 16:14:28	Sou|cutter	I'm not sure where you're getting {class="foo bar"} - that's not valid syntax for a hash
+2014-07-22 16:15:27	gavit	Sou|cutter, syntax error, unexpected tSTRING_DEND, expecting ')'
+2014-07-22 16:15:58	-->	nettoweb_ (~nettoweb@179.187.94.35.dynamic.adsl.gvt.net.br) wszedł na #RubyOnRails
+2014-07-22 16:16:29	rahabash	gavit you can assign values in hashes using symbols/hashrockets or with the name of the key followed by a colon and a value
+2014-07-22 16:16:32	gavit	hold on, my bad
+2014-07-22 16:16:34	gavit	brb
+2014-07-22 16:16:39	rahabash	:name=>"gavit"
+2014-07-22 16:16:45	rahabash	name: "gavit"
+2014-07-22 16:16:48	<--	nettoweb (~nettoweb@177.16.206.246) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-22 16:16:48	--	nettoweb_ zmienił nick na nettoweb
+2014-07-22 16:17:10	gavit	rahabash, :name=>"gavit" and name: "gavit" do the same right?
+2014-07-22 16:17:26	-->	stef1a (~stef1a@73.36.171.210) wszedł na #RubyOnRails
+2014-07-22 16:17:34	Sou|cutter	http://www.ruby-doc.org/core-2.1.2/Hash.html
+2014-07-22 16:18:02	rahabash	gavit, for the most part yes, both synataxes are in common use
+2014-07-22 16:18:13	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 16:18:33	stef1a	user X can create an evaluation for user Y. is the evaluation user X's, or is it user Y's? i'm leaning toward the creator
+2014-07-22 16:18:36	<--	phikes (~phikes@dslb-088-076-087-098.088.076.pools.vodafone-ip.de) wyszedł z IRC (Ping timeout: 255 seconds)
+2014-07-22 16:18:53	-->	ramontayag (~ramontaya@49.144.8.64) wszedł na #RubyOnRails
+2014-07-22 16:19:23	workmad3	stef1a: both
+2014-07-22 16:19:33	workmad3	stef1a: you'd have an evaluator and an evaluatee
+2014-07-22 16:19:40	stef1a	workmad3: well, yes, but under whom do i build it?
+2014-07-22 16:19:43	gavit	Sou|cutter, my bad, the class: "foo bar" works, I just made a syntax error :)
+2014-07-22 16:19:45	workmad3	stef1a: or an evaluator and a victim... ;)
+2014-07-22 16:19:47	stef1a	presumably the creator
+2014-07-22 16:19:53	workmad3	stef1a: doesn't matter, you'll need to set the other one
+2014-07-22 16:20:02	rahabash	lol
+2014-07-22 16:20:09	stef1a	okay, i see. thanks.
+2014-07-22 16:20:26	gavit	rahabash, thanks for the info
+2014-07-22 16:20:40	gavit	Sou|cutter, thanks too, I understand hashes a bit better in rails now :p
+2014-07-22 16:20:45	 *	workmad3 now wants to create an evaluation with tormentor and victim as the associations...
+2014-07-22 16:20:49	rahabash	np, if your new to rails dev you should check out www.railstutorial.org and read the free online book
+2014-07-22 16:20:53	rahabash	great resource :)
+2014-07-22 16:20:55	Nitrodist	ended up going with https://github.com/chancancode/activesupport-json_encoder to get my object to encode to json as I wanted it
+2014-07-22 16:21:02	Sou|cutter	gavit: happy to help
+2014-07-22 16:21:02	Nitrodist	o/ Sou|cutter
+2014-07-22 16:21:05	<--	Nitrodist (~Nitrodist@38.104.251.50) wyszedł z IRC (Quit: leaving)
+2014-07-22 16:21:10	-->	JohnFord (~jofo@38.88.191.98) wszedł na #RubyOnRails
+2014-07-22 16:21:13	Sou|cutter	o_O
+2014-07-22 16:21:26	<--	kai3x5 (~kai3x5@ppp-70-242-140-168.dsl.stlsmo.swbell.net) wyszedł z IRC (Quit: Textual IRC Client: www.textualapp.com)
+2014-07-22 16:21:31	-->	jottr_ (~jottr@unaffiliated/jottr) wszedł na #RubyOnRails
+2014-07-22 16:21:32	<--	dcgoon (~dcgoon@65.205.49.165) wyszedł z IRC (Ping timeout: 272 seconds)
+2014-07-22 16:21:36	gavit	Sou|cutter, I;m more used to grades["Dorothy Doe"] = 9 :p
+2014-07-22 16:21:37	<--	valner (~Thunderbi@189.1.48.125) opuścił #RubyOnRails
+2014-07-22 16:21:52	gavit	things like :foo and => confuse me :p
+2014-07-22 16:22:13	-->	iamjarvo (~textual@pool-98-115-181-52.phlapa.fios.verizon.net) wszedł na #RubyOnRails
+2014-07-22 16:22:16	workmad3	gavit: you don't like hashrockets? :(
+2014-07-22 16:22:27	-->	andrew9183 (~andrew918@206.223.179.158) wszedł na #RubyOnRails
+2014-07-22 16:22:28	rahabash	hashrockets pew pew
+2014-07-22 16:22:33	Sou|cutter	gavit: in time it will start making more sense
+2014-07-22 16:22:40	gavit	workmad3, not about likeing, learnt java & a bit of C/C++/asm @ uni
+2014-07-22 16:22:52	gavit	forgot most of it now, and trying to pick up ror
+2014-07-22 16:22:53	<--	ramontayag (~ramontaya@49.144.8.64) wyszedł z IRC (Ping timeout: 240 seconds)
+2014-07-22 16:23:00	-->	karamazov (~karamazov@user-0c2hcs6.cable.mindspring.com) wszedł na #RubyOnRails
+2014-07-22 16:23:08	workmad3	gavit: heh :) keep on forgetting java and C++ ;)
+2014-07-22 16:23:13	gavit	hahaha
+2014-07-22 16:23:14	workmad3	gavit: it won't really help you much with ruby
+2014-07-22 16:23:29	gavit	workmad3, ruby is annoying on windows :P
+2014-07-22 16:23:37	gavit	was much nicer when I ran my hackintosh
+2014-07-22 16:23:38	workmad3	gavit: yes, yes it is...
+2014-07-22 16:23:50	workmad3	gavit: can you guess what my suggestion is to solve that? :)
+2014-07-22 16:23:51	stef1a	workmad3: as the associations? but they're both users... can't we just have user has_many evaluations and evaluation belongs_to user?
+2014-07-22 16:24:10	rahabash	tonymacx86
+2014-07-22 16:24:10	workmad3	stef1a: no, you'll need to separate the associations out
+2014-07-22 16:24:14	rahabash	hackintosh it up
+2014-07-22 16:24:15	gavit	workmad3, install a server and run putty + port forwarding?
+2014-07-22 16:24:16	stef1a	workmad3: why?
+2014-07-22 16:24:19	rahabash	or try ubuntu
+2014-07-22 16:24:34	workmad3	stef1a: because 'belongs_to :user' can only refer to a single user, not both the creator and the victim
+2014-07-22 16:24:42	workmad3	gavit: no... install ubuntu ;)
+2014-07-22 16:24:54	gavit	rahabash, I did, but need windows too often for "friends" who need tech support
+2014-07-22 16:24:56	workmad3	gavit: you can even do this amazing thing called 'dual boot'
+2014-07-22 16:25:04	--	Lloyd zmienił nick na lloyd
+2014-07-22 16:25:16	rahabash	you could check out virtualization solutoins like virtualbox and vagrant
+2014-07-22 16:25:27	workmad3	gavit: where you'd skim off say 40gb for a ubuntu partition
+2014-07-22 16:25:34	workmad3	gavit: ;)
+2014-07-22 16:25:37	--	zz_timnovinger zmienił nick na timnovinger
+2014-07-22 16:25:45	gavit	workmad3, you run ubuntu as desktop?
+2014-07-22 16:26:02	stef1a	workmad3: all right, i'll consider that, although i'm unsure i'll implement it, at least in the short term... maybe later i'll realize that's a bad idea and refactor it a bunch
+2014-07-22 16:26:10	stef1a	but y'know, that's how coding goes
+2014-07-22 16:26:11	rahabash	i prefer os x personally with a zsh shell and ruby, rails, and git bundles :)
+2014-07-22 16:26:15	gavit	workmad3, I installed a SSD of 60GB, so skimming is really hard right now :p
+2014-07-22 16:26:41	workmad3	gavit: I'm on an MBP at the moment
+2014-07-22 16:26:41	 *	gavit wish there was a bootable USB which you could use to get into a ROR environment
+2014-07-22 16:26:49	gavit	workmad3, HP Probook 4530s
+2014-07-22 16:27:13	<--	tagrudev (~tagrudev@gw.viscomp.bg) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 16:27:27	rahabash	at work i setup os x on a spare dell optiplex 7010, i7 8gb ram.. great for RoR dev :D
+2014-07-22 16:27:38	gavit	rahabash, osx leaves so much .ds_stores everywhere
+2014-07-22 16:27:43	Macaveli	rahabash, oh my zsh <3
+2014-07-22 16:27:55	rahabash	oh my zsh is awesome
+2014-07-22 16:27:56	workmad3	gavit: well, you could create a bootable USB... ubuntu live distro or similar, set it up with a rails env
+2014-07-22 16:28:19	Macaveli	rahabash, how u install osx on windows? tried that before and it sucked
+2014-07-22 16:28:21	mikecmpbll	gavit: echo ".DS_Store" > .gitignore
+2014-07-22 16:28:36	mikecmpbll	>>*
+2014-07-22 16:28:36	gavit	workmad3, do live usb allow me to WRITE stuff on the USB?
+2014-07-22 16:28:46	gavit	mikecmpbll, and /dev/usb?
+2014-07-22 16:28:46	workmad3	gavit: I suspect so
+2014-07-22 16:28:56	rahabash	macaveli check out this site http://www.tonymacx86.com/home.php
+2014-07-22 16:29:07	-->	Digital-Ghost (~digital_g@c-24-19-100-92.hsd1.wa.comcast.net) wszedł na #RubyOnRails
+2014-07-22 16:29:13	gavit	workmad3, I thought I had to make my own usb image and that it only allowed to write to RAM and HDD
+2014-07-22 16:29:16	--	irc: rozłączono z serwerem
+2014-07-22 16:32:09	-->	vircung (~vircung@78-11-50-82.static.ip.netia.com.pl) wszedł na #RubyOnRails
+2014-07-22 16:32:09	--	Temat kanału #RubyOnRails to "4.1.4 has been released! http://goo.gl/BYAigw | Newest releases: 4.1.4, 4.0.8, 3.2.18,  3.1.12 | Guides: http://goo.gl/Drh96 | API Docs: http://goo.gl/ErSVb | Mailing List: http://is.gd/3Euc | Rules: http://goo.gl/dgSj5 | MINASWAN (Matz is nice and so we are nice) | You are being logged. Logs are at http://goo.gl/e9X9X"
+2014-07-22 16:32:09	--	Temat ustawiony przez Radar (~Radar@162.243.140.224) w śro, 02 lip 2014 23:42:45
+2014-07-22 16:32:09	--	Nicki #RubyOnRails: [20WAAQK00 _todd _tpavel `Yoda aclearman037 adac adamholt aep aetaric Affix alem0lars alex88 AlHafoudh Alina-malina alol alxbl amizya amon777 andatche andrew9183 Ankhers AntelopeSalad AntiSpamMeta antivert antonishen apeiros apow arathald arBmind arielserafini arkie armyriad artgoeshere artmann atmosx atrius axilla AzaToth bachmann badeball bbloom bbrowning beawesomeinstead bedouin behemot beneggett benvds bigkevmcd billy_ran_away bl4ckdu5t blackjid bpgoldsb bphogan_afk braidn braincrash Brando753 capin cbetta ceej cek cenhyperion ChadyG chendo cho_co chridal chrishough cjk101010 clamstar clocKwize codecodecode123 codelahoma coffeejunk comma8 Console contradictioned Cork cpruitt crankharder crevax Criten cronus cschneid csq DaKaZ dangerousdave danijoo DanKnox dANOKELOFF DarkBushido DarkFoxDK darrik Davey davidcelis davout deciph3r defswork Derander devdazed dici Digital-Ghost djinni` dnyy dopie doubleemms drale2k Dreamer3 drizz duderonomy dvabr Dwarf DylanJ dymk ecook egrouse ei ejnahc elaptics elektronaut Elion Emily end_guy epochwolf Ergo erichmenge FarLight FastJack felipe ffranz FifthWall Fire-Dragon-DoL FooBarWidget Foxandxss futuredale fwaokda G Gaelane garrypolley gavit GeekOnCoffee george2 GeorgesLeYeti gh34 ghr Gizmokid2005 gizmore glebm Gm4n grandy greg5green gremax GreySyntax Haegin hakunin Hates_ helpa hendricius hfp hide hinbody hoodow Hosh hyperbolist iamjarvo imajes ipstatic ivan`` jacky jacobwg jakepetroules jameyd jammanbo jamto11 Janno jayne jds Jeff_D jgwhite ji0n jkwood jlpeters joelsmith JohnFord jokke jon-erik__ jonahR jonathanwallace jottr_ jrdnull jrunning jshultz jso jtperreault Juanchito k4nd4lf Kamilion karamazov kaspergr_ kek kevinfagan_ kevinflo kies^ Kilo`byte kke Konqueror Kovensky koyd kramsee_ krnflake krz ksoderstrom kwd l4u- LACP lacrosse_ laen_ lagweezle lamilami LBo lbott LBRapid lbwski ledestin Leeky leira LeMike leslie levifig linojon Liothen lloyd logius loglaunch ltd lunks lupine Macaveli machuga maletor maloik marienz marklite Marquel marr masscrx mathie matrixise Mattias mattp_ mauro1254 maxmanders maZtah mbr mclee mcr-credil media_slave mehlah Mellett68 michael_mbp michiel3 mikecmpbll MindfulMonk MissionCritical mist mjc_ mkf moaa moogumbo mose mostlybadfly mozzarella msimkins mtfk mven mven_ MyTallest nanooq naquad ndrst ndRx nevans newton Nex7 nirix noah256 nomadicoder noodl nuck Obi_obi ohcibi Olipro olivier_bK papercode Paradox paul_k peterhil pgolm Pharaoh2 Phoop phrozen77 picasso pipework pkh Plasmastar pontiki pothibo Pro| pskrz ptierno ptrrr Pupeno pyemkey ra4king Radar rahabash rakm ramblinpeck RandyT raresian razum2um redmenace relix remur reprazent revyd rhizome rioche riotjones robotblake roolo RSO RTG` rubemlrm Rylee saimancroy Sakurazaki sam452 samuelkadolph sarink Sauvin Scient seanmarcia SegFaultAX segy Seich sfr^ shamanime sheepman shemerey Shidash shtirlic Sigma00 Silex SirCmpwn sirecote SirFunk sk87 skinny_much SloggerKhan Sou|cutter srinidhi stamina stardiviner stef1a suffice Symbiosisz synfinatic Tarential tbuehlmann tdy teegee543 tekk the_f0ster thejoecarroll TheMoonMaster TheNumb thmzz TigerWolf timmillwood timnovinger timonv_ tobago tomaw trappist tris tubbo tylerkern universa1 urkle vadviktor ValicekB Venomen`off vircung Voker57 w0bni w0rd-driven w32stuxnet waltz wasamasa waseem_ Wayneoween webhat weltzooo wmoxam wonderbread workmad3 workmaster2n wwojcik xar- Xiti xMopxShell Xuerian xybre Y_Ichiro ybit Zackio zastern zelrik zly zz_jrhorn424]
+2014-07-22 16:32:09	--	Kanał #RubyOnRails: 419 nick (0 op, 0 voice, 419 normalnych)
+2014-07-22 16:32:09	--	Powiadomienie(hobana.freenode.net) -> #RubyOnRails: [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2014-07-22 16:32:09	--	Powiadomienie(ChanServ): Register with nickserv in order to talk: /msg nickserv help
+2014-07-22 16:32:16	--	Tryb #RubyOnRails [+Ccgnrt]
+2014-07-22 16:32:16	--	Kanał utworzony pon, 07 cze 2004 02:57:38
+2014-07-22 16:32:53	cronus	in my controller if I call model.save and have an after_create callback on that model, will that be run synchronously before save returns? how does that work?
+2014-07-22 16:34:09	<--	Digital-Ghost (~digital_g@c-24-19-100-92.hsd1.wa.comcast.net) wyszedł z IRC (Remote host closed the connection)
+2014-07-22 16:34:21	-->	qejk (~qejk@aapa243.neoplus.adsl.tpnet.pl) wszedł na #RubyOnRails
+2014-07-22 16:34:50	Macaveli	rahabash, you use the mac external keyboard?
+2014-07-22 16:35:02	rahabash	no just a dell usb kb+m
+2014-07-22 16:35:24	rahabash	if youre not getting keyboard/mouse feedback once the os x installer you should try passing the bootflag PCIRootUID=0
+2014-07-22 16:35:27	<--	sk87 (~sk87@77.108.153.99) wyszedł z IRC (Quit: My Mac Mini has gone to sleep. ZZZzzz…)
+2014-07-22 16:35:40	gavit	pfft, now to go look up my js error :( http://jsfiddle.net/j9cjR/
+2014-07-22 16:35:45	<--	kwd (~kwd@port-87-193-216-50.static.qsc.de) wyszedł z IRC (Read error: Connection reset by peer)
+2014-07-22 16:35:53	rahabash	and -x for safe mode :D
+2014-07-22 16:35:56	-->	kwd (~kwd@port-87-193-216-50.static.qsc.de) wszedł na #RubyOnRails
+2014-07-22 16:36:22	-->	s2013 (~ss@cpe-72-227-148-75.nyc.res.rr.com) wszedł na #RubyOnRails
+2014-07-22 16:37:01	-->	sailias (~Sailias@206.223.168.58) wszedł na #RubyOnRails
+2014-07-22 16:37:11	-->	renews (~renews@186.201.26.42) wszedł na #RubyOnRails
+2014-07-22 16:37:25	-->	saarinen (~saarinen@64.124.61.215) wszedł na #RubyOnRails
+2014-07-22 16:37:50	-->	neohunter (~neohunter@201.240.73.133) wszedł na #RubyOnRails
+2014-07-22 16:37:54	neohunter	Hi guys
+2014-07-22 16:38:23	neohunter	I have a activity belongs to project relationship, i want to list all activities where project.active = true, how to do that FROM activities?
+2014-07-22 16:38:46	Jeff_D	has anybody ever made Pundit authorisation work with a service layer like ActiveInteraction? Could use some help… :(
+2014-07-22 16:39:02	-->	xipho (~chatzilla@mobile-130-126-255-81.near.illinois.edu) wszedł na #RubyOnRails
