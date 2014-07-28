@@ -1,0 +1,10 @@
+{
+    "git_commit_verbose": true,
+    "git_commit_pedantic": true,
+    "git_executables": {
+        "git_flow": ["git", "flow"]
+    },
+    "git_extensions": {
+        "legit": false
+    }
+}

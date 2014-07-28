@@ -1,0 +1,11 @@
+{
+	"installed_packages":
+	[
+		"Git",
+		"Git Config",
+		"Git Conflict Resolver",
+		"GitGutter-Edge",
+		"GitStatus",
+		"SublimeGit"
+	]
+}
