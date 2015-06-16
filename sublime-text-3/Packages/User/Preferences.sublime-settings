@@ -1,19 +1,20 @@
 {
-	"bold_folder_labels": true,
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"rulers":
-	[
-		80
-	],
+    "bold_folder_labels": true,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "rulers":
+    [
+        80, 100
+    ],
     "hot_exit": false,
     "remember_open_files": false,
-	"show_encoding": true,
-	"show_line_endings": true,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+    "show_encoding": true,
+    "show_line_endings": true,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+    "word_wrap": false
 }
