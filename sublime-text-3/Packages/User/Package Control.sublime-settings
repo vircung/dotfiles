@@ -1,11 +1,16 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Git",
-		"Git Config",
-		"Git Conflict Resolver",
+		"AdvancedNewFile",
+		"Better CoffeeScript",
+		"Dockerfile Syntax Highlighting",
 		"GitGutter-Edge",
 		"GitStatus",
+		"Package Control",
+		"SCSS",
 		"SublimeGit"
 	]
 }

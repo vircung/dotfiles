@@ -1,3 +1,5 @@
 {
-    "git_flow_command": "/usr/bin/git flow",
+	"git_flow_command": "/usr/bin/git flow",
+	"statusbar_branch": true,
+	"statusbar_status": true
 }
