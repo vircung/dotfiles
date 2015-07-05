@@ -1,0 +1,4266 @@
+{
+	"folder_history":
+	[
+		"/home/vircung/.dotfiles",
+		"/home/vircung/code/rails/garson",
+		"/home/vircung/code/rails/obsidian",
+		"/home/vircung/code/docker/rails-app",
+		"/home/vircung/code/sites/vircung.github.io",
+		"/home/vircung/code/rails/yamem",
+		"/home/vircung/code/rails/moon-moon",
+		"/home/vircung/code/rails/moon-moon/yamem",
+		"/home/vircung/code/sites/missing-bits",
+		"/home/vircung/code/rails/pan-darek",
+		"/home/vircung/code/ember/darek-app",
+		"/home/vircung/code/sites/nakonieczny.it",
+		"/home/vircung/code/rails/obsydian",
+		"/home/vircung/code/rails/zbynio",
+		"/home/vircung/code/rails/darek",
+		"/home/vircung/code/vircung.github.io",
+		"/home/vircung/code/rails",
+		"/home/vircung/code/rails/app-postgres",
+		"/home/vircung/code/rails/rails",
+		"/home/vircung/code/vagrant/chef-recipes",
+		"/home/vircung/code/vagrant/001-rails-box",
+		"/home/vircung/code/vagrant/vagrant-test",
+		"/home/vircung/code/vagrant/chef-recipes/cookbooks/rvm",
+		"/home/vircung/code/vagrant/app-postgres",
+		"/home/vircung/code/vagrant",
+		"/home/vircung/code/rails/sklep-jn",
+		"/home/vircung/code/forge-1.8-11.14.1.1322",
+		"/home/vircung/code/vagrant/rails-stack",
+		"/home/vircung/code/rails/zaawansowane-aplikacje-sieciowe/11/sklep-jn",
+		"/home/vircung/code/ember/rug",
+		"/home/vircung/code/vagrant/yamem",
+		"/home/vircung/Dokumenty/starter-kit-1.9.1",
+		"/home/vircung/code/rails/active_city",
+		"/home/vircung",
+		"/home/vircung/code/Projekty",
+		"/home/vircung/code/Projekty/ZMSI",
+		"/home/vircung/code/rails/gameshare",
+		"/home/vircung/.dotfiles/.weechat",
+		"/home/vircung/code/rails/workshops-netguru",
+		"/home/vircung/requests",
+		"/home/vircung/.config/sublime-text-3/Packages/Salesforce IDE",
+		"/opt/sublime_text/requests",
+		"/usr/lib/python2.7",
+		"/usr/lib/python3",
+		"/home/vircung/code/python",
+		"/home/vircung/.config/sublime-text-3/Packages/User/SublimeApex",
+		"/home/vircung/.ssh",
+		"/home/vircung/code/rails/recipyme",
+		"/home/vircung/code/chef/rails-server",
+		"/home/vircung/code/yamem",
+		"/home/vircung/blog"
+	],
+	"last_version": 3094,
+	"last_window_id": 173,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"lo",
+						"local"
+					],
+					[
+						"ap",
+						"apt-get"
+					],
+					[
+						"pos",
+						"postgresql"
+					],
+					[
+						"pi",
+						"pids"
+					],
+					[
+						"text",
+						"text_field"
+					],
+					[
+						"event",
+						"event"
+					],
+					[
+						"program",
+						"program_blocks"
+					],
+					[
+						"progr",
+						"program_blocks_path"
+					],
+					[
+						"reson",
+						"respond_to"
+					],
+					[
+						"parent",
+						"parent_program_block_path"
+					],
+					[
+						"des",
+						"describe"
+					],
+					[
+						"progra",
+						"program_block"
+					],
+					[
+						"bt",
+						"btn-default"
+					],
+					[
+						"btn",
+						"btn"
+					],
+					[
+						"uni",
+						"unique"
+					],
+					[
+						"start",
+						"start_at"
+					],
+					[
+						"end",
+						"end_at"
+					],
+					[
+						"tra",
+						"training"
+					],
+					[
+						"trainin",
+						"training_params"
+					],
+					[
+						"res",
+						"resources"
+					],
+					[
+						"contr",
+						"controller"
+					],
+					[
+						"reso",
+						"resource"
+					],
+					[
+						"controll",
+						"controllers"
+					],
+					[
+						"worhs",
+						"workshops"
+					],
+					[
+						"card",
+						"card_key"
+					],
+					[
+						"door",
+						"door_message"
+					],
+					[
+						"open",
+						"open_door"
+					],
+					[
+						"mod",
+						"mod	module .. end"
+					],
+					[
+						"rben",
+						"rbenv_ruby"
+					],
+					[
+						"con",
+						"config"
+					],
+					[
+						"resurce",
+						"resources"
+					],
+					[
+						"poli",
+						"policy_name"
+					],
+					[
+						"auth",
+						"authorize_user"
+					],
+					[
+						"deli",
+						"delivery"
+					],
+					[
+						"program_blo",
+						"program_block"
+					],
+					[
+						"g",
+						"gsu	gsub(/../) { |match| .. }"
+					],
+					[
+						"maps",
+						"MAP_SIZE"
+					],
+					[
+						"organize",
+						"organized_events"
+					],
+					[
+						"list-sty",
+						"list-style-type"
+					],
+					[
+						"wi",
+						"width"
+					],
+					[
+						"paper",
+						"paper"
+					],
+					[
+						"eve",
+						"event"
+					],
+					[
+						"even",
+						"event_id"
+					],
+					[
+						"it",
+						"it"
+					],
+					[
+						"sel",
+						"self"
+					],
+					[
+						"butto",
+						"button_title"
+					],
+					[
+						"permi",
+						"permissions"
+					],
+					[
+						"cont",
+						"context"
+					],
+					[
+						"is",
+						"is_expected"
+					],
+					[
+						"fla",
+						"flash"
+					],
+					[
+						"user",
+						"user_email"
+					],
+					[
+						"pro",
+						"program_items"
+					],
+					[
+						"attri",
+						"attributes_for"
+					],
+					[
+						"minda",
+						"min_date"
+					],
+					[
+						"maxda",
+						"max_date_string"
+					],
+					[
+						"max",
+						"max_date_string"
+					],
+					[
+						"min",
+						"minDate"
+					],
+					[
+						"be",
+						"before_action"
+					],
+					[
+						"atten",
+						"attend"
+					],
+					[
+						"atte",
+						"attend"
+					],
+					[
+						"pas",
+						"past"
+					],
+					[
+						"for",
+						"forbids"
+					],
+					[
+						"do",
+						"do"
+					],
+					[
+						"programb",
+						"program_block"
+					],
+					[
+						"Program",
+						"ProgramBlock"
+					],
+					[
+						"edit",
+						"edit_event"
+					],
+					[
+						"staf",
+						"staff_members"
+					],
+					[
+						"souc",
+						"source_type"
+					],
+					[
+						"organi",
+						"organizators"
+					],
+					[
+						"past",
+						"past_event"
+					],
+					[
+						"futu",
+						"future_event"
+					],
+					[
+						"desc",
+						"desc	RSpec Describe Block"
+					],
+					[
+						"field",
+						"field_symbol"
+					],
+					[
+						"def",
+						"def	def … end"
+					],
+					[
+						"gra",
+						"gravatar_for_email"
+					],
+					[
+						"first",
+						"first_name"
+					],
+					[
+						"last",
+						"last_name"
+					],
+					[
+						"attend",
+						"attends"
+					],
+					[
+						"ex",
+						"exclude"
+					],
+					[
+						"par",
+						"participants"
+					],
+					[
+						"cla",
+						"cla	class .. end"
+					],
+					[
+						"E",
+						"Enabled"
+					],
+					[
+						"base",
+						"BaseAuth"
+					],
+					[
+						"extra",
+						"extract_email"
+					],
+					[
+						"remove",
+						"remove_from_wishlist"
+					],
+					[
+						"add",
+						"add_game"
+					],
+					[
+						"game",
+						"game_collection_items"
+					],
+					[
+						"be_",
+						"be_falsey"
+					],
+					[
+						"attr",
+						"attrr	Ruby attr_reader"
+					],
+					[
+						"program_",
+						"program_block"
+					],
+					[
+						"margi",
+						"margin-top"
+					],
+					[
+						"padd",
+						"padding"
+					],
+					[
+						"margin",
+						"margin-bottom"
+					],
+					[
+						"paddin",
+						"padding-top"
+					],
+					[
+						"pn",
+						"PicklistEntry	Schema"
+					],
+					[
+						"exp",
+						"expose_decorated"
+					],
+					[
+						"revie",
+						"reviewers"
+					],
+					[
+						"cate",
+						"category"
+					],
+					[
+						"eac",
+						"each	Ruby each"
+					],
+					[
+						"review",
+						"reviews"
+					],
+					[
+						"rev",
+						"review"
+					],
+					[
+						"produ",
+						"products"
+					],
+					[
+						"wh",
+						"while	while ... end"
+					],
+					[
+						"create",
+						"create_list"
+					],
+					[
+						"ne",
+						"new_attributes"
+					],
+					[
+						"di",
+						"district_id"
+					],
+					[
+						"distr",
+						"district"
+					],
+					[
+						"district",
+						"district_id"
+					],
+					[
+						"error",
+						"errors"
+					],
+					[
+						"disc",
+						"district"
+					],
+					[
+						"dis",
+						"district"
+					],
+					[
+						"fin",
+						"find"
+					],
+					[
+						"valid",
+						"valid_attributes"
+					],
+					[
+						"program_b",
+						"program_block"
+					],
+					[
+						"va",
+						"valid_attributes"
+					],
+					[
+						"protr",
+						"program_item"
+					],
+					[
+						"block",
+						"program_block_id"
+					],
+					[
+						"to",
+						"to_param"
+					],
+					[
+						"att",
+						"attrr	Ruby attr_reader"
+					],
+					[
+						"rec",
+						"resources"
+					],
+					[
+						"vali",
+						"valid_session_params"
+					],
+					[
+						"fac",
+						"factory"
+					],
+					[
+						"place",
+						"place_id"
+					],
+					[
+						"put",
+						"puts"
+					],
+					[
+						"nam",
+						"name"
+					],
+					[
+						"pla",
+						"place"
+					],
+					[
+						"w",
+						"wrap_socket"
+					],
+					[
+						"pad",
+						"padding-top"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 222.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"pci",
+						"Package Control: Install Package"
+					],
+					[
+						"status",
+						"Git: Status"
+					],
+					[
+						"grap",
+						"Git: Graph All"
+					],
+					[
+						"statu",
+						"Git: Status"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"stat",
+						"Git: Status"
+					],
+					[
+						"flow ",
+						"Git-flow: Feature Start"
+					],
+					[
+						"git flow inie",
+						"Git-flow: Init With Defaults"
+					],
+					[
+						"branch",
+						"Git: Checkout New Branch"
+					],
+					[
+						"preview",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"markdow",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"spell",
+						"Google Spell Check"
+					],
+					[
+						"nr",
+						"ANF: Rename File"
+					],
+					[
+						"rena",
+						"ANF: Rename File"
+					],
+					[
+						"coffee",
+						"Set Syntax: Coffee Haml"
+					],
+					[
+						"stats",
+						"Git: Status"
+					],
+					[
+						"pus",
+						"Git: Push"
+					],
+					[
+						"Push",
+						"Git: Push"
+					],
+					[
+						"pull",
+						"Github: Create Pull Request"
+					],
+					[
+						"change",
+						"Git: Change Branch"
+					],
+					[
+						"feature",
+						"Git Flow: Feature Start"
+					],
+					[
+						"github",
+						"Github: Create Pull Request"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add..."
+					],
+					[
+						"pcr",
+						"Package Control: Remove Package"
+					],
+					[
+						"pcd",
+						"Package Control: Disable Package"
+					],
+					[
+						"graph",
+						"Git: Graph All"
+					],
+					[
+						"stash",
+						"Git: Stash Apply"
+					],
+					[
+						"delete",
+						"Git: Delete Branch"
+					],
+					[
+						"git diff",
+						"Git: Diff"
+					],
+					[
+						"bran",
+						"Git: Change Branch"
+					],
+					[
+						"gra",
+						"Git: Graph All"
+					],
+					[
+						"cha ng",
+						"Git: Change Branch"
+					],
+					[
+						"merge",
+						"Git: Merge Branch"
+					],
+					[
+						"chan",
+						"Git: Change Branch"
+					],
+					[
+						"stau",
+						"Git: Status"
+					],
+					[
+						"mer",
+						"Git: Merge Branch"
+					],
+					[
+						"chebra",
+						"Git: Change Branch"
+					],
+					[
+						"merger",
+						"Git: Merge Branch"
+					],
+					[
+						"rename",
+						"ANF: Rename File"
+					],
+					[
+						"git flow feature",
+						"Git Flow: Feature Start"
+					],
+					[
+						"git pull",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"pu",
+						"Git: Push Current Branch"
+					],
+					[
+						"diff",
+						"Git: Diff"
+					],
+					[
+						"log",
+						"Git: Log All"
+					],
+					[
+						"change b",
+						"Git: Change Branch"
+					],
+					[
+						"git push",
+						"Git: Push Current Branch"
+					],
+					[
+						"git flow init",
+						"Git-flow: Init With Defaults"
+					],
+					[
+						"rever",
+						"File: Revert"
+					],
+					[
+						"commi",
+						"Git: Amend Commit"
+					],
+					[
+						"remote",
+						"Git: Add Remote"
+					],
+					[
+						"add re",
+						"Git: Add Remote"
+					],
+					[
+						"git ini",
+						"Git: Init"
+					],
+					[
+						"add remo",
+						"Git: Add Remote"
+					],
+					[
+						"git init",
+						"Git: Init"
+					],
+					[
+						"acop",
+						"ANF: Copy Current File"
+					],
+					[
+						"reve",
+						"File: Revert"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
+						"graph ",
+						"Git: Graph All"
+					],
+					[
+						"init",
+						"Git: Init"
+					],
+					[
+						"status ba",
+						"View: Toggle Status Bar"
+					],
+					[
+						"sta",
+						"Git: Status"
+					],
+					[
+						"stausbar",
+						"View: Toggle Status Bar"
+					],
+					[
+						"guard",
+						"Guard: Show Guard Output"
+					],
+					[
+						"reset",
+						"Git: Reset (hard) HEAD"
+					],
+					[
+						"sttau",
+						"Git: Status"
+					],
+					[
+						"git stat",
+						"Git: Status"
+					],
+					[
+						"feat",
+						"Git-flow: Feature Start"
+					],
+					[
+						"staus",
+						"Git: Status"
+					],
+					[
+						"loga",
+						"Git: Log All"
+					],
+					[
+						"ma",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"revert",
+						"File: Revert"
+					],
+					[
+						"statys",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
+						"pic",
+						"Color Picker"
+					],
+					[
+						"confl",
+						"FindKeyConflicts: Single Package Conflicts"
+					],
+					[
+						"conflic",
+						"FindKeyConflicts: Multiple Package Conflicts"
+					],
+					[
+						"STATUS",
+						"Git: Status"
+					],
+					[
+						"PUSH",
+						"Git: Push Current Branch"
+					],
+					[
+						"lo",
+						"Git: Log"
+					],
+					[
+						"blame",
+						"Git: Blame"
+					],
+					[
+						"puhs",
+						"Git: Push Current Branch"
+					],
+					[
+						"pul",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"travis",
+						"Snippet: RSpec \"shoulda\" validate_uniqueness_of"
+					],
+					[
+						"log f",
+						"Git: Log Current File"
+					],
+					[
+						"rebase",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"reb",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"reba",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"previe",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"prev",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						" branch",
+						"Git: Change Branch"
+					],
+					[
+						"release",
+						"Git Flow: Release Finish"
+					],
+					[
+						"gitflowrelease",
+						"Git Flow: Release Start"
+					],
+					[
+						"picker",
+						"Color Picker"
+					],
+					[
+						"color",
+						"Color Picker"
+					],
+					[
+						"sttaus",
+						"Git: Status"
+					],
+					[
+						"sttus",
+						"Preferences: Settings - User"
+					],
+					[
+						"commt",
+						"Git: Commit"
+					],
+					[
+						"git pus",
+						"Git: Push"
+					],
+					[
+						"statuc",
+						"Git: Stash Include Untracked"
+					],
+					[
+						"",
+						"Git Flow: Release Start"
+					],
+					[
+						"gi feat",
+						"Git Flow: Feature Start"
+					],
+					[
+						"fstart",
+						"Git Flow: Feature Start"
+					],
+					[
+						"rest",
+						"SublimeApex: Run Test"
+					],
+					[
+						"branc",
+						"Git: Change Branch"
+					],
+					[
+						"flow",
+						"Git-flow: Feature Start"
+					],
+					[
+						"comm",
+						"Git: Commit"
+					],
+					[
+						"check",
+						"Git: Checkout"
+					],
+					[
+						"add fi",
+						"Git: Add Current File"
+					],
+					[
+						"chec",
+						"Git: Checkout"
+					],
+					[
+						"git mer",
+						"Git: Merge"
+					],
+					[
+						"bra",
+						"Git: Delete Branch"
+					],
+					[
+						"tatu",
+						"Git: Status"
+					],
+					[
+						"checkout",
+						"Git: Checkout"
+					],
+					[
+						"flow f",
+						"Git-flow: Feature Start"
+					],
+					[
+						"flow feature",
+						"Git Flow: Feature Start"
+					],
+					[
+						"markdonw",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"markdown",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"checout",
+						"Git: Checkout"
+					],
+					[
+						"git flow",
+						"Git-flow: Feature Finish"
+					],
+					[
+						"granch",
+						"Git: Change Branch"
+					],
+					[
+						"merg",
+						"Git: Merge Branch"
+					],
+					[
+						"grapa",
+						"Git: Graph All"
+					],
+					[
+						"gitconfi",
+						"Git: Show Current File"
+					],
+					[
+						"push curre",
+						"Git: Push Current Branch"
+					],
+					[
+						"git grap",
+						"Git: Graph All"
+					],
+					[
+						"grap a",
+						"Git: Graph All"
+					],
+					[
+						"git remote",
+						"Git: Add Remote"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 270.0,
+				"history":
+				[
+					"requests.get",
+					"import requests",
+					"print(requests)",
+					"import requests",
+					"print requests.description",
+					"print requests.title",
+					"requests.inspect",
+					"requests",
+					"print(import requests)",
+					"print request",
+					"print requests",
+					"import requests",
+					"print requests",
+					"import requests",
+					"sys.path",
+					"import sys",
+					"print .",
+					"os.environ['PYTHONPATH'].split(os.pathsep)",
+					"print path.dirname(__file__)",
+					"print os.path.dirname(__file__)",
+					"print(os.getcwd)",
+					"print os.getcwd",
+					"os.getcwd",
+					"print os.path.abspath(__file__)",
+					"print os.path",
+					"import os",
+					"impor tos",
+					"os.path",
+					"import http",
+					"import request",
+					"import ssl",
+					"version",
+					"python --version",
+					"['git', 'push']",
+					"which git",
+					"git push",
+					"git push bitbucket",
+					"git-flow feature start script",
+					"git flow feature start script",
+					"git flow feature start",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/vircung/code/rails/garson/app/views/pages/index.haml",
+				"/home/vircung/code/rails/garson/Gemfile",
+				"/home/vircung/code/rails/garson/app/controllers/pages_controller.rb",
+				"/home/vircung/code/rails/garson/config/database.yml",
+				"/home/vircung/code/rails/garson/config/routes.rb",
+				"/home/vircung/code/rails/garson/docker-compose.yml",
+				"/home/vircung/code/rails/garson/config/puma.rb",
+				"/home/vircung/code/rails/garson/Procfile",
+				"/home/vircung/code/rails/garson/Dockerfile",
+				"/home/vircung/code/rails/garson/.ruby-version",
+				"/home/vircung/code/rails/garson/README.md",
+				"/home/vircung/code/sites/vircung.github.io/_posts/2015-01-29-building-your-presence.md",
+				"/home/vircung/code/sites/vircung.github.io/_posts/2015-07-02-rails-sandbox-take-2-docker.md",
+				"/home/vircung/code/docker/rails-app/app/views/pages/index.haml",
+				"/home/vircung/code/docker/rails-app/config/routes.rb",
+				"/home/vircung/code/docker/rails-app/app/controllers/pages_controller.rb",
+				"/home/vircung/code/docker/rails-app/app/views/pages/intex.haml",
+				"/home/vircung/code/docker/rails-app/app/controllers/pages.rb",
+				"/home/vircung/code/docker/rails-app/config/puma.rb",
+				"/home/vircung/code/docker/rails-app/Gemfile",
+				"/home/vircung/code/docker/rails-app/Dockerfile",
+				"/home/vircung/code/docker/rails-app/docker-compose.yml",
+				"/home/vircung/code/docker/rails-app/app/controllers/static_pages.rb",
+				"/home/vircung/code/docker/rails-app/.env.web",
+				"/home/vircung/code/docker/rails-app/.env.db",
+				"/home/vircung/code/docker/rails-app/config/database.yml",
+				"/home/vircung/code/docker/rails-app/Procfile",
+				"/home/vircung/code/rails/yamem/app/views/events/_form.html.haml",
+				"/home/vircung/code/rails/yamem/app/views/program_items/_form.html.haml",
+				"/home/vircung/code/rails/yamem/app/assets/javascripts/events.js.coffee",
+				"/home/vircung/code/rails/yamem/app/assets/javascripts/program_items.js.coffee",
+				"/home/vircung/code/rails/yamem/app/assets/javascripts/application.js",
+				"/home/vircung/code/rails/yamem/Gemfile.lock",
+				"/home/vircung/code/rails/yamem/Gemfile",
+				"/home/vircung/code/rails/yamem/app/views/layouts/application.html.haml",
+				"/home/vircung/code/rails/yamem/app/models/concerns/staffable.rb",
+				"/home/vircung/code/rails/yamem/app/controllers/events_controller.rb",
+				"/home/vircung/code/rails/yamem/spec/controllers/events_controller_spec.rb",
+				"/home/vircung/code/rails/yamem/app/models/program_item.rb",
+				"/home/vircung/code/rails/yamem/spec/models/program_item_spec.rb",
+				"/home/vircung/code/rails/yamem/spec/spec_helper.rb",
+				"/home/vircung/code/rails/yamem/.rspec",
+				"/home/vircung/code/rails/yamem/.rubocop.yml",
+				"/home/vircung/code/rails/obsidian/Dockerfile",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/bootstrap_and_overrides.scss",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/controllers/program_blocks_controller_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/program_block_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/controllers/program_items_controller_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/controllers/program_items_controller.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/config/routes.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/index.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/controllers/program_blocks_controller.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/event_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/user.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/user_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/concerns/staffable.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/staff.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/identity.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/events/staff.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/program_item_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/staff_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/event.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/program_item.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/program_block.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/controllers/events_controller.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/index.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/events/_form.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/Gemfile",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_form.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/controllers/events_controller_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/factories/program_items.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/models/program_item_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/lib/tasks/bootstrap.rake",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/spec_helper.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/.rspec",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/support/database_cleaner.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/show.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/show.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_preview.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/_preview.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/events/show.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/_form.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/new.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_program_item.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/show.js.coffee",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_program_items_list.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/show.js.coffee",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/_program_blocks_list.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/_preview.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/show.haml",
+				"/home/vircung/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/vircung/code/rails/obsidian/.git/MERGE_MSG",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_hero.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_navbar.html.haml",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/freelancer.scss",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_head.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/layouts/application.html.haml",
+				"/home/vircung/code/rails/obsidian/Gemfile",
+				"/home/vircung/code/rails/obsidian/config/environments/development.rb",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/application.css",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/bootstrap.css",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150625231257_add_attachments_to_events.rb",
+				"/home/vircung/code/rails/obsidian/app/models/event.rb",
+				"/home/vircung/code/rails/obsidian/config/application.rb",
+				"/home/vircung/code/rails/obsidian/config/environments/production.rb",
+				"/home/vircung/code/rails/obsidian/app/views/pages/home.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/events/_thumbnail.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/events/show.html.haml",
+				"/home/vircung/code/rails/obsidian/app/controllers/events_controller.rb",
+				"/home/vircung/code/rails/obsidian/app/views/events/_form.html.haml",
+				"/home/vircung/Pobrane/rootkey.csv",
+				"/home/vircung/code/rails/obsidian/app/helpers/application_helper.rb",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150625181529_add_attachments_to_events.rb",
+				"/home/vircung/code/rails/obsidian/config/secrets.yml",
+				"/home/vircung/code/rails/obsidian/.gitignore",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150612210430_create_events.rb",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150625181529_add_banner_to_events.rb",
+				"/home/vircung/code/rails/obsidian/app/views/devise/shared/_links.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_footer.html.haml",
+				"/home/vircung/code/rails/obsidian/db/schema.rb",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150523222916_devise_create_users.rb",
+				"/home/vircung/code/rails/obsidian/app/models/user.rb",
+				"/home/vircung/code/rails/obsidian/config/dropbox.yml",
+				"/home/vircung/code/sites/missing-bits/_pages/projects.md",
+				"/home/vircung/code/sites/missing-bits/projects/index.md",
+				"/home/vircung/code/rails/obsidian/app/views/events/edit.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/layouts/mainpage.html.haml",
+				"/home/vircung/code/rails/obsidian/app/controllers/application_controller.rb"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"",
+					"frontend",
+					"",
+					"app",
+					"",
+					"/home/vircung/code/chef/rails-server/cookbooks/sudo",
+					"",
+					"/home/vircung/code/chef/rails-server/cookbooks/nginx",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"{",
+					"{one line to give the program's name and a brief idea of what it does.}",
+					"{name of author}",
+					"{",
+					"{fullname}",
+					"{year}",
+					"{project}",
+					"tmp",
+					"rails-sandbox",
+					"post_url",
+					"db-volume",
+					"3000",
+					"application",
+					"-4",
+					"min_date",
+					"class: 'form-control datepicker', ",
+					"datetime_select",
+					"datetimepicker",
+					"bootstrap3",
+					"datetimepicker",
+					", data: { date_format: 'YYYY/MM/DD' }",
+					"datepicker",
+					"YYYY-MM-DD",
+					"'YYYY-MM-DD'",
+					"data: { date_format",
+					"YYYY/MM/DD",
+					"turbolinks",
+					"form-group",
+					"fa-",
+					"fa",
+					".include",
+					"expect",
+					"is_expected.to",
+					"1e",
+					"index",
+					"program_blocks",
+					"get show",
+					"@program",
+					"belongs_to",
+					"event_id",
+					", ",
+					", :",
+					"path object",
+					"_path",
+					"event_program_items_path",
+					"event_path",
+					"(object)",
+					"attributes_for",
+					"post create",
+					"index",
+					"valid_att",
+					":time",
+					"start_at.to_s(:time)",
+					"program_item.",
+					"time",
+					"header",
+					"header {",
+					"header",
+					"foundation",
+					"FOUNDATION",
+					"foundation",
+					"assets.",
+					"{\n",
+					"1200",
+					"400",
+					"8",
+					"thumbnail",
+					"banner",
+					"200",
+					"300",
+					"200",
+					"100",
+					"400",
+					"banner",
+					":",
+					"model_class",
+					"400",
+					", :png]",
+					"300x300",
+					"index",
+					"users",
+					"avatar",
+					"300",
+					".radius",
+					"btn btn-default",
+					"li=",
+					"li",
+					"ul.",
+					"button small secondary",
+					"= link_to",
+					"facebook_event",
+					"app_secret",
+					"app_folder",
+					"dropbox|",
+					"app_key",
+					"access_token: \"...\"",
+					", as: :string, html5: true, input_html: {class: 'datetimepicker'}",
+					"datepicker",
+					"turbolink",
+					", as: :datetime, html5: true",
+					", html5: true",
+					"file",
+					"end of",
+					"empty",
+					"@event",
+					"bootstrap",
+					"\n	",
+					"h4",
+					"@event",
+					"@",
+					"development?",
+					"secret",
+					"lineman",
+					"nfig.rails_lineman.lineman_project_",
+					"'button'",
+					"= link_to",
+					"= ",
+					"checkbox",
+					"check",
+					"boolean_label_class",
+					"check",
+					"checkbox",
+					"button",
+					"password_field",
+					" :",
+					"password_field",
+					"text_field",
+					" "
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"t(:save)",
+					"t(:are_you_sure)",
+					"t(:show)",
+					"t(:back)",
+					"t(:edit)",
+					"t(:remove)",
+					"# if can?",
+					" \n# if can?",
+					" \n",
+					"config.serve_static_files",
+					"import requests"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"output.find_results":
+			{
+				"height": 112.0
+			},
+			"output.git":
+			{
+				"height": 379.0
+			},
+			"output.git-checkout":
+			{
+				"height": 112.0
+			},
+			"output.git-commit":
+			{
+				"height": 212.0
+			},
+			"output.git-flow-feature-finish":
+			{
+				"height": 112.0
+			},
+			"output.git-flow-feature-start":
+			{
+				"height": 112.0
+			},
+			"output.git-flow-init":
+			{
+				"height": 181.0
+			},
+			"output.git-flow-release-finish":
+			{
+				"height": 780.0
+			},
+			"output.git-flow-release-start":
+			{
+				"height": 112.0
+			},
+			"output.git-init":
+			{
+				"height": 112.0
+			},
+			"output.git-merge":
+			{
+				"height": 112.0
+			},
+			"output.git-pull":
+			{
+				"height": 112.0
+			},
+			"output.git-push":
+			{
+				"height": 312.0
+			},
+			"output.git-remote":
+			{
+				"height": 112.0
+			},
+			"output.guard":
+			{
+				"height": 118.0
+			},
+			"output.panel":
+			{
+				"height": 390.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"rollbar",
+						"config/initializers/rollbar.rb"
+					],
+					[
+						"gemfile",
+						"Gemfile"
+					],
+					[
+						"read",
+						"README.md"
+					],
+					[
+						"license",
+						"LICENSE"
+					],
+					[
+						"page",
+						"app/controllers/pages_controller.rb"
+					],
+					[
+						"rou",
+						"config/routes.rb"
+					],
+					[
+						"da",
+						"config/database.yml"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"gem",
+						"Gemfile"
+					],
+					[
+						"docker",
+						"Dockerfile"
+					],
+					[
+						"do",
+						"docker-compose.yml"
+					],
+					[
+						"railssand",
+						"_posts/2015-03-08-rails-sandbox.md"
+					],
+					[
+						"routes",
+						"config/routes.rb"
+					],
+					[
+						"dockerfile",
+						"Dockerfile"
+					],
+					[
+						"puma",
+						"config/puma.rb"
+					],
+					[
+						"programitemform",
+						"app/views/program_items/_form.html.haml"
+					],
+					[
+						"itemjs",
+						"app/assets/javascripts/program_items.js.coffee"
+					],
+					[
+						"apppjs",
+						"app/assets/javascripts/application.js"
+					],
+					[
+						"ge",
+						"Gemfile.lock"
+					],
+					[
+						"gemfi",
+						"Gemfile"
+					],
+					[
+						"eventcoffee",
+						"app/assets/javascripts/events.js.coffee"
+					],
+					[
+						"eventjs",
+						"app/assets/javascripts/events.js.coffee"
+					],
+					[
+						"eventform",
+						"app/views/events/_form.html.haml"
+					],
+					[
+						"ecs",
+						"spec/controllers/events_controller_spec.rb"
+					],
+					[
+						"spec",
+						"spec/spec_helper.rb"
+					],
+					[
+						"programitem",
+						"app/models/program_item.rb"
+					],
+					[
+						"gemfl",
+						"Gemfile"
+					],
+					[
+						"pcics",
+						"spec/controllers/program_items_controller_spec.rb"
+					],
+					[
+						"programitenco",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programblockser",
+						"app/serializers/program_block_serializer.rb"
+					],
+					[
+						"eventsera",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"pbscpec",
+						"spec/controllers/program_blocks_controller_spec.rb"
+					],
+					[
+						"pbcontroller",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"programitemserializer",
+						"app/serializers/program_item_serializer.rb"
+					],
+					[
+						"programblocksontro",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"programitemser",
+						"app/serializers/program_item_serializer.rb"
+					],
+					[
+						"programboser",
+						"app/serializers/program_block_serializer.rb"
+					],
+					[
+						"identity",
+						"app/models/identity.rb"
+					],
+					[
+						"userserializer",
+						"app/serializers/user_serializer.rb"
+					],
+					[
+						"staff",
+						"app/views/events/staff.haml"
+					],
+					[
+						"user",
+						"app/models/user.rb"
+					],
+					[
+						"eventser",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"staffable",
+						"app/models/concerns/staffable.rb"
+					],
+					[
+						"staffser",
+						"app/serializers/staff_serializer.rb"
+					],
+					[
+						"event",
+						"app/models/event.rb"
+					],
+					[
+						"staffseria",
+						"app/serializers/staff_serializer.rb"
+					],
+					[
+						"eventserial",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"eventcontroller",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"eventserializer",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"programitemcon",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"pise",
+						"app/serializers/program_item_serializer.rb"
+					],
+					[
+						"picon",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programitemco",
+						"spec/controllers/program_items_controller_spec.rb"
+					],
+					[
+						"programblockcon",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"programblock",
+						"app/models/program_block.rb"
+					],
+					[
+						"eentform",
+						"app/views/events/_form.html.haml"
+					],
+					[
+						"eventcon",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"eventseria",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"eventcontr",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"facprogramitem",
+						"spec/factories/program_items.rb"
+					],
+					[
+						"pic",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programitemconspe",
+						"spec/controllers/program_items_controller_spec.rb"
+					],
+					[
+						"programitemspec",
+						"spec/models/program_item_spec.rb"
+					],
+					[
+						"spechelper",
+						"spec/spec_helper.rb"
+					],
+					[
+						"eventcontrspe",
+						"spec/controllers/events_controller_spec.rb"
+					],
+					[
+						"eventscontrller",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"facprograitem",
+						"spec/factories/program_items.rb"
+					],
+					[
+						"eventshow",
+						"app/views/events/show.html.haml"
+					],
+					[
+						"programtiemshow",
+						"app/views/program_items/show.html.haml"
+					],
+					[
+						"programblockpreview",
+						"app/views/program_blocks/_preview.haml"
+					],
+					[
+						"pipreview",
+						"app/views/program_items/_preview.haml"
+					],
+					[
+						"programblockshow",
+						"app/views/program_blocks/show.html.haml"
+					],
+					[
+						"paperform",
+						"app/views/papers/_form.haml"
+					],
+					[
+						"papernew",
+						"app/views/papers/new.haml"
+					],
+					[
+						"programitemshow",
+						"app/views/program_items/show.html.haml"
+					],
+					[
+						"pbcon",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"program_blocks_list",
+						"app/views/program_blocks/_program_blocks_list.haml"
+					],
+					[
+						"program_items_list",
+						"app/views/program_items/_program_items_list.haml"
+					],
+					[
+						"programitemscontr",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programblocklist",
+						"app/views/program_blocks/_program_blocks_list.haml"
+					],
+					[
+						"programitemhaml",
+						"app/views/program_items/_program_item.html.haml"
+					],
+					[
+						"programitel",
+						"app/views/program_items/_program_items_list.haml"
+					],
+					[
+						"probco",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"program",
+						"app/models/program_item.rb"
+					],
+					[
+						"picontrol",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programitem.rb",
+						"app/models/program_item.rb"
+					],
+					[
+						"programitemlist",
+						"app/views/program_items/_program_items_list.haml"
+					],
+					[
+						"programitempreview",
+						"app/views/program_items/_preview.haml"
+					],
+					[
+						"paperpreview",
+						"app/views/papers/_preview.haml"
+					],
+					[
+						"papershow",
+						"app/views/papers/show.haml"
+					],
+					[
+						"progarmblock",
+						"app/models/program_block.rb"
+					],
+					[
+						"picontroller",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"pishow",
+						"app/views/program_items/show.html.haml"
+					],
+					[
+						"pbshow",
+						"app/views/program_blocks/show.html.haml"
+					],
+					[
+						"navbar",
+						"app/views/shared/_navbar.html.haml"
+					],
+					[
+						"developmen",
+						"config/environments/development.rb"
+					],
+					[
+						"hero",
+						"app/views/shared/_hero.html.haml"
+					],
+					[
+						"production",
+						"config/environments/production.rb"
+					],
+					[
+						"apphel",
+						"app/helpers/application_helper.rb"
+					],
+					[
+						"apphelper",
+						"app/helpers/application_helper.rb"
+					],
+					[
+						"produc",
+						"config/environments/production.rb"
+					],
+					[
+						"eventcontroll",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"deve",
+						"config/environments/development.rb"
+					],
+					[
+						"developmentr",
+						"config/environments/development.rb"
+					],
+					[
+						"dbevent",
+						"db/migrate/20150625181529_add_banner_to_events.rb"
+					],
+					[
+						"thubmn",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"appl",
+						"config/application.rb"
+					],
+					[
+						"secret",
+						"config/secrets.yml"
+					],
+					[
+						"develop",
+						"config/environments/development.rb"
+					],
+					[
+						"gitignore",
+						".gitignore"
+					],
+					[
+						"thumb",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"page/",
+						"app/views/pages/home.html.haml"
+					],
+					[
+						"eventthum",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"develo",
+						"config/environments/development.rb"
+					],
+					[
+						"devel",
+						"config/environments/development.rb"
+					],
+					[
+						"evnetcontr",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"banner",
+						"db/migrate/20150625181529_add_banner_to_events.rb"
+					],
+					[
+						"footer",
+						"app/views/shared/_footer.html.haml"
+					],
+					[
+						"shared",
+						"app/views/devise/shared/_links.html.haml"
+					],
+					[
+						"schema",
+						"db/schema.rb"
+					],
+					[
+						"dbuser",
+						"db/migrate/20150523222916_devise_create_users.rb"
+					],
+					[
+						"evnet",
+						"app/models/event.rb"
+					],
+					[
+						"navba",
+						"app/views/shared/_navbar.html.haml"
+					],
+					[
+						"eventsth",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"views/pages",
+						"app/views/pages/home.html.haml"
+					],
+					[
+						"maincss",
+						"css/main.scss"
+					],
+					[
+						"gemf",
+						"Gemfile"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "add",
+				"selected_items":
+				[
+					[
+						"add",
+						"add_staff"
+					]
+				],
+				"width": 392.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 324.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1129.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"lo",
+						"local"
+					],
+					[
+						"ap",
+						"apt-get"
+					],
+					[
+						"pos",
+						"postgresql"
+					],
+					[
+						"pi",
+						"pids"
+					],
+					[
+						"text",
+						"text_field"
+					],
+					[
+						"event",
+						"event"
+					],
+					[
+						"program",
+						"program_blocks"
+					],
+					[
+						"progr",
+						"program_blocks_path"
+					],
+					[
+						"reson",
+						"respond_to"
+					],
+					[
+						"parent",
+						"parent_program_block_path"
+					],
+					[
+						"des",
+						"describe"
+					],
+					[
+						"progra",
+						"program_block"
+					],
+					[
+						"bt",
+						"btn-default"
+					],
+					[
+						"btn",
+						"btn"
+					],
+					[
+						"uni",
+						"unique"
+					],
+					[
+						"start",
+						"start_at"
+					],
+					[
+						"end",
+						"end_at"
+					],
+					[
+						"tra",
+						"training"
+					],
+					[
+						"trainin",
+						"training_params"
+					],
+					[
+						"res",
+						"resources"
+					],
+					[
+						"contr",
+						"controller"
+					],
+					[
+						"reso",
+						"resource"
+					],
+					[
+						"controll",
+						"controllers"
+					],
+					[
+						"worhs",
+						"workshops"
+					],
+					[
+						"card",
+						"card_key"
+					],
+					[
+						"door",
+						"door_message"
+					],
+					[
+						"open",
+						"open_door"
+					],
+					[
+						"mod",
+						"mod	module .. end"
+					],
+					[
+						"rben",
+						"rbenv_ruby"
+					],
+					[
+						"con",
+						"config"
+					],
+					[
+						"resurce",
+						"resources"
+					],
+					[
+						"poli",
+						"policy_name"
+					],
+					[
+						"auth",
+						"authorize_user"
+					],
+					[
+						"deli",
+						"delivery"
+					],
+					[
+						"program_blo",
+						"program_block"
+					],
+					[
+						"g",
+						"gsu	gsub(/../) { |match| .. }"
+					],
+					[
+						"maps",
+						"MAP_SIZE"
+					],
+					[
+						"organize",
+						"organized_events"
+					],
+					[
+						"list-sty",
+						"list-style-type"
+					],
+					[
+						"wi",
+						"width"
+					],
+					[
+						"paper",
+						"paper"
+					],
+					[
+						"eve",
+						"event"
+					],
+					[
+						"even",
+						"event_id"
+					],
+					[
+						"it",
+						"it"
+					],
+					[
+						"sel",
+						"self"
+					],
+					[
+						"butto",
+						"button_title"
+					],
+					[
+						"permi",
+						"permissions"
+					],
+					[
+						"cont",
+						"context"
+					],
+					[
+						"is",
+						"is_expected"
+					],
+					[
+						"fla",
+						"flash"
+					],
+					[
+						"user",
+						"user_email"
+					],
+					[
+						"pro",
+						"program_items"
+					],
+					[
+						"attri",
+						"attributes_for"
+					],
+					[
+						"minda",
+						"min_date"
+					],
+					[
+						"maxda",
+						"max_date_string"
+					],
+					[
+						"max",
+						"max_date_string"
+					],
+					[
+						"min",
+						"minDate"
+					],
+					[
+						"be",
+						"before_action"
+					],
+					[
+						"atten",
+						"attend"
+					],
+					[
+						"atte",
+						"attend"
+					],
+					[
+						"pas",
+						"past"
+					],
+					[
+						"for",
+						"forbids"
+					],
+					[
+						"do",
+						"do"
+					],
+					[
+						"programb",
+						"program_block"
+					],
+					[
+						"Program",
+						"ProgramBlock"
+					],
+					[
+						"edit",
+						"edit_event"
+					],
+					[
+						"staf",
+						"staff_members"
+					],
+					[
+						"souc",
+						"source_type"
+					],
+					[
+						"organi",
+						"organizators"
+					],
+					[
+						"past",
+						"past_event"
+					],
+					[
+						"futu",
+						"future_event"
+					],
+					[
+						"desc",
+						"desc	RSpec Describe Block"
+					],
+					[
+						"field",
+						"field_symbol"
+					],
+					[
+						"def",
+						"def	def … end"
+					],
+					[
+						"gra",
+						"gravatar_for_email"
+					],
+					[
+						"first",
+						"first_name"
+					],
+					[
+						"last",
+						"last_name"
+					],
+					[
+						"attend",
+						"attends"
+					],
+					[
+						"ex",
+						"exclude"
+					],
+					[
+						"par",
+						"participants"
+					],
+					[
+						"cla",
+						"cla	class .. end"
+					],
+					[
+						"E",
+						"Enabled"
+					],
+					[
+						"base",
+						"BaseAuth"
+					],
+					[
+						"extra",
+						"extract_email"
+					],
+					[
+						"remove",
+						"remove_from_wishlist"
+					],
+					[
+						"add",
+						"add_game"
+					],
+					[
+						"game",
+						"game_collection_items"
+					],
+					[
+						"be_",
+						"be_falsey"
+					],
+					[
+						"attr",
+						"attrr	Ruby attr_reader"
+					],
+					[
+						"program_",
+						"program_block"
+					],
+					[
+						"margi",
+						"margin-top"
+					],
+					[
+						"padd",
+						"padding"
+					],
+					[
+						"margin",
+						"margin-bottom"
+					],
+					[
+						"paddin",
+						"padding-top"
+					],
+					[
+						"pn",
+						"PicklistEntry	Schema"
+					],
+					[
+						"exp",
+						"expose_decorated"
+					],
+					[
+						"revie",
+						"reviewers"
+					],
+					[
+						"cate",
+						"category"
+					],
+					[
+						"eac",
+						"each	Ruby each"
+					],
+					[
+						"review",
+						"reviews"
+					],
+					[
+						"rev",
+						"review"
+					],
+					[
+						"produ",
+						"products"
+					],
+					[
+						"wh",
+						"while	while ... end"
+					],
+					[
+						"create",
+						"create_list"
+					],
+					[
+						"ne",
+						"new_attributes"
+					],
+					[
+						"di",
+						"district_id"
+					],
+					[
+						"distr",
+						"district"
+					],
+					[
+						"district",
+						"district_id"
+					],
+					[
+						"error",
+						"errors"
+					],
+					[
+						"disc",
+						"district"
+					],
+					[
+						"dis",
+						"district"
+					],
+					[
+						"fin",
+						"find"
+					],
+					[
+						"valid",
+						"valid_attributes"
+					],
+					[
+						"program_b",
+						"program_block"
+					],
+					[
+						"va",
+						"valid_attributes"
+					],
+					[
+						"protr",
+						"program_item"
+					],
+					[
+						"block",
+						"program_block_id"
+					],
+					[
+						"to",
+						"to_param"
+					],
+					[
+						"att",
+						"attrr	Ruby attr_reader"
+					],
+					[
+						"rec",
+						"resources"
+					],
+					[
+						"vali",
+						"valid_session_params"
+					],
+					[
+						"fac",
+						"factory"
+					],
+					[
+						"place",
+						"place_id"
+					],
+					[
+						"put",
+						"puts"
+					],
+					[
+						"nam",
+						"name"
+					],
+					[
+						"pla",
+						"place"
+					],
+					[
+						"w",
+						"wrap_socket"
+					],
+					[
+						"pad",
+						"padding-top"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Remote:   origin @ git@github.com:vircung/dotfiles.git\nLocal:    master ~/.dotfiles\nHead:     b5994f5 Linux specific packages\n\n\nUntracked files:\n	sublime-text-3/Installed Packages/Git.sublime-package\n	sublime-text-3/Local/\n	sublime-text-3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414\n	sublime-text-3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414.info\n	sublime-text-3/Packages/User/Package Control.merged-ca-bundle\n	sublime-text-3/Packages/User/Package Control.user-ca-bundle\n\nChanges:\n	Deleted    sublime-text-3/Installed Packages/GitStatus.sublime-package\n	Modified   sublime-text-3/Installed Packages/SublimeGit.sublime-package\n	Deleted    sublime-text-3/Packages/User/Package Control.cache/ad7758d143e99a76034aad71ae2a1f3b\n	Deleted    sublime-text-3/Packages/User/Package Control.cache/ad7758d143e99a76034aad71ae2a1f3b.info\n	Modified   sublime-text-3/Packages/User/Package Control.last-run\n	Modified   sublime-text-3/Packages/User/Package Control.sublime-settings\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+					"settings":
+					{
+						"buffer_size": 1776,
+						"line_ending": "Unix",
+						"name": "*git-status*: .dotfiles",
+						"read_only": true,
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 285.0,
+				"last_filter": "status",
+				"selected_items":
+				[
+					[
+						"status",
+						"Git: Status"
+					],
+					[
+						"pcr",
+						"Package Control: Remove Package"
+					],
+					[
+						"pci",
+						"Package Control: Install Package"
+					],
+					[
+						"grap",
+						"Git: Graph All"
+					],
+					[
+						"statu",
+						"Git: Status"
+					],
+					[
+						"push",
+						"Git: Push"
+					],
+					[
+						"stat",
+						"Git: Status"
+					],
+					[
+						"flow ",
+						"Git-flow: Feature Start"
+					],
+					[
+						"git flow inie",
+						"Git-flow: Init With Defaults"
+					],
+					[
+						"branch",
+						"Git: Checkout New Branch"
+					],
+					[
+						"preview",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"markdow",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"spell",
+						"Google Spell Check"
+					],
+					[
+						"nr",
+						"ANF: Rename File"
+					],
+					[
+						"rena",
+						"ANF: Rename File"
+					],
+					[
+						"coffee",
+						"Set Syntax: Coffee Haml"
+					],
+					[
+						"stats",
+						"Git: Status"
+					],
+					[
+						"pus",
+						"Git: Push"
+					],
+					[
+						"Push",
+						"Git: Push"
+					],
+					[
+						"pull",
+						"Github: Create Pull Request"
+					],
+					[
+						"change",
+						"Git: Change Branch"
+					],
+					[
+						"feature",
+						"Git Flow: Feature Start"
+					],
+					[
+						"github",
+						"Github: Create Pull Request"
+					],
+					[
+						"commit",
+						"Git: Commit"
+					],
+					[
+						"git add",
+						"Git: Add..."
+					],
+					[
+						"pcd",
+						"Package Control: Disable Package"
+					],
+					[
+						"graph",
+						"Git: Graph All"
+					],
+					[
+						"stash",
+						"Git: Stash Apply"
+					],
+					[
+						"delete",
+						"Git: Delete Branch"
+					],
+					[
+						"git diff",
+						"Git: Diff"
+					],
+					[
+						"bran",
+						"Git: Change Branch"
+					],
+					[
+						"gra",
+						"Git: Graph All"
+					],
+					[
+						"cha ng",
+						"Git: Change Branch"
+					],
+					[
+						"merge",
+						"Git: Merge Branch"
+					],
+					[
+						"chan",
+						"Git: Change Branch"
+					],
+					[
+						"stau",
+						"Git: Status"
+					],
+					[
+						"mer",
+						"Git: Merge Branch"
+					],
+					[
+						"chebra",
+						"Git: Change Branch"
+					],
+					[
+						"merger",
+						"Git: Merge Branch"
+					],
+					[
+						"rename",
+						"ANF: Rename File"
+					],
+					[
+						"git flow feature",
+						"Git Flow: Feature Start"
+					],
+					[
+						"git pull",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"pu",
+						"Git: Push Current Branch"
+					],
+					[
+						"diff",
+						"Git: Diff"
+					],
+					[
+						"log",
+						"Git: Log All"
+					],
+					[
+						"change b",
+						"Git: Change Branch"
+					],
+					[
+						"git push",
+						"Git: Push Current Branch"
+					],
+					[
+						"git flow init",
+						"Git-flow: Init With Defaults"
+					],
+					[
+						"rever",
+						"File: Revert"
+					],
+					[
+						"commi",
+						"Git: Amend Commit"
+					],
+					[
+						"remote",
+						"Git: Add Remote"
+					],
+					[
+						"add re",
+						"Git: Add Remote"
+					],
+					[
+						"git ini",
+						"Git: Init"
+					],
+					[
+						"add remo",
+						"Git: Add Remote"
+					],
+					[
+						"git init",
+						"Git: Init"
+					],
+					[
+						"acop",
+						"ANF: Copy Current File"
+					],
+					[
+						"reve",
+						"File: Revert"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
+						"graph ",
+						"Git: Graph All"
+					],
+					[
+						"init",
+						"Git: Init"
+					],
+					[
+						"status ba",
+						"View: Toggle Status Bar"
+					],
+					[
+						"sta",
+						"Git: Status"
+					],
+					[
+						"stausbar",
+						"View: Toggle Status Bar"
+					],
+					[
+						"guard",
+						"Guard: Show Guard Output"
+					],
+					[
+						"reset",
+						"Git: Reset (hard) HEAD"
+					],
+					[
+						"sttau",
+						"Git: Status"
+					],
+					[
+						"git stat",
+						"Git: Status"
+					],
+					[
+						"feat",
+						"Git-flow: Feature Start"
+					],
+					[
+						"staus",
+						"Git: Status"
+					],
+					[
+						"loga",
+						"Git: Log All"
+					],
+					[
+						"ma",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"revert",
+						"File: Revert"
+					],
+					[
+						"statys",
+						"Set Syntax: Ruby on Rails"
+					],
+					[
+						"pic",
+						"Color Picker"
+					],
+					[
+						"confl",
+						"FindKeyConflicts: Single Package Conflicts"
+					],
+					[
+						"conflic",
+						"FindKeyConflicts: Multiple Package Conflicts"
+					],
+					[
+						"STATUS",
+						"Git: Status"
+					],
+					[
+						"PUSH",
+						"Git: Push Current Branch"
+					],
+					[
+						"lo",
+						"Git: Log"
+					],
+					[
+						"blame",
+						"Git: Blame"
+					],
+					[
+						"puhs",
+						"Git: Push Current Branch"
+					],
+					[
+						"pul",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"travis",
+						"Snippet: RSpec \"shoulda\" validate_uniqueness_of"
+					],
+					[
+						"log f",
+						"Git: Log Current File"
+					],
+					[
+						"rebase",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"reb",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"reba",
+						"Git: Pull Using Rebase"
+					],
+					[
+						"previe",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"prev",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						" branch",
+						"Git: Change Branch"
+					],
+					[
+						"release",
+						"Git Flow: Release Finish"
+					],
+					[
+						"gitflowrelease",
+						"Git Flow: Release Start"
+					],
+					[
+						"picker",
+						"Color Picker"
+					],
+					[
+						"color",
+						"Color Picker"
+					],
+					[
+						"sttaus",
+						"Git: Status"
+					],
+					[
+						"sttus",
+						"Preferences: Settings - User"
+					],
+					[
+						"commt",
+						"Git: Commit"
+					],
+					[
+						"git pus",
+						"Git: Push"
+					],
+					[
+						"statuc",
+						"Git: Stash Include Untracked"
+					],
+					[
+						"",
+						"Git Flow: Release Start"
+					],
+					[
+						"gi feat",
+						"Git Flow: Feature Start"
+					],
+					[
+						"fstart",
+						"Git Flow: Feature Start"
+					],
+					[
+						"rest",
+						"SublimeApex: Run Test"
+					],
+					[
+						"branc",
+						"Git: Change Branch"
+					],
+					[
+						"flow",
+						"Git-flow: Feature Start"
+					],
+					[
+						"comm",
+						"Git: Commit"
+					],
+					[
+						"check",
+						"Git: Checkout"
+					],
+					[
+						"add fi",
+						"Git: Add Current File"
+					],
+					[
+						"chec",
+						"Git: Checkout"
+					],
+					[
+						"git mer",
+						"Git: Merge"
+					],
+					[
+						"bra",
+						"Git: Delete Branch"
+					],
+					[
+						"tatu",
+						"Git: Status"
+					],
+					[
+						"checkout",
+						"Git: Checkout"
+					],
+					[
+						"flow f",
+						"Git-flow: Feature Start"
+					],
+					[
+						"flow feature",
+						"Git Flow: Feature Start"
+					],
+					[
+						"markdonw",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"markdown",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"checout",
+						"Git: Checkout"
+					],
+					[
+						"git flow",
+						"Git-flow: Feature Finish"
+					],
+					[
+						"granch",
+						"Git: Change Branch"
+					],
+					[
+						"merg",
+						"Git: Merge Branch"
+					],
+					[
+						"grapa",
+						"Git: Graph All"
+					],
+					[
+						"gitconfi",
+						"Git: Show Current File"
+					],
+					[
+						"push curre",
+						"Git: Push Current Branch"
+					],
+					[
+						"git grap",
+						"Git: Graph All"
+					],
+					[
+						"grap a",
+						"Git: Graph All"
+					],
+					[
+						"git remote",
+						"Git: Add Remote"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 270.0,
+				"history":
+				[
+					"requests.get",
+					"import requests",
+					"print(requests)",
+					"import requests",
+					"print requests.description",
+					"print requests.title",
+					"requests.inspect",
+					"requests",
+					"print(import requests)",
+					"print request",
+					"print requests",
+					"import requests",
+					"print requests",
+					"import requests",
+					"sys.path",
+					"import sys",
+					"print .",
+					"os.environ['PYTHONPATH'].split(os.pathsep)",
+					"print path.dirname(__file__)",
+					"print os.path.dirname(__file__)",
+					"print(os.getcwd)",
+					"print os.getcwd",
+					"os.getcwd",
+					"print os.path.abspath(__file__)",
+					"print os.path",
+					"import os",
+					"impor tos",
+					"os.path",
+					"import http",
+					"import request",
+					"import ssl",
+					"version",
+					"python --version",
+					"['git', 'push']",
+					"which git",
+					"git push",
+					"git push bitbucket",
+					"git-flow feature start script",
+					"git flow feature start script",
+					"git flow feature start",
+					"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/vircung/.dotfiles"
+			],
+			"file_history":
+			[
+				"/home/vircung/code/rails/garson/app/views/pages/index.haml",
+				"/home/vircung/code/rails/garson/Gemfile",
+				"/home/vircung/code/rails/garson/app/controllers/pages_controller.rb",
+				"/home/vircung/code/rails/garson/config/database.yml",
+				"/home/vircung/code/rails/garson/config/routes.rb",
+				"/home/vircung/code/rails/garson/docker-compose.yml",
+				"/home/vircung/code/rails/garson/config/puma.rb",
+				"/home/vircung/code/rails/garson/Procfile",
+				"/home/vircung/code/rails/garson/Dockerfile",
+				"/home/vircung/code/rails/garson/.ruby-version",
+				"/home/vircung/code/rails/garson/README.md",
+				"/home/vircung/code/sites/vircung.github.io/_posts/2015-01-29-building-your-presence.md",
+				"/home/vircung/code/sites/vircung.github.io/_posts/2015-07-02-rails-sandbox-take-2-docker.md",
+				"/home/vircung/code/docker/rails-app/app/views/pages/index.haml",
+				"/home/vircung/code/docker/rails-app/config/routes.rb",
+				"/home/vircung/code/docker/rails-app/app/controllers/pages_controller.rb",
+				"/home/vircung/code/docker/rails-app/app/views/pages/intex.haml",
+				"/home/vircung/code/docker/rails-app/app/controllers/pages.rb",
+				"/home/vircung/code/docker/rails-app/config/puma.rb",
+				"/home/vircung/code/docker/rails-app/Gemfile",
+				"/home/vircung/code/docker/rails-app/Dockerfile",
+				"/home/vircung/code/docker/rails-app/docker-compose.yml",
+				"/home/vircung/code/docker/rails-app/app/controllers/static_pages.rb",
+				"/home/vircung/code/docker/rails-app/.env.web",
+				"/home/vircung/code/docker/rails-app/.env.db",
+				"/home/vircung/code/docker/rails-app/config/database.yml",
+				"/home/vircung/code/docker/rails-app/Procfile",
+				"/home/vircung/code/rails/yamem/app/views/events/_form.html.haml",
+				"/home/vircung/code/rails/yamem/app/views/program_items/_form.html.haml",
+				"/home/vircung/code/rails/yamem/app/assets/javascripts/events.js.coffee",
+				"/home/vircung/code/rails/yamem/app/assets/javascripts/program_items.js.coffee",
+				"/home/vircung/code/rails/yamem/app/assets/javascripts/application.js",
+				"/home/vircung/code/rails/yamem/Gemfile.lock",
+				"/home/vircung/code/rails/yamem/Gemfile",
+				"/home/vircung/code/rails/yamem/app/views/layouts/application.html.haml",
+				"/home/vircung/code/rails/yamem/app/models/concerns/staffable.rb",
+				"/home/vircung/code/rails/yamem/app/controllers/events_controller.rb",
+				"/home/vircung/code/rails/yamem/spec/controllers/events_controller_spec.rb",
+				"/home/vircung/code/rails/yamem/app/models/program_item.rb",
+				"/home/vircung/code/rails/yamem/spec/models/program_item_spec.rb",
+				"/home/vircung/code/rails/yamem/spec/spec_helper.rb",
+				"/home/vircung/code/rails/yamem/.rspec",
+				"/home/vircung/code/rails/yamem/.rubocop.yml",
+				"/home/vircung/code/rails/obsidian/Dockerfile",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/bootstrap_and_overrides.scss",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/controllers/program_blocks_controller_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/program_block_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/controllers/program_items_controller_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/controllers/program_items_controller.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/config/routes.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/index.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/controllers/program_blocks_controller.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/event_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/user.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/user_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/concerns/staffable.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/staff.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/identity.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/events/staff.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/program_item_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/serializers/staff_serializer.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/event.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/program_item.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/models/program_block.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/controllers/events_controller.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/index.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/events/_form.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/Gemfile",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_form.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/controllers/events_controller_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/factories/program_items.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/models/program_item_spec.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/lib/tasks/bootstrap.rake",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/spec_helper.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/.rspec",
+				"/home/vircung/code/rails/moon-moon/yamem/spec/support/database_cleaner.rb",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/show.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/show.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_preview.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/_preview.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/events/show.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/_form.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/new.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_program_item.html.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/show.js.coffee",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_items/_program_items_list.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/show.js.coffee",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/program_blocks/_program_blocks_list.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/_preview.haml",
+				"/home/vircung/code/rails/moon-moon/yamem/app/views/papers/show.haml",
+				"/home/vircung/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/vircung/code/rails/obsidian/.git/MERGE_MSG",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_hero.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_navbar.html.haml",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/freelancer.scss",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_head.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/layouts/application.html.haml",
+				"/home/vircung/code/rails/obsidian/Gemfile",
+				"/home/vircung/code/rails/obsidian/config/environments/development.rb",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/application.css",
+				"/home/vircung/code/rails/obsidian/app/assets/stylesheets/bootstrap.css",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150625231257_add_attachments_to_events.rb",
+				"/home/vircung/code/rails/obsidian/app/models/event.rb",
+				"/home/vircung/code/rails/obsidian/config/application.rb",
+				"/home/vircung/code/rails/obsidian/config/environments/production.rb",
+				"/home/vircung/code/rails/obsidian/app/views/pages/home.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/events/_thumbnail.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/events/show.html.haml",
+				"/home/vircung/code/rails/obsidian/app/controllers/events_controller.rb",
+				"/home/vircung/code/rails/obsidian/app/views/events/_form.html.haml",
+				"/home/vircung/Pobrane/rootkey.csv",
+				"/home/vircung/code/rails/obsidian/app/helpers/application_helper.rb",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150625181529_add_attachments_to_events.rb",
+				"/home/vircung/code/rails/obsidian/config/secrets.yml",
+				"/home/vircung/code/rails/obsidian/.gitignore",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150612210430_create_events.rb",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150625181529_add_banner_to_events.rb",
+				"/home/vircung/code/rails/obsidian/app/views/devise/shared/_links.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/shared/_footer.html.haml",
+				"/home/vircung/code/rails/obsidian/db/schema.rb",
+				"/home/vircung/code/rails/obsidian/db/migrate/20150523222916_devise_create_users.rb",
+				"/home/vircung/code/rails/obsidian/app/models/user.rb",
+				"/home/vircung/code/rails/obsidian/config/dropbox.yml",
+				"/home/vircung/code/sites/missing-bits/_pages/projects.md",
+				"/home/vircung/code/sites/missing-bits/projects/index.md",
+				"/home/vircung/code/rails/obsidian/app/views/events/edit.html.haml",
+				"/home/vircung/code/rails/obsidian/app/views/layouts/mainpage.html.haml",
+				"/home/vircung/code/rails/obsidian/app/controllers/application_controller.rb"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					"",
+					"frontend",
+					"",
+					"app",
+					"",
+					"/home/vircung/code/chef/rails-server/cookbooks/sudo",
+					"",
+					"/home/vircung/code/chef/rails-server/cookbooks/nginx",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"{",
+					"{one line to give the program's name and a brief idea of what it does.}",
+					"{name of author}",
+					"{",
+					"{fullname}",
+					"{year}",
+					"{project}",
+					"tmp",
+					"rails-sandbox",
+					"post_url",
+					"db-volume",
+					"3000",
+					"application",
+					"-4",
+					"min_date",
+					"class: 'form-control datepicker', ",
+					"datetime_select",
+					"datetimepicker",
+					"bootstrap3",
+					"datetimepicker",
+					", data: { date_format: 'YYYY/MM/DD' }",
+					"datepicker",
+					"YYYY-MM-DD",
+					"'YYYY-MM-DD'",
+					"data: { date_format",
+					"YYYY/MM/DD",
+					"turbolinks",
+					"form-group",
+					"fa-",
+					"fa",
+					".include",
+					"expect",
+					"is_expected.to",
+					"1e",
+					"index",
+					"program_blocks",
+					"get show",
+					"@program",
+					"belongs_to",
+					"event_id",
+					", ",
+					", :",
+					"path object",
+					"_path",
+					"event_program_items_path",
+					"event_path",
+					"(object)",
+					"attributes_for",
+					"post create",
+					"index",
+					"valid_att",
+					":time",
+					"start_at.to_s(:time)",
+					"program_item.",
+					"time",
+					"header",
+					"header {",
+					"header",
+					"foundation",
+					"FOUNDATION",
+					"foundation",
+					"assets.",
+					"{\n",
+					"1200",
+					"400",
+					"8",
+					"thumbnail",
+					"banner",
+					"200",
+					"300",
+					"200",
+					"100",
+					"400",
+					"banner",
+					":",
+					"model_class",
+					"400",
+					", :png]",
+					"300x300",
+					"index",
+					"users",
+					"avatar",
+					"300",
+					".radius",
+					"btn btn-default",
+					"li=",
+					"li",
+					"ul.",
+					"button small secondary",
+					"= link_to",
+					"facebook_event",
+					"app_secret",
+					"app_folder",
+					"dropbox|",
+					"app_key",
+					"access_token: \"...\"",
+					", as: :string, html5: true, input_html: {class: 'datetimepicker'}",
+					"datepicker",
+					"turbolink",
+					", as: :datetime, html5: true",
+					", html5: true",
+					"file",
+					"end of",
+					"empty",
+					"@event",
+					"bootstrap",
+					"\n	",
+					"h4",
+					"@event",
+					"@",
+					"development?",
+					"secret",
+					"lineman",
+					"nfig.rails_lineman.lineman_project_",
+					"'button'",
+					"= link_to",
+					"= ",
+					"checkbox",
+					"check",
+					"boolean_label_class",
+					"check",
+					"checkbox",
+					"button",
+					"password_field",
+					" :",
+					"password_field",
+					"text_field",
+					" "
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"t(:save)",
+					"t(:are_you_sure)",
+					"t(:show)",
+					"t(:back)",
+					"t(:edit)",
+					"t(:remove)",
+					"# if can?",
+					" \n# if can?",
+					" \n",
+					"config.serve_static_files",
+					"import requests"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/vircung/.dotfiles"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1776,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										940,
+										940
+									]
+								],
+								"settings":
+								{
+									"__vi_external_disable": true,
+									"draw_white_space": "none",
+									"git_repo": "/home/vircung/.dotfiles",
+									"git_status": true,
+									"git_view": "status",
+									"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
+									"translate_tabs_to_spaces": false,
+									"word_wrap": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"output.find_results":
+			{
+				"height": 112.0
+			},
+			"output.git":
+			{
+				"height": 379.0
+			},
+			"output.git-checkout":
+			{
+				"height": 112.0
+			},
+			"output.git-commit":
+			{
+				"height": 212.0
+			},
+			"output.git-flow-feature-finish":
+			{
+				"height": 112.0
+			},
+			"output.git-flow-feature-start":
+			{
+				"height": 112.0
+			},
+			"output.git-flow-init":
+			{
+				"height": 181.0
+			},
+			"output.git-flow-release-finish":
+			{
+				"height": 780.0
+			},
+			"output.git-flow-release-start":
+			{
+				"height": 112.0
+			},
+			"output.git-init":
+			{
+				"height": 112.0
+			},
+			"output.git-merge":
+			{
+				"height": 112.0
+			},
+			"output.git-pull":
+			{
+				"height": 112.0
+			},
+			"output.git-push":
+			{
+				"height": 312.0
+			},
+			"output.git-remote":
+			{
+				"height": 112.0
+			},
+			"output.guard":
+			{
+				"height": 118.0
+			},
+			"output.panel":
+			{
+				"height": 390.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,47,260,1176,740,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"rollbar",
+						"config/initializers/rollbar.rb"
+					],
+					[
+						"gemfile",
+						"Gemfile"
+					],
+					[
+						"read",
+						"README.md"
+					],
+					[
+						"license",
+						"LICENSE"
+					],
+					[
+						"page",
+						"app/controllers/pages_controller.rb"
+					],
+					[
+						"rou",
+						"config/routes.rb"
+					],
+					[
+						"da",
+						"config/database.yml"
+					],
+					[
+						"rea",
+						"README.md"
+					],
+					[
+						"gem",
+						"Gemfile"
+					],
+					[
+						"docker",
+						"Dockerfile"
+					],
+					[
+						"do",
+						"docker-compose.yml"
+					],
+					[
+						"railssand",
+						"_posts/2015-03-08-rails-sandbox.md"
+					],
+					[
+						"routes",
+						"config/routes.rb"
+					],
+					[
+						"dockerfile",
+						"Dockerfile"
+					],
+					[
+						"puma",
+						"config/puma.rb"
+					],
+					[
+						"programitemform",
+						"app/views/program_items/_form.html.haml"
+					],
+					[
+						"itemjs",
+						"app/assets/javascripts/program_items.js.coffee"
+					],
+					[
+						"apppjs",
+						"app/assets/javascripts/application.js"
+					],
+					[
+						"ge",
+						"Gemfile.lock"
+					],
+					[
+						"gemfi",
+						"Gemfile"
+					],
+					[
+						"eventcoffee",
+						"app/assets/javascripts/events.js.coffee"
+					],
+					[
+						"eventjs",
+						"app/assets/javascripts/events.js.coffee"
+					],
+					[
+						"eventform",
+						"app/views/events/_form.html.haml"
+					],
+					[
+						"ecs",
+						"spec/controllers/events_controller_spec.rb"
+					],
+					[
+						"spec",
+						"spec/spec_helper.rb"
+					],
+					[
+						"programitem",
+						"app/models/program_item.rb"
+					],
+					[
+						"gemfl",
+						"Gemfile"
+					],
+					[
+						"pcics",
+						"spec/controllers/program_items_controller_spec.rb"
+					],
+					[
+						"programitenco",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programblockser",
+						"app/serializers/program_block_serializer.rb"
+					],
+					[
+						"eventsera",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"pbscpec",
+						"spec/controllers/program_blocks_controller_spec.rb"
+					],
+					[
+						"pbcontroller",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"programitemserializer",
+						"app/serializers/program_item_serializer.rb"
+					],
+					[
+						"programblocksontro",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"programitemser",
+						"app/serializers/program_item_serializer.rb"
+					],
+					[
+						"programboser",
+						"app/serializers/program_block_serializer.rb"
+					],
+					[
+						"identity",
+						"app/models/identity.rb"
+					],
+					[
+						"userserializer",
+						"app/serializers/user_serializer.rb"
+					],
+					[
+						"staff",
+						"app/views/events/staff.haml"
+					],
+					[
+						"user",
+						"app/models/user.rb"
+					],
+					[
+						"eventser",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"staffable",
+						"app/models/concerns/staffable.rb"
+					],
+					[
+						"staffser",
+						"app/serializers/staff_serializer.rb"
+					],
+					[
+						"event",
+						"app/models/event.rb"
+					],
+					[
+						"staffseria",
+						"app/serializers/staff_serializer.rb"
+					],
+					[
+						"eventserial",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"eventcontroller",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"eventserializer",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"programitemcon",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"pise",
+						"app/serializers/program_item_serializer.rb"
+					],
+					[
+						"picon",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programitemco",
+						"spec/controllers/program_items_controller_spec.rb"
+					],
+					[
+						"programblockcon",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"programblock",
+						"app/models/program_block.rb"
+					],
+					[
+						"eentform",
+						"app/views/events/_form.html.haml"
+					],
+					[
+						"eventcon",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"eventseria",
+						"app/serializers/event_serializer.rb"
+					],
+					[
+						"eventcontr",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"facprogramitem",
+						"spec/factories/program_items.rb"
+					],
+					[
+						"pic",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programitemconspe",
+						"spec/controllers/program_items_controller_spec.rb"
+					],
+					[
+						"programitemspec",
+						"spec/models/program_item_spec.rb"
+					],
+					[
+						"spechelper",
+						"spec/spec_helper.rb"
+					],
+					[
+						"eventcontrspe",
+						"spec/controllers/events_controller_spec.rb"
+					],
+					[
+						"eventscontrller",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"facprograitem",
+						"spec/factories/program_items.rb"
+					],
+					[
+						"eventshow",
+						"app/views/events/show.html.haml"
+					],
+					[
+						"programtiemshow",
+						"app/views/program_items/show.html.haml"
+					],
+					[
+						"programblockpreview",
+						"app/views/program_blocks/_preview.haml"
+					],
+					[
+						"pipreview",
+						"app/views/program_items/_preview.haml"
+					],
+					[
+						"programblockshow",
+						"app/views/program_blocks/show.html.haml"
+					],
+					[
+						"paperform",
+						"app/views/papers/_form.haml"
+					],
+					[
+						"papernew",
+						"app/views/papers/new.haml"
+					],
+					[
+						"programitemshow",
+						"app/views/program_items/show.html.haml"
+					],
+					[
+						"pbcon",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"program_blocks_list",
+						"app/views/program_blocks/_program_blocks_list.haml"
+					],
+					[
+						"program_items_list",
+						"app/views/program_items/_program_items_list.haml"
+					],
+					[
+						"programitemscontr",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programblocklist",
+						"app/views/program_blocks/_program_blocks_list.haml"
+					],
+					[
+						"programitemhaml",
+						"app/views/program_items/_program_item.html.haml"
+					],
+					[
+						"programitel",
+						"app/views/program_items/_program_items_list.haml"
+					],
+					[
+						"probco",
+						"app/controllers/program_blocks_controller.rb"
+					],
+					[
+						"program",
+						"app/models/program_item.rb"
+					],
+					[
+						"picontrol",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"programitem.rb",
+						"app/models/program_item.rb"
+					],
+					[
+						"programitemlist",
+						"app/views/program_items/_program_items_list.haml"
+					],
+					[
+						"programitempreview",
+						"app/views/program_items/_preview.haml"
+					],
+					[
+						"paperpreview",
+						"app/views/papers/_preview.haml"
+					],
+					[
+						"papershow",
+						"app/views/papers/show.haml"
+					],
+					[
+						"progarmblock",
+						"app/models/program_block.rb"
+					],
+					[
+						"picontroller",
+						"app/controllers/program_items_controller.rb"
+					],
+					[
+						"pishow",
+						"app/views/program_items/show.html.haml"
+					],
+					[
+						"pbshow",
+						"app/views/program_blocks/show.html.haml"
+					],
+					[
+						"navbar",
+						"app/views/shared/_navbar.html.haml"
+					],
+					[
+						"developmen",
+						"config/environments/development.rb"
+					],
+					[
+						"hero",
+						"app/views/shared/_hero.html.haml"
+					],
+					[
+						"production",
+						"config/environments/production.rb"
+					],
+					[
+						"apphel",
+						"app/helpers/application_helper.rb"
+					],
+					[
+						"apphelper",
+						"app/helpers/application_helper.rb"
+					],
+					[
+						"produc",
+						"config/environments/production.rb"
+					],
+					[
+						"eventcontroll",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"deve",
+						"config/environments/development.rb"
+					],
+					[
+						"developmentr",
+						"config/environments/development.rb"
+					],
+					[
+						"dbevent",
+						"db/migrate/20150625181529_add_banner_to_events.rb"
+					],
+					[
+						"thubmn",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"appl",
+						"config/application.rb"
+					],
+					[
+						"secret",
+						"config/secrets.yml"
+					],
+					[
+						"develop",
+						"config/environments/development.rb"
+					],
+					[
+						"gitignore",
+						".gitignore"
+					],
+					[
+						"thumb",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"page/",
+						"app/views/pages/home.html.haml"
+					],
+					[
+						"eventthum",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"develo",
+						"config/environments/development.rb"
+					],
+					[
+						"devel",
+						"config/environments/development.rb"
+					],
+					[
+						"evnetcontr",
+						"app/controllers/events_controller.rb"
+					],
+					[
+						"banner",
+						"db/migrate/20150625181529_add_banner_to_events.rb"
+					],
+					[
+						"footer",
+						"app/views/shared/_footer.html.haml"
+					],
+					[
+						"shared",
+						"app/views/devise/shared/_links.html.haml"
+					],
+					[
+						"schema",
+						"db/schema.rb"
+					],
+					[
+						"dbuser",
+						"db/migrate/20150523222916_devise_create_users.rb"
+					],
+					[
+						"evnet",
+						"app/models/event.rb"
+					],
+					[
+						"navba",
+						"app/views/shared/_navbar.html.haml"
+					],
+					[
+						"eventsth",
+						"app/views/events/_thumbnail.html.haml"
+					],
+					[
+						"views/pages",
+						"app/views/pages/home.html.haml"
+					],
+					[
+						"maincss",
+						"css/main.scss"
+					],
+					[
+						"gemf",
+						"Gemfile"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "add",
+				"selected_items":
+				[
+					[
+						"add",
+						"add_staff"
+					]
+				],
+				"width": 392.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 324.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 173,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/vircung/code/rails/obsidian/obsidian.sublime-workspace",
+			"/home/vircung/code/rails/yamem/yamem.sublime-workspace"
+		]
+	}
+}
